@@ -37,7 +37,7 @@ kaggle_work/
     ├── smartphones_mcda.json            # Processed dataset artifact for web SPA
     ├── cleaned_3.csv                    # Raw Kaggle smartphone specifications dataset
     └── smartphone-recommendation-system.ipynb # Kaggle ETL & TOPSIS Notebook
----
+```
 
 ## 🔬 Mathematical Methodology: TOPSIS
 
