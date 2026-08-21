@@ -30,14 +30,13 @@ This project combines an offline Python ETL & Data Engineering Pipeline with a z
 
 ```text
 kaggle_work/
-└── smartphone_recommendation_system/
-    ├── README.md                     # Complete project documentation
-    ├── smartphone_recommendation.ipynb # Full Data Processing & Analysis Notebook
-    ├── index.html                    # Single Page Application (UI + TOPSIS Engine)
-    ├── smartphones_mcda.json         # Exported preprocessed dataset (100+ models)
-    └── cleaned_smartphone_specs.csv  # Raw Kaggle smartphone specifications dataset
-```
-
+├── README.md                            # Main portfolio documentation
+└── smartphone_recommendation_system/    # Smartphone MCDA Decision Project
+    ├── README.md                        # Detailed project documentation
+    ├── index.html                       # Client-Side Web SPA Decision Engine
+    ├── smartphones_mcda.json            # Processed dataset artifact for web SPA
+    ├── cleaned_3.csv                    # Raw Kaggle smartphone specifications dataset
+    └── smartphone-recommendation-system.ipynb # Kaggle ETL & TOPSIS Notebook
 ---
 
 ## 🔬 Mathematical Methodology: TOPSIS
