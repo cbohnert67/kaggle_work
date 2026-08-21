@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCDA Smartphone Decision Engine</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f7ff',
+              100: '#e0effe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- FontAwesome Icons & Chart.js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    /* Custom scrollbar & glassmorphism effects */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #475569;
+    }
+    .glass-card {
+      background: rgba(30, 41, 59, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .slider-thumb::-webkit-slider-thumb {
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #3b82f6;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+    }
+  </style>
+</head>
+
+<body class="bg-slate-950 text-slate-100 font-sans min-h-screen flex flex-col antialiased selection:bg-blue-500 selection:text-white">
+
+  <!-- Top Navigation Header -->
+  <header class="sticky top-0 z-30 glass-card border-b border-slate-800 bg-slate-900/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap items-center justify-between gap-4">
+      
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center shadow-lg shadow-blue-500/20">
+          <i class="fa-solid fa-[#0000] fa-mobile-screen-button text-xl text-white"></i>
+        </div>
+        <div>
+          <h1 class="text-xl font-bold tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
+            MCDA Decision Engine
+          </h1>
+          <p class="text-xs text-slate-400">Analyse Multicritère Spatial & Algorithme TOPSIS</p>
+        </div>
+      </div>
+
+      <!-- Dataset Loader Status & Upload Controls -->
+      <div class="flex items-center space-x-3 bg-slate-800/80 px-3.5 py-1.5 rounded-lg border border-slate-700/60">
+        <div id="data-status-dot" class="w-2.5 h-2.5 rounded-full bg-amber-500 animate-pulse"></div>
+        <span id="data-status-text" class="text-xs font-medium text-slate-300">Chargement de smartphones_mcda.json...</span>
+        
+        <label for="json-file-input" class="cursor-pointer bg-blue-600/80 hover:bg-blue-600 text-white text-xs px-2.5 py-1 rounded transition-colors flex items-center space-x-1.5 shadow-sm">
+          <i class="fa-solid fa-file-arrow-up"></i>
+          <span>Importer JSON</span>
+        </label>
+        <input type="file" id="json-file-input" accept=".json" class="hidden" />
+      </div>
+
+    </div>
+  </header>
+
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 grid grid-cols-1 lg:grid-cols-12 gap-6">
+    
+    <!-- LEFT PANEL: MCDA Controls & Sliders -->
+    <aside class="lg:col-span-4 space-y-5">
+      
+      <!-- User Profiles Presets -->
+      <div class="glass-card rounded-2xl p-5 border border-slate-800 shadow-xl">
+        <h2 class="text-sm font-semibold text-slate-200 mb-3 flex items-center space-x-2">
+          <i class="fa-solid fa-user-gear text-blue-400"></i>
+          <span>Profils d'Utilisateurs Pré-configurés</span>
+        </h2>
+        <div class="grid grid-cols-2 gap-2">
+          <button onclick="applyPreset('balanced')" class="preset-btn px-3 py-2 rounded-xl text-xs font-medium bg-slate-800 hover:bg-blue-600/30 hover:border-blue-500/50 border border-slate-700/60 text-slate-300 hover:text-white transition-all text-left flex items-center space-x-2">
+            <i class="fa-solid fa-scale-balanced text-emerald-400"></i>
+            <span>Équilibré</span>
+          </button>
+          <button onclick="applyPreset('gamer_poweruser')" class="preset-btn px-3 py-2 rounded-xl text-xs font-medium bg-slate-800 hover:bg-blue-600/30 hover:border-blue-500/50 border border-slate-700/60 text-slate-300 hover:text-white transition-all text-left flex items-center space-x-2">
+            <i class="fa-solid fa-gamepad text-purple-400"></i>
+            <span>Gamer / Power</span>
+          </button>
+          <button onclick="applyPreset('photographer')" class="preset-btn px-3 py-2 rounded-xl text-xs font-medium bg-slate-800 hover:bg-blue-600/30 hover:border-blue-500/50 border border-slate-700/60 text-slate-300 hover:text-white transition-all text-left flex items-center space-x-2">
+            <i class="fa-solid fa-camera text-rose-400"></i>
+            <span>Photographe</span>
+          </button>
+          <button onclick="applyPreset('budget_first')" class="preset-btn px-3 py-2 rounded-xl text-xs font-medium bg-slate-800 hover:bg-blue-600/30 hover:border-blue-500/50 border border-slate-700/60 text-slate-300 hover:text-white transition-all text-left flex items-center space-x-2">
+            <i class="fa-solid fa-piggy-bank text-amber-400"></i>
+            <span>Budget D'abord</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Criteria Weights Sliders -->
+      <div class="glass-card rounded-2xl p-5 border border-slate-800 shadow-xl space-y-4">
+        <div class="flex items-center justify-between">
+          <h2 class="text-sm font-semibold text-slate-200 flex items-center space-x-2">
+            <i class="fa-solid fa-sliders text-blue-400"></i>
+            <span>Pondération des Critères TOPSIS</span>
+          </h2>
+          <span id="custom-badge" class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30">Actif</span>
+        </div>
+
+        <div class="space-y-3.5">
+          <!-- Price Slider -->
+          <div>
+            <div class="flex justify-between text-xs mb-1">
+              <span class="text-slate-300 font-medium flex items-center space-x-1.5">
+                <i class="fa-solid fa-tag text-emerald-400 w-4"></i>
+                <span>Prix (Coût)</span>
+              </span>
+              <span id="weight-val-mcda_price" class="font-mono text-blue-400 font-bold">25%</span>
+            </div>
+            <input type="range" id="weight-slider-mcda_price" min="0" max="100" value="25" class="w-full h-1.5 bg-slate-800 rounded-lg slider-thumb appearance-none cursor-pointer" oninput="updateWeight('mcda_price', this.value)" />
+          </div>
+
+          <!-- Performance Slider -->
+          <div>
+            <div class="flex justify-between text-xs mb-1">
+              <span class="text-slate-300 font-medium flex items-center space-x-1.5">
+                <i class="fa-solid fa-microchip text-purple-400 w-4"></i>
+                <span>Performance & Puissance</span>
+              </span>
+              <span id="weight-val-mcda_perf" class="font-mono text-blue-400 font-bold">20%</span>
+            </div>
+            <input type="range" id="weight-slider-mcda_perf" min="0" max="100" value="20" class="w-full h-1.5 bg-slate-800 rounded-lg slider-thumb appearance-none cursor-pointer" oninput="updateWeight('mcda_perf', this.value)" />
+          </div>
+
+          <!-- Photography Slider -->
+          <div>
+            <div class="flex justify-between text-xs mb-1">
+              <span class="text-slate-300 font-medium flex items-center space-x-1.5">
+                <i class="fa-solid fa-aperture text-rose-400 w-4"></i>
+                <span>Photographie</span>
+              </span>
+              <span id="weight-val-mcda_photo" class="font-mono text-blue-400 font-bold">20%</span>
+            </div>
+            <input type="range" id="weight-slider-mcda_photo" min="0" max="100" value="20" class="w-full h-1.5 bg-slate-800 rounded-lg slider-thumb appearance-none cursor-pointer" oninput="updateWeight('mcda_photo', this.value)" />
+          </div>
+
+          <!-- Battery Slider -->
+          <div>
+            <div class="flex justify-between text-xs mb-1">
+              <span class="text-slate-300 font-medium flex items-center space-x-1.5">
+                <i class="fa-solid fa-battery-full text-amber-400 w-4"></i>
+                <span>Autonomie Batterie</span>
+              </span>
+              <span id="weight-val-mcda_battery" class="font-mono text-blue-400 font-bold">15%</span>
+            </div>
+            <input type="range" id="weight-slider-mcda_battery" min="0" max="100" value="15" class="w-full h-1.5 bg-slate-800 rounded-lg slider-thumb appearance-none cursor-pointer" oninput="updateWeight('mcda_battery', this.value)" />
+          </div>
+
+          <!-- Screen Slider -->
+          <div>
+            <div class="flex justify-between text-xs mb-1">
+              <span class="text-slate-300 font-medium flex items-center space-x-1.5">
+                <i class="fa-solid fa-display text-sky-400 w-4"></i>
+                <span>Qualité Écran & Fluidité</span>
+              </span>
+              <span id="weight-val-mcda_screen" class="font-mono text-blue-400 font-bold">10%</span>
+            </div>
+            <input type="range" id="weight-slider-mcda_screen" min="0" max="100" value="10" class="w-full h-1.5 bg-slate-800 rounded-lg slider-thumb appearance-none cursor-pointer" oninput="updateWeight('mcda_screen', this.value)" />
+          </div>
+
+          <!-- Portability Slider -->
+          <div>
+            <div class="flex justify-between text-xs mb-1">
+              <span class="text-slate-300 font-medium flex items-center space-x-1.5">
+                <i class="fa-solid fa-feather text-indigo-400 w-4"></i>
+                <span>Portabilité & Compacité</span>
+              </span>
+              <span id="weight-val-mcda_portability" class="font-mono text-blue-400 font-bold">10%</span>
+            </div>
+            <input type="range" id="weight-slider-mcda_portability" min="0" max="100" value="10" class="w-full h-1.5 bg-slate-800 rounded-lg slider-thumb appearance-none cursor-pointer" oninput="updateWeight('mcda_portability', this.value)" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Hard Constraints Filters -->
+      <div class="glass-card rounded-2xl p-5 border border-slate-800 shadow-xl space-y-4">
+        <h2 class="text-sm font-semibold text-slate-200 flex items-center space-x-2">
+          <i class="fa-solid fa-filter text-blue-400"></i>
+          <span>Filtres Non-Compensatoires (Contraintes)</span>
+        </h2>
+
+        <div class="space-y-3">
+          <!-- Max Price Filter -->
+          <div>
+            <div class="flex justify-between text-xs mb-1 text-slate-300">
+              <span>Prix Max :</span>
+              <span id="max-price-val" class="font-mono text-emerald-400 font-bold">800 $</span>
+            </div>
+            <input type="range" id="filter-max-price" min="50" max="2500" step="25" value="800" class="w-full h-1.5 bg-slate-800 rounded-lg slider-thumb appearance-none cursor-pointer" oninput="updateFilter('maxPrice', this.value)" />
+          </div>
+
+          <!-- Min RAM Filter -->
+          <div class="flex justify-between items-center text-xs">
+            <span class="text-slate-300">RAM Minimale :</span>
+            <select id="filter-min-ram" onchange="updateFilter('minRam', this.value)" class="bg-slate-800 border border-slate-700 text-slate-200 rounded-lg text-xs px-2.5 py-1 focus:outline-none focus:border-blue-500">
+              <option value="0">Toutes</option>
+              <option value="6">6 Go ou +</option>
+              <option value="8" selected>8 Go ou +</option>
+              <option value="12">12 Go ou +</option>
+            </select>
+          </div>
+
+          <!-- Brand Substring Filter -->
+          <div class="flex justify-between items-center text-xs">
+            <span class="text-slate-300">Marque :</span>
+            <select id="filter-brand" onchange="updateFilter('brand', this.value)" class="bg-slate-800 border border-slate-700 text-slate-200 rounded-lg text-xs px-2.5 py-1 focus:outline-none focus:border-blue-500">
+              <option value="">Toutes les marques</option>
+              <option value="Samsung">Samsung</option>
+              <option value="Apple">Apple</option>
+              <option value="Xiaomi">Xiaomi / Poco</option>
+              <option value="Vivo">Vivo</option>
+              <option value="Realme">Realme</option>
+              <option value="Oneplus">OnePlus</option>
+              <option value="Motorola">Motorola</option>
+              <option value="Google">Google</option>
+            </select>
+          </div>
+
+          <!-- Deduplicate variants check -->
+          <div class="flex items-center justify-between pt-1">
+            <span class="text-xs text-slate-300">Dédoublonner les modèles :</span>
+            <input type="checkbox" id="dedup-check" checked onchange="updateFilter('dedup', this.checked)" class="w-4 h-4 text-blue-600 rounded bg-slate-800 border-slate-700 focus:ring-blue-500" />
+          </div>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- RIGHT PANEL: Ranking & Visual Analytics -->
+    <section class="lg:col-span-8 space-y-5">
+      
+      <!-- Top View Switcher Tabs -->
+      <div class="flex flex-wrap items-center justify-between gap-3 glass-card p-2 rounded-2xl border border-slate-800">
+        <div class="flex space-x-1">
+          <button id="tab-btn-ranking" onclick="switchTab('ranking')" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold bg-blue-600 text-white shadow-md flex items-center space-x-2">
+            <i class="fa-solid fa-list-ol"></i>
+            <span>Classement TOPSIS</span>
+          </button>
+          <button id="tab-btn-charts" onclick="switchTab('charts')" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold text-slate-400 hover:text-slate-200 hover:bg-slate-800 flex items-center space-x-2">
+            <i class="fa-solid fa-chart-scatter"></i>
+            <span>Analyse Spatiale & Pareto</span>
+          </button>
+        </div>
+
+        <!-- Comparison Bar Action -->
+        <div id="compare-bar-container" class="hidden items-center space-x-2">
+          <span id="compare-count" class="text-xs text-slate-400">0 sélectionné(s)</span>
+          <button onclick="openCompareModal()" class="bg-indigo-600 hover:bg-indigo-500 text-white text-xs px-3 py-1.5 rounded-lg font-semibold transition-colors flex items-center space-x-1.5">
+            <i class="fa-solid fa-columns"></i>
+            <span>Comparer Côtes-à-Côtes</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- TAB 1: RANKING TABLE -->
+      <div id="tab-content-ranking" class="space-y-4">
+        
+        <!-- Search bar & Count badge -->
+        <div class="flex justify-between items-center px-1">
+          <span id="models-count-badge" class="text-xs text-slate-400 font-medium">Affichage de 0 smartphone(s)</span>
+          <input type="text" id="search-input" placeholder="Rechercher un modèle..." oninput="updateSearch(this.value)" class="bg-slate-900 border border-slate-800 text-slate-200 text-xs px-3 py-1.5 rounded-xl w-48 focus:outline-none focus:border-blue-500" />
+        </div>
+
+        <!-- Smartphones Table / List -->
+        <div class="glass-card rounded-2xl border border-slate-800 overflow-hidden shadow-xl">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="bg-slate-900/80 border-b border-slate-800 text-[11px] uppercase tracking-wider text-slate-400">
+                  <th class="py-3 px-3 text-center">Rang</th>
+                  <th class="py-3 px-4">Smartphone</th>
+                  <th class="py-3 px-3 text-center">Prix</th>
+                  <th class="py-3 px-3 text-center">Perf / Photo</th>
+                  <th class="py-3 px-3 text-center">Batterie</th>
+                  <th class="py-3 px-4 text-center">Score TOPSIS ($C_i$)</th>
+                  <th class="py-3 px-3 text-center">Actions</th>
+                </tr>
+              </thead>
+              <tbody id="ranking-table-body" class="divide-y divide-slate-800/60 text-xs">
+                <!-- Rows injected dynamically via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 2: VISUAL ANALYTICS CHARTS -->
+      <div id="tab-content-charts" class="hidden space-y-6">
+        
+        <!-- Chart 1: TOPSIS 2D Euclidean Space (S_i+ vs S_i-) -->
+        <div class="glass-card rounded-2xl p-5 border border-slate-800 shadow-xl space-y-2">
+          <div class="flex justify-between items-center">
+            <h3 class="text-sm font-semibold text-slate-200 flex items-center space-x-2">
+              <i class="fa-solid fa-draw-polygon text-blue-400"></i>
+              <span>Positionnement Spatial TOPSIS ($S_i^+$ vs $S_i^-$)</span>
+            </h3>
+            <span class="text-[11px] text-slate-400">Plus un point est haut/droite, meilleur est le compromis</span>
+          </div>
+          <div class="h-72 w-full relative">
+            <canvas id="topsis-spatial-chart"></canvas>
+          </div>
+        </div>
+
+        <!-- Chart 2: Pareto Efficient Frontier (Performance vs Price) -->
+        <div class="glass-card rounded-2xl p-5 border border-slate-800 shadow-xl space-y-2">
+          <div class="flex justify-between items-center">
+            <h3 class="text-sm font-semibold text-slate-200 flex items-center space-x-2">
+              <i class="fa-solid fa-chart-line text-emerald-400"></i>
+              <span>Frontière d'Efficacité de Pareto (Performance vs Prix)</span>
+            </h3>
+            <span class="text-[11px] text-slate-400">Les points sur la ligne rouge sont non-dominés</span>
+          </div>
+          <div class="h-72 w-full relative">
+            <canvas id="pareto-frontier-chart"></canvas>
+          </div>
+        </div>
+
+        <!-- Chart 3: Multi-Profile Radar -->
+        <div class="glass-card rounded-2xl p-5 border border-slate-800 shadow-xl space-y-2">
+          <h3 class="text-sm font-semibold text-slate-200 flex items-center space-x-2">
+            <i class="fa-solid fa-chart-pie text-purple-400"></i>
+            <span>Profil Morphologique (Radar des Modèles Sélectionnés)</span>
+          </h3>
+          <div class="h-80 w-full relative flex justify-center">
+            <canvas id="radar-chart"></canvas>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- MODAL: Side-By-Side Comparison -->
+  <div id="compare-modal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md hidden flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-4xl w-full p-6 space-y-5 shadow-2xl overflow-hidden max-h-[90vh] flex flex-col">
+      <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+        <h3 class="text-base font-bold text-slate-100 flex items-center space-x-2">
+          <i class="fa-solid fa-scale-balanced text-blue-400"></i>
+          <span>Comparateur Côte-à-Côte MCDA</span>
+        </h3>
+        <button onclick="closeCompareModal()" class="text-slate-400 hover:text-white text-lg">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div id="compare-modal-content" class="overflow-x-auto flex-1">
+        <!-- Injected via JS -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // --- GLOBAL STATE ---
+    let RAW_SMARTPHONES = [];
+    let FILTERED_SMARTPHONES = [];
+    let RANKED_SMARTPHONES = [];
+    let SELECTED_FOR_COMPARE = new Set();
+    let ACTIVE_TAB = 'ranking';
+    let SEARCH_QUERY = '';
+
+    // Active MCDA Criteria Weights
+    let WEIGHTS = {
+      mcda_price: 0.25,
+      mcda_perf: 0.20,
+      mcda_photo: 0.20,
+      mcda_battery: 0.15,
+      mcda_screen: 0.10,
+      mcda_portability: 0.10
+    };
+
+    // Optimization Directions (benefit = higher is better, cost = lower is better)
+    const CRITERIA_DIRECTIONS = {
+      mcda_price: 'cost',
+      mcda_perf: 'benefit',
+      mcda_photo: 'benefit',
+      mcda_battery: 'benefit',
+      mcda_screen: 'benefit',
+      mcda_portability: 'benefit'
+    };
+
+    // Active Constraints Filters
+    let FILTERS = {
+      maxPrice: 800,
+      minRam: 8,
+      brand: '',
+      dedup: true,
+      minSocScore: 0
+    };
+
+    // Archetype Preset Profiles
+    const PRESETS = {
+      balanced: {
+        weights: { mcda_price: 0.10, mcda_perf: 0.25, mcda_photo: 0.25, mcda_battery: 0.20, mcda_screen: 0.10, mcda_portability: 0.10 },
+        filters: { minSocScore: 0 }
+      },
+      gamer_poweruser: {
+        weights: { mcda_price: 0.05, mcda_perf: 0.60, mcda_screen: 0.15, mcda_battery: 0.15, mcda_photo: 0.025, mcda_portability: 0.025 },
+        filters: { minSocScore: 70.0 }
+      },
+      photographer: {
+        weights: { mcda_price: 0.15, mcda_photo: 0.45, mcda_screen: 0.15, mcda_perf: 0.15, mcda_battery: 0.05, mcda_portability: 0.05 },
+        filters: { minSocScore: 0 }
+      },
+      budget_first: {
+        weights: { mcda_price: 0.55, mcda_battery: 0.20, mcda_perf: 0.10, mcda_screen: 0.05, mcda_photo: 0.05, mcda_portability: 0.05 },
+        filters: { minSocScore: 0 }
+      }
+    };
+
+    /**
+     * Vectorized TOPSIS Engine running in-memory (< 5ms execution)
+     */
+    function runTOPSIS(smartphones, weights, directions) {
+      if (!smartphones || smartphones.length === 0) return [];
+
+      const criteriaKeys = Object.keys(weights);
+      
+      // 1. Weight Normalization sum(w_j) = 1.0
+      const totalWeight = criteriaKeys.reduce((sum, k) => sum + weights[k], 0) || 1.0;
+      const normWeights = {};
+      criteriaKeys.forEach(k => normWeights[k] = weights[k] / totalWeight);
+
+      // 2. Vector Euclidean Normalization per criterion
+      const normFactors = {};
+      criteriaKeys.forEach(k => {
+        const sumSq = smartphones.reduce((sum, item) => sum + Math.pow(item.mcda_criteria[k] || 0, 2), 0);
+        normFactors[k] = Math.sqrt(sumSq) || 1.0;
+      });
+
+      // 3. Construct Weighted Normalized Matrix V = (v_ij)
+      const vMatrix = smartphones.map(item => {
+        const row = {};
+        criteriaKeys.forEach(k => {
+          const r_ij = (item.mcda_criteria[k] || 0) / normFactors[k];
+          row[k] = r_ij * normWeights[k];
+        });
+        return { id: item.id, item, row };
+      });
+
+      // 4. Identify Ideal Positive (A+) and Ideal Negative (A-) Boundaries
+      const idealPos = {};
+      const idealNeg = {};
+
+      criteriaKeys.forEach(k => {
+        const colVals = vMatrix.map(m => m.row[k]);
+        if (directions[k] === 'benefit') {
+          idealPos[k] = Math.max(...colVals);
+          idealNeg[k] = Math.min(...colVals);
+        } else {
+          // cost
+          idealPos[k] = Math.min(...colVals);
+          idealNeg[k] = Math.max(...colVals);
+        }
+      });
+
+      // 5. Compute Euclidean Distances (S_i+ and S_i-) & Closeness Coefficient (C_i)
+      const ranked = vMatrix.map(entry => {
+        let dPosSq = 0;
+        let dNegSq = 0;
+
+        criteriaKeys.forEach(k => {
+          dPosSq += Math.pow(entry.row[k] - idealPos[k], 2);
+          dNegSq += Math.pow(entry.row[k] - idealNeg[k], 2);
+        });
+
+        const dPos = Math.sqrt(dPosSq);
+        const dNeg = Math.sqrt(dNegSq);
+        const score = (dPos + dNeg === 0) ? 0 : dNeg / (dPos + dNeg);
+
+        return {
+          ...entry.item,
+          mcda_score: Number(score.toFixed(4)),
+          d_pos: Number(dPos.toFixed(4)),
+          d_neg: Number(dNeg.toFixed(4))
+        };
+      });
+
+      return ranked.sort((a, b) => b.mcda_score - a.mcda_score);
+    }
+
+    /**
+     * Decoupled Dataset Loader Pipeline
+     * Tries loading 'smartphones_mcda.json' via fetch, with file input fallback.
+     */
+    async function loadDataset() {
+      const statusDot = document.getElementById('data-status-dot');
+      const statusText = document.getElementById('data-status-text');
+
+      try {
+        statusText.innerText = 'Chargement de smartphones_mcda.json...';
+        statusDot.className = 'w-2.5 h-2.5 rounded-full bg-amber-500 animate-pulse';
+
+        const response = await fetch('smartphones_mcda.json');
+        if (!response.ok) throw new Error(`HTTP Error ${response.status}`);
+        
+        const data = await response.json();
+        ingestDataset(data, 'smartphones_mcda.json');
+      } catch (err) {
+        console.warn('Local fetch failed, waiting for user file import or fallback:', err);
+        statusDot.className = 'w-2.5 h-2.5 rounded-full bg-rose-500';
+        statusText.innerText = 'Fichier local introuvable. Veuillez importer JSON.';
+      }
+    }
+
+    function ingestDataset(jsonArray, sourceName) {
+      if (!Array.isArray(jsonArray) || jsonArray.length === 0) {
+        alert("Format JSON invalide. Le fichier doit contenir un tableau d'objets smartphones.");
+        return;
+      }
+
+      RAW_SMARTPHONES = jsonArray;
+      
+      const statusDot = document.getElementById('data-status-dot');
+      const statusText = document.getElementById('data-status-text');
+      statusDot.className = 'w-2.5 h-2.5 rounded-full bg-emerald-500';
+      statusText.innerText = `${RAW_SMARTPHONES.length} modèles chargés (${sourceName})`;
+
+      recomputeMCDA();
+    }
+
+    // Handle Manual JSON File Import
+    document.getElementById('json-file-input').addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = (evt) => {
+        try {
+          const parsed = JSON.parse(evt.target.result);
+          ingestDataset(parsed, file.name);
+        } catch (err) {
+          alert("Erreur de lecture du fichier JSON : " + err.message);
+        }
+      };
+      reader.readAsText(file);
+    });
+
+    /**
+     * Main MCDA Recalculation Pipeline
+     */
+    function recomputeMCDA() {
+      if (RAW_SMARTPHONES.length === 0) return;
+
+      // Step A: Apply Hard Constraint Filters
+      let list = RAW_SMARTPHONES.filter(item => {
+        const specs = item.raw_specs || {};
+        const criteria = item.mcda_criteria || {};
+        const price = criteria.mcda_price || specs.price_usd || 0;
+        const ram = specs.ram_gb || 0;
+        const brand = item.brand || '';
+        const perf = criteria.mcda_perf || 0;
+
+        if (price > FILTERS.maxPrice) return false;
+        if (ram < FILTERS.minRam) return false;
+        if (FILTERS.minSocScore > 0 && perf < FILTERS.minSocScore) return false;
+        if (FILTERS.brand && !brand.toLowerCase().includes(FILTERS.brand.toLowerCase())) return false;
+        if (SEARCH_QUERY && !item.model.toLowerCase().includes(SEARCH_QUERY.toLowerCase())) return false;
+
+        return true;
+      });
+
+      // Step B: Deduplicate Variants (keep first occurrence)
+      if (FILTERS.dedup) {
+        const seen = new Set();
+        list = list.filter(item => {
+          const cleanName = item.model.split(' ')[0] + ' ' + (item.model.split(' ')[1] || '');
+          if (seen.has(cleanName)) return false;
+          seen.add(cleanName);
+          return true;
+        });
+      }
+
+      FILTERED_SMARTPHONES = list;
+
+      // Step C: Execute TOPSIS Solver
+      RANKED_SMARTPHONES = runTOPSIS(FILTERED_SMARTPHONES, WEIGHTS, CRITERIA_DIRECTIONS);
+
+      // Render UI Components
+      renderTable();
+      if (ACTIVE_TAB === 'charts') {
+        renderCharts();
+      }
+    }
+
+    function renderTable() {
+      const tbody = document.getElementById('ranking-table-body');
+      const countBadge = document.getElementById('models-count-badge');
+      countBadge.innerText = `Affichage de ${RANKED_SMARTPHONES.length} smartphone(s) retenu(s)`;
+
+      if (RANKED_SMARTPHONES.length === 0) {
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="7" class="py-12 text-center text-slate-500">
+              <i class="fa-solid fa-filter-circle-xmark text-3xl mb-3 block text-slate-600"></i>
+              Aucun smartphone ne satisfait l'ensemble de vos filtres durs actuels.
+            </td>
+          </tr>`;
+        return;
+      }
+
+      tbody.innerHTML = RANKED_SMARTPHONES.map((item, idx) => {
+        const rank = idx + 1;
+        const specs = item.raw_specs || {};
+        const criteria = item.mcda_criteria || {};
+        const isChecked = SELECTED_FOR_COMPARE.has(item.id);
+
+        let rankBadgeClass = "bg-slate-800 text-slate-400";
+        if (rank === 1) rankBadgeClass = "bg-amber-500/20 text-amber-300 border border-amber-500/40 font-bold";
+        else if (rank === 2) rankBadgeClass = "bg-slate-300/20 text-slate-200 border border-slate-300/40 font-bold";
+        else if (rank === 3) rankBadgeClass = "bg-amber-700/20 text-amber-400 border border-amber-700/40 font-bold";
+
+        return `
+          <tr class="hover:bg-slate-900/60 transition-colors group">
+            <td class="py-3 px-3 text-center">
+              <span class="inline-flex items-center justify-center w-7 h-7 rounded-lg text-xs ${rankBadgeClass}">
+                #${rank}
+              </span>
+            </td>
+            <td class="py-3 px-4">
+              <div class="font-semibold text-slate-100 group-hover:text-blue-400 transition-colors">${item.model}</div>
+              <div class="text-[11px] text-slate-400">${item.brand} • ${specs.ram_gb || 8}GB RAM / ${specs.storage_gb || 128}GB</div>
+            </td>
+            <td class="py-3 px-3 text-center font-mono font-bold text-emerald-400">
+              $${(criteria.mcda_price || 0).toFixed(0)}
+            </td>
+            <td class="py-3 px-3 text-center">
+              <span class="text-purple-300 font-mono font-semibold">${(criteria.mcda_perf || 0).toFixed(1)}</span>
+              <span class="text-slate-600">/</span>
+              <span class="text-rose-300 font-mono font-semibold">${(criteria.mcda_photo || 0).toFixed(1)}</span>
+            </td>
+            <td class="py-3 px-3 text-center font-mono text-slate-300">
+              ${specs.battery_mah || 5000} mAh
+            </td>
+            <td class="py-3 px-4 text-center">
+              <div class="flex items-center justify-center space-x-2">
+                <div class="w-16 bg-slate-800 h-2 rounded-full overflow-hidden">
+                  <div class="bg-gradient-to-r from-blue-500 to-indigo-500 h-full" style="width: ${(item.mcda_score * 100).toFixed(0)}%"></div>
+                </div>
+                <span class="font-mono font-bold text-blue-400">${item.mcda_score}</span>
+              </div>
+            </td>
+            <td class="py-3 px-3 text-center">
+              <input type="checkbox" ${isChecked ? 'checked' : ''} onchange="toggleCompare('${item.id}')" class="w-4 h-4 text-blue-600 rounded bg-slate-800 border-slate-700 focus:ring-blue-500 cursor-pointer" />
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    let chartSpatial = null;
+    let chartPareto = null;
+    let chartRadar = null;
+
+    function renderCharts() {
+      if (RANKED_SMARTPHONES.length === 0) return;
+
+      // 1. Spatial Positioning Chart (S_i+ vs S_i-)
+      const ctxSpatial = document.getElementById('topsis-spatial-chart').getContext('2d');
+      if (chartSpatial) chartSpatial.destroy();
+
+      chartSpatial = new Chart(ctxSpatial, {
+        type: 'scatter',
+        data: {
+          datasets: [{
+            label: 'Smartphones (Espace TOPSIS)',
+            data: RANKED_SMARTPHONES.map(item => ({ x: item.d_pos, y: item.d_neg, label: item.model, score: item.mcda_score })),
+            backgroundColor: 'rgba(59, 130, 246, 0.7)',
+            borderColor: 'rgba(99, 102, 241, 1)',
+            borderWidth: 1,
+            pointRadius: 6,
+            pointHoverRadius: 9
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            x: {
+              reverse: true, // Right represents closer to Positive Ideal A+
+              title: { display: true, text: 'Distance à A+ (S_i+) [Inversé: Droite = Plus proche d\'Idéal]', color: '#94a3b8' },
+              grid: { color: 'rgba(255, 255, 255, 0.05)' },
+              ticks: { color: '#94a3b8' }
+            },
+            y: {
+              title: { display: true, text: 'Distance à A- (S_i-) [Haut = Plus loin du Pire]', color: '#94a3b8' },
+              grid: { color: 'rgba(255, 255, 255, 0.05)' },
+              ticks: { color: '#94a3b8' }
+            }
+          },
+          plugins: {
+            tooltip: {
+              callbacks: {
+                label: (ctx) => `${ctx.raw.label} — Score C_i: ${ctx.raw.score}`
+              }
+            }
+          }
+        }
+      });
+
+      // 2. Pareto Frontier Chart (Price vs Performance)
+      const sortedByPrice = [...RANKED_SMARTPHONES].sort((a, b) => a.mcda_criteria.mcda_price - b.mcda_criteria.mcda_price);
+      const paretoPoints = [];
+      let maxPerf = -Infinity;
+
+      sortedByPrice.forEach(p => {
+        if (p.mcda_criteria.mcda_perf > maxPerf) {
+          paretoPoints.push(p);
+          maxPerf = p.mcda_criteria.mcda_perf;
+        }
+      });
+
+      const ctxPareto = document.getElementById('pareto-frontier-chart').getContext('2d');
+      if (chartPareto) chartPareto.destroy();
+
+      chartPareto = new Chart(ctxPareto, {
+        type: 'scatter',
+        data: {
+          datasets: [
+            {
+              label: 'Alternatives Dominées',
+              data: RANKED_SMARTPHONES.map(item => ({ x: item.mcda_criteria.mcda_price, y: item.mcda_criteria.mcda_perf, label: item.model })),
+              backgroundColor: 'rgba(148, 163, 184, 0.4)',
+              pointRadius: 4
+            },
+            {
+              label: 'Frontière Efficace de Pareto',
+              data: paretoPoints.map(item => ({ x: item.mcda_criteria.mcda_price, y: item.mcda_criteria.mcda_perf, label: item.model })),
+              backgroundColor: 'rgba(239, 68, 68, 1)',
+              borderColor: 'rgba(239, 68, 68, 0.8)',
+              showLine: true,
+              pointRadius: 7
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            x: {
+              title: { display: true, text: 'Prix ($)', color: '#94a3b8' },
+              grid: { color: 'rgba(255, 255, 255, 0.05)' },
+              ticks: { color: '#94a3b8' }
+            },
+            y: {
+              title: { display: true, text: 'Score Performance (Benchmark)', color: '#94a3b8' },
+              grid: { color: 'rgba(255, 255, 255, 0.05)' },
+              ticks: { color: '#94a3b8' }
+            }
+          },
+          plugins: {
+            tooltip: {
+              callbacks: {
+                label: (ctx) => `${ctx.raw.label}: $${ctx.raw.x} — Perf: ${ctx.raw.y}`
+              }
+            }
+          }
+        }
+      });
+
+      // 3. Multi-Phone Radar Chart
+      const topPicks = RANKED_SMARTPHONES.slice(0, 3);
+      const ctxRadar = document.getElementById('radar-chart').getContext('2d');
+      if (chartRadar) chartRadar.destroy();
+
+      const radarColors = [
+        { bg: 'rgba(59, 130, 246, 0.2)', border: '#3b82f6' },
+        { bg: 'rgba(168, 85, 247, 0.2)', border: '#a855f7' },
+        { bg: 'rgba(236, 72, 153, 0.2)', border: '#ec4899' }
+      ];
+
+      chartRadar = new Chart(ctxRadar, {
+        type: 'radar',
+        data: {
+          labels: ['Performance', 'Photo', 'Batterie', 'Écran', 'Portabilité'],
+          datasets: topPicks.map((item, i) => ({
+            label: item.model,
+            data: [
+              item.mcda_criteria.mcda_perf,
+              item.mcda_criteria.mcda_photo * 2, // Scale up for radar balance
+              (item.mcda_criteria.mcda_battery / 7000) * 100,
+              item.mcda_criteria.mcda_screen * 3,
+              item.mcda_criteria.mcda_portability
+            ],
+            backgroundColor: radarColors[i % 3].bg,
+            borderColor: radarColors[i % 3].border,
+            borderWidth: 2
+          }))
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            r: {
+              angleLines: { color: 'rgba(255, 255, 255, 0.1)' },
+              grid: { color: 'rgba(255, 255, 255, 0.1)' },
+              pointLabels: { color: '#cbd5e1', font: { size: 11 } },
+              ticks: { display: false }
+            }
+          }
+        }
+      });
+    }
+
+    // --- EVENT HANDLERS & PRESETS ---
+    function updateWeight(key, val) {
+      WEIGHTS[key] = parseFloat(val) / 100.0;
+      document.getElementById(`weight-val-${key}`).innerText = `${val}%`;
+      recomputeMCDA();
+    }
+
+    function updateFilter(key, val) {
+      if (key === 'maxPrice') {
+        FILTERS.maxPrice = parseFloat(val);
+        document.getElementById('max-price-val').innerText = `${val} $`;
+      } else if (key === 'minRam') {
+        FILTERS.minRam = parseFloat(val);
+      } else if (key === 'brand') {
+        FILTERS.brand = val;
+      } else if (key === 'dedup') {
+        FILTERS.dedup = val;
+      }
+      recomputeMCDA();
+    }
+
+    function updateSearch(val) {
+      SEARCH_QUERY = val;
+      recomputeMCDA();
+    }
+
+    function applyPreset(presetKey) {
+      const preset = PRESETS[presetKey];
+      if (!preset) return;
+
+      WEIGHTS = { ...preset.weights };
+      FILTERS.minSocScore = preset.filters.minSocScore || 0;
+
+      // Update UI sliders
+      Object.keys(WEIGHTS).forEach(k => {
+        const valPct = Math.round(WEIGHTS[k] * 100);
+        const slider = document.getElementById(`weight-slider-${k}`);
+        const textVal = document.getElementById(`weight-val-${k}`);
+        if (slider) slider.value = valPct;
+        if (textVal) textVal.innerText = `${valPct}%`;
+      });
+
+      recomputeMCDA();
+    }
+
+    function switchTab(tabKey) {
+      ACTIVE_TAB = tabKey;
+      const btnRanking = document.getElementById('tab-btn-ranking');
+      const btnCharts = document.getElementById('tab-btn-charts');
+      const contentRanking = document.getElementById('tab-content-ranking');
+      const contentCharts = document.getElementById('tab-content-charts');
+
+      if (tabKey === 'ranking') {
+        btnRanking.className = 'tab-btn px-4 py-2 rounded-xl text-xs font-semibold bg-blue-600 text-white shadow-md flex items-center space-x-2';
+        btnCharts.className = 'tab-btn px-4 py-2 rounded-xl text-xs font-semibold text-slate-400 hover:text-slate-200 hover:bg-slate-800 flex items-center space-x-2';
+        contentRanking.classList.remove('hidden');
+        contentCharts.classList.add('hidden');
+      } else {
+        btnCharts.className = 'tab-btn px-4 py-2 rounded-xl text-xs font-semibold bg-blue-600 text-white shadow-md flex items-center space-x-2';
+        btnRanking.className = 'tab-btn px-4 py-2 rounded-xl text-xs font-semibold text-slate-400 hover:text-slate-200 hover:bg-slate-800 flex items-center space-x-2';
+        contentCharts.classList.remove('hidden');
+        contentRanking.classList.add('hidden');
+        renderCharts();
+      }
+    }
+
+    function toggleCompare(id) {
+      if (SELECTED_FOR_COMPARE.has(id)) {
+        SELECTED_FOR_COMPARE.delete(id);
+      } else {
+        if (SELECTED_FOR_COMPARE.size >= 4) {
+          alert('Vous pouvez comparer jusqu\'à 4 smartphones simultanément.');
+          renderTable();
+          return;
+        }
+        SELECTED_FOR_COMPARE.add(id);
+      }
+
+      const bar = document.getElementById('compare-bar-container');
+      const countText = document.getElementById('compare-count');
+      if (SELECTED_FOR_COMPARE.size > 0) {
+        bar.classList.remove('hidden');
+        bar.classList.add('flex');
+        countText.innerText = `${SELECTED_FOR_COMPARE.size} sélectionné(s)`;
+      } else {
+        bar.classList.add('hidden');
+        bar.classList.remove('flex');
+      }
+    }
+
+    function openCompareModal() {
+      if (SELECTED_FOR_COMPARE.size === 0) return;
+
+      const selectedItems = RANKED_SMARTPHONES.filter(item => SELECTED_FOR_COMPARE.has(item.id));
+      const container = document.getElementById('compare-modal-content');
+
+      container.innerHTML = `
+        <table class="w-full text-left border-collapse text-xs">
+          <thead>
+            <tr class="border-b border-slate-800 bg-slate-950">
+              <th class="py-3 px-4 text-slate-400">Critère / Modèle</th>
+              ${selectedItems.map(item => `
+                <th class="py-3 px-4 font-bold text-slate-100 text-center">
+                  <div class="text-sm font-extrabold text-blue-400">${item.model}</div>
+                  <div class="text-[10px] text-slate-400 font-normal">${item.brand}</div>
+                </th>
+              `).join('')}
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-800/60">
+            <tr>
+              <td class="py-2.5 px-4 font-semibold text-slate-300">Score TOPSIS ($C_i$)</td>
+              ${selectedItems.map(item => `<td class="py-2.5 px-4 text-center font-mono font-bold text-blue-400 text-sm">${item.mcda_score}</td>`).join('')}
+            </tr>
+            <tr>
+              <td class="py-2.5 px-4 font-semibold text-slate-300">Prix ($)</td>
+              ${selectedItems.map(item => `<td class="py-2.5 px-4 text-center font-mono font-bold text-emerald-400">$${item.mcda_criteria.mcda_price}</td>`).join('')}
+            </tr>
+            <tr>
+              <td class="py-2.5 px-4 font-semibold text-slate-300">Performance (Index)</td>
+              ${selectedItems.map(item => `<td class="py-2.5 px-4 text-center font-mono text-purple-300">${item.mcda_criteria.mcda_perf}</td>`).join('')}
+            </tr>
+            <tr>
+              <td class="py-2.5 px-4 font-semibold text-slate-300">Photographie (Index)</td>
+              ${selectedItems.map(item => `<td class="py-2.5 px-4 text-center font-mono text-rose-300">${item.mcda_criteria.mcda_photo}</td>`).join('')}
+            </tr>
+            <tr>
+              <td class="py-2.5 px-4 font-semibold text-slate-300">Capacité Batterie</td>
+              ${selectedItems.map(item => `<td class="py-2.5 px-4 text-center font-mono text-slate-200">${item.raw_specs.battery_mah || 5000} mAh</td>`).join('')}
+            </tr>
+            <tr>
+              <td class="py-2.5 px-4 font-semibold text-slate-300">RAM / Stockage</td>
+              ${selectedItems.map(item => `<td class="py-2.5 px-4 text-center font-mono text-slate-300">${item.raw_specs.ram_gb || 8}GB / ${item.raw_specs.storage_gb || 128}GB</td>`).join('')}
+            </tr>
+          </tbody>
+        </table>
+      `;
+
+      document.getElementById('compare-modal').classList.remove('hidden');
+    }
+
+    function closeCompareModal() {
+      document.getElementById('compare-modal').classList.add('hidden');
+    }
+
+    // Automatically load dataset on window load
+    window.onload = function() {
+      loadDataset();
+    };
+  </script>
+</body>
+</html>
