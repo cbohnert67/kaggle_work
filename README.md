@@ -20,7 +20,7 @@ This repository serves as a bridge between exploratory data engineering pipeline
 
 An interactive decision science engine designed to solve the smartphone selection problem using TOPSIS (Technique for Order Preference by Similarity to Ideal Solution).
 
-*   **Folder Location**: [`./smartphone_recommendation_system/`](file:///c:/Users/bohne/OneDrive/Bureau/kaggle_notebooks/smartphone_recommendation_system/)
+*   **Folder Location**: [`./smartphone_recommendation_system/`](https://github.com/cbohnert67/kaggle_work/tree/main/smartphone_recommendation_system)
 *   **Key Highlights**:
     *   Replaces rigid binary SQL filters (`WHERE price <= X`) with $n$-dimensional Euclidean distance scoring ($C_i \in [0, 1]$).
     *   Prevents budget-bias in power-user profiles using non-compensatory gaming thresholds and non-linear processor performance scaling ($\text{Score}^{1.8}$).
