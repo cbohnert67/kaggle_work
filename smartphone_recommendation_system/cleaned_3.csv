@@ -1,0 +1,959 @@
+brand,name,price,spec-score,has_5g,has_ir,has_nfc,processor_name,processor_brand,processor_core,processor_freq_ghz,ram,rom_in_gb,battery_in_mAh,max_charging_wattage,display_inches,display_width,display_height,ppi,display_refresh_rate,no_rear_camera,no_front_camera,main_camera_mp,front_camera_mp,operating_version,version
+Samsung,Samsung Galaxy S24 Ultra,79998,92,TRUE,FALSE,TRUE,Snapdragon 8 Gen3,Snapdragon,Octa Core,3.3,12,256,5000,45,6.8,1440,3120,505,120,4,1,200,12,Android,v14
+Oneplus,Oneplus Nord Ce 5 5G,23999,83,TRUE,TRUE,FALSE,Dimensity 8350 Apex,Dimensity,Octa Core,3.35,8,128,7100,80,6.77,1080,2392,388,120,2,1,50,16,Android,v15
+Apple,Apple Iphone 15,49999,81,TRUE,FALSE,TRUE,Bionic A16,Bionic,Hexa Core,3.46,6,128,3349,,6.1,1179,2556,461,60,2,1,48,12,iOS,v17
+Vivo,Vivo V60E,29999,85,TRUE,TRUE,TRUE,Dimensity 7360 Turbo,Dimensity,Octa Core,2.5,8,128,6500,90,6.77,1080,2392,388,120,2,1,200,50,Android,v15
+Realme,Realme P3 Ultra,19999,81,TRUE,TRUE,FALSE,Dimensity 8350 Ultra,Dimensity,Octa Core,3.35,8,256,6000,80,6.83,1272,2800,450,120,2,1,50,16,Android,v15
+Oppo,Oppo Reno 13 5G,23999,85,TRUE,TRUE,TRUE,Dimensity 8350,Dimensity,Octa Core,3.35,8,128,5600,80,6.59,1256,2760,460,120,3,1,50,50,,
+Motorola,Motorola Edge 60 Fusion,20829,84,TRUE,FALSE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.5,8,256,5500,68,6.7,1220,2712,444,120,2,1,50,32,Android,v15
+Samsung,Samsung Galaxy S24 5G,41900,86,TRUE,FALSE,TRUE,Snapdragon 8 Gen3,Snapdragon,Octa Core,3.3,8,256,4000,25,6.2,1080,2340,416,120,3,1,50,12,,
+Vivo,Vivo T4X 5G,13499,75,TRUE,TRUE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,6,128,6500,44,6.72,1080,2408,393,120,2,1,50,8,Android,v15
+Samsung,Samsung Galaxy S24 Fe 5G,33799,84,TRUE,FALSE,TRUE,Exynos 2400e,Exynos,Deca Core,3.11,8,128,4700,25,6.7,1080,2340,385,120,3,1,50,10,Android,v14
+Motorola,Motorola Moto G86 Power 5G,16487,83,TRUE,FALSE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.6,8,128,6720,33,6.7,1220,2712,444,120,2,1,50,32,Android,v15
+Vivo,Vivo T4 Pro 5G,27999,82,TRUE,TRUE,FALSE,Snapdragon 7 Gen4,Snapdragon,Octa Core,2.8,8,128,6500,90,6.77,1080,2392,388,120,3,1,50,32,,
+Motorola,Motorola Edge 60 Pro,27479,80,TRUE,FALSE,TRUE,Dimensity 8350 Extreme,Dimensity,Octa Core,3.35,8,256,6000,90,6.7,1220,2712,444,120,3,1,50,50,,
+Motorola,Motorola Moto G96 5G,16499,80,TRUE,FALSE,FALSE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,8,128,5500,33,6.67,1080,2400,395,144,2,1,50,32,Android,v15
+Vivo,Vivo V60 5G,36999,86,TRUE,TRUE,TRUE,Snapdragon 7 Gen4,Snapdragon,Octa Core,2.8,8,128,6500,90,6.77,1080,2392,388,120,3,1,50,50,Android,v15
+Poco,Poco X7 5G,14999,82,TRUE,TRUE,TRUE,Dimensity 7300 Ultra,Dimensity,Octa Core,2.5,8,128,5500,45,6.67,1220,2712,446,120,3,1,50,20,,
+Xiaomi,Xiaomi Redmi Note 14 Se 5G,13499,80,TRUE,TRUE,FALSE,Dimensity 7025 Ultra,Dimensity,Octa Core,2.5,6,128,5110,45,6.67,1080,2400,395,120,3,1,50,20,Android,v14
+Oneplus,Oneplus Nord 5 5G,30999,84,TRUE,TRUE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,8,256,6800,80,6.83,1272,2800,450,144,2,1,50,50,,
+Samsung,Samsung Galaxy S25 Ultra,101900,93,TRUE,FALSE,TRUE,Snapdragon 8 Elite for Galaxy,Snapdragon,Octa Core,4.47,12,256,5000,45,6.9,1440,3120,498,120,4,1,200,12,Android,v15
+Vivo,Vivo T4 5G,20999,79,TRUE,TRUE,FALSE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,8,128,7300,90,6.77,1080,2392,388,120,2,1,50,32,Android,v15
+Oppo,Oppo Reno 14 5G,37998,86,TRUE,TRUE,FALSE,Dimensity 8350,Dimensity,Octa Core,3.35,8,256,6000,80,6.59,1256,2760,460,120,3,1,50,50,,
+Samsung,Samsung Galaxy A35 5G,17999,82,TRUE,FALSE,TRUE,Exynos 1380,Exynos,Octa Core,2.4,8,128,5000,25,6.6,1080,2340,390,120,3,1,50,13,Android,v14
+Realme,Realme P4 5G,17499,77,TRUE,TRUE,FALSE,Dimensity 7400 Ultra,Dimensity,Octa Core,2.6,6,128,7000,80,6.77,1080,2392,388,144,2,1,50,16,,
+Realme,Realme P3 Pro 5G,18999,79,TRUE,FALSE,FALSE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,8,128,6000,80,6.83,1272,2800,450,120,2,1,50,16,,
+Oppo,Oppo F31 Pro 5G,26999,81,TRUE,FALSE,FALSE,Dimensity 7300 Energy,Dimensity,Octa Core,2.5,8,128,7000,80,6.57,1080,2372,397,120,2,1,50,32,,
+Apple,Apple Iphone 16,66900,85,TRUE,FALSE,TRUE,Bionic A18,Bionic,Hexa Core,4.04,8,128,3561,,6.1,1179,2556,461,60,2,1,48,12,iOS,v18
+Oppo,Oppo K13,16889,78,TRUE,TRUE,FALSE,Snapdragon 6 Gen4,Snapdragon,Octa Core,2.3,8,128,7000,80,6.67,1080,2400,395,120,2,1,50,16,,
+Vivo,Vivo X200 Fe,54999,89,TRUE,TRUE,TRUE,Dimensity 9300 Plus,Dimensity,Octa Core,3.25,12,256,6500,90,6.31,1216,2640,461,120,3,1,50,50,Android,v15
+Xiaomi,Xiaomi Redmi 13 5G,11199,80,TRUE,TRUE,FALSE,Snapdragon 4 Gen 2 AE,Snapdragon,Octa Core,2.3,8,128,5030,33,6.79,1080,2460,396,120,2,1,108,13,Android,v14
+Iqoo,Iqoo Neo 10R,26998,81,TRUE,TRUE,FALSE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,8,128,6400,80,6.78,1260,2800,453,144,2,1,50,32,,
+Oppo,Oppo K13X 5G,10897,73,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,6000,45,6.67,720,1604,264,120,2,1,50,8,Android,v15
+Motorola,Motorola Edge 60 Stylus,20589,86,TRUE,FALSE,TRUE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,8,256,5000,68,6.7,1220,2712,444,120,2,1,50,32,Android,v15
+Samsung,Samsung Galaxy A17 5G,18999,79,TRUE,FALSE,TRUE,Exynos 1330,Exynos,Octa Core,2.4,6,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v15
+Motorola,Motorola Moto G35 5G,10249,76,TRUE,FALSE,FALSE,Unisoc T760,Unisoc,Octa Core,2.2,4,128,5000,18,6.72,1080,2400,392,120,2,1,50,16,Android,v14
+Xiaomi,Xiaomi Redmi Note 14,14784,84,TRUE,TRUE,TRUE,Dimensity 7025 Ultra,Dimensity,Octa Core,2.5,8,128,5110,45,6.67,1080,2400,395,120,3,1,50,20,Android,v14
+Oneplus,Oneplus 13R 5G,37999,86,TRUE,TRUE,TRUE,Snapdragon 8 Gen3,Snapdragon,Octa Core,3.3,12,256,6000,80,6.78,1264,2780,450,120,3,1,50,16,Android,v15
+Apple,Apple Iphone 17 Pro Max,149900,82,TRUE,FALSE,TRUE,Apple A19 Pro,Apple,Hexa Core,,12,256,4832,,6.9,1320,2868,458,120,3,1,48,18,iOS,v26
+Vivo,Vivo T4 Lite 5G,9999,73,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,6000,15,6.74,720,1600,260,90,2,1,50,5,Android,v15
+Samsung,Samsung Galaxy M17 5G,12999,76,TRUE,FALSE,TRUE,Exynos 1330,Exynos,Octa Core,2.4,4,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v15
+Iqoo,Iqoo Z10X,12998,75,TRUE,TRUE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,6,128,6500,44,6.72,1080,2408,393,120,2,1,50,8,,
+Realme,Realme P3 Ultra,18999,81,TRUE,TRUE,FALSE,Dimensity 8350 Ultra,Dimensity,Octa Core,3.35,8,128,6000,80,6.83,1272,2800,450,120,2,1,50,16,Android,v15
+Vivo,Vivo X200 Pro 5G,79999,95,TRUE,TRUE,TRUE,Dimensity 9400,Dimensity,Octa Core,3.63,16,512,6000,90,6.78,1260,2800,453,120,3,1,200,32,Android,v15
+Apple,Apple Iphone 17,82900,78,TRUE,FALSE,TRUE,Apple A19,Apple,Hexa Core,,8,256,3269,40,6.3,1206,2622,458,120,2,,48,,,
+Oppo,Oppo Reno 14 Pro 5G,49998,90,TRUE,TRUE,TRUE,Dimensity 8450,Dimensity,Octa Core,3.25,12,256,6200,80,6.83,1272,2800,450,120,3,1,50,50,,
+Vivo,Vivo T4R 5G,19499,80,TRUE,FALSE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.6,8,128,5700,44,6.77,1080,2392,388,120,2,1,50,32,Android,v15
+Samsung,Samsung Galaxy A55 5G,23999,84,TRUE,FALSE,TRUE,Exynos 1480,Exynos,Octa Core,2.7,8,128,5000,25,6.6,1080,2340,390,120,3,1,50,32,Android,v14
+Poco,Poco M7 5G,8498,75,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,6,128,5160,18,6.88,720,1640,260,120,1,1,50,8,Android,v14
+Oppo,Oppo K13 Turbo,23975,80,TRUE,TRUE,FALSE,Dimensity 8450,Dimensity,Octa Core,3.25,8,128,7000,80,6.8,1280,2800,453,120,2,1,50,16,Android,v15
+Motorola,Motorola Edge 60 Pro,39999,89,TRUE,FALSE,TRUE,Dimensity 8350 Extreme,Dimensity,Octa Core,3.35,16,512,6000,90,6.7,1220,2712,444,120,3,1,50,50,,
+Realme,Realme 15 Pro 5G,29999,84,TRUE,FALSE,FALSE,Snapdragon 7 Gen4,Snapdragon,Octa Core,2.8,8,128,7000,80,6.8,1280,2800,453,144,2,1,50,50,,
+Oneplus,Oneplus Nord Ce 4 5G,18999,81,TRUE,TRUE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,128,5500,100,6.7,1080,2412,394,120,2,1,50,16,Android,v14
+Realme,Realme P3X 5G,11990,76,TRUE,FALSE,FALSE,Dimensity 6400,Dimensity,Octa Core,2.5,6,128,6000,45,6.72,1080,2400,392,120,2,1,50,8,Android,v15
+Iqoo,Iqoo Neo 10,31998,83,TRUE,TRUE,TRUE,Snapdragon 8s Gen4,Snapdragon,Octa Core,3.2,8,128,7000,120,6.78,1260,2800,453,144,2,1,50,32,,
+Xiaomi,Xiaomi Redmi 15 5G,14998,77,TRUE,TRUE,FALSE,Snapdragon 6s Gen3,Snapdragon,Octa Core,2.3,6,128,7000,33,6.9,1080,2340,374,144,2,1,50,8,Android,v15
+Poco,Poco X7 Pro 5G,22499,83,TRUE,TRUE,TRUE,Dimensity 8400 Ultra,Dimensity,Octa Core,3.25,8,256,6550,90,6.67,1220,2712,446,120,2,1,50,20,,
+Realme,Realme P3 Pro 5G,20999,80,TRUE,FALSE,FALSE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,8,256,6000,80,6.83,1272,2800,450,120,2,1,50,16,,
+Vivo,Vivo V50 5G,29500,83,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,128,6000,90,6.77,1080,2392,388,120,2,1,50,50,Android,v15
+Nothing,Nothing Phone 3A,23500,83,TRUE,FALSE,TRUE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,8,128,5000,50,6.77,1080,2392,388,120,3,1,50,32,,
+Samsung,Samsung Galaxy M36 5G,13999,78,TRUE,FALSE,FALSE,Exynos 1380,Exynos,Octa Core,2.4,6,128,5000,25,6.7,1080,2340,385,120,3,1,50,13,Android,v15
+Samsung,Samsung Galaxy S25 Fe,59999,86,TRUE,FALSE,TRUE,Exynos 2400,Exynos,Deca Core,3.2,8,128,4900,45,6.7,1080,2340,385,120,3,1,50,12,Android,v16
+Xiaomi,Xiaomi 14 Civi,26249,87,TRUE,TRUE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,8,256,4700,67,6.55,1236,2750,460,120,3,2,50,32,,
+Samsung,Samsung Galaxy M06 5G,7999,72,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,25,6.74,720,1600,260,90,2,1,50,8,Android,v15
+Vivo,Vivo T4X 5G,16499,78,TRUE,TRUE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,256,6500,44,6.72,1080,2408,393,120,2,1,50,8,Android,v15
+Motorola,Motorola Edge 60 Fusion 5G,23399,85,TRUE,FALSE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.5,12,256,5500,68,6.7,1220,2712,444,120,2,1,50,32,Android,v15
+Poco,Poco M7 Plus 5G,12999,76,TRUE,TRUE,FALSE,Snapdragon 6s Gen3,Snapdragon,Octa Core,2.3,6,128,7000,33,6.9,1080,2340,374,144,1,1,50,8,Android,v15
+Oneplus,Oneplus 13S 5G,50999,87,TRUE,TRUE,TRUE,Snapdragon 8 Elite,Snapdragon,Octa Core,4.32,12,256,5850,80,6.32,1216,2640,460,120,2,1,50,32,Android,v15
+Oppo,Oppo F31 5G,22999,78,TRUE,TRUE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,7000,80,6.57,1080,2412,402,120,2,1,50,16,,
+Iqoo,Iqoo Z10 5G,20998,80,TRUE,TRUE,FALSE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,8,128,7300,90,6.77,1080,2392,388,120,2,1,50,32,Android,v15
+Realme,Realme P4 Pro 5G,23900,73,TRUE,TRUE,FALSE,Snapdragon 7 Gen 4,Snapdragon,Octa Core,,8,128,7000,80,6.8,1280,2800,453,144,2,1,50,50,,
+Realme,Realme 15X 5G,15999,78,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,7000,60,6.81,720,1570,254,144,2,1,50,50,Android,v15
+Cmf,Cmf Phone 2 Pro,17369,83,TRUE,FALSE,FALSE,Dimensity 7300 Pro,Dimensity,Octa Core,2.5,8,128,5000,33,6.77,1080,2392,388,120,3,1,50,16,Android,v15
+Vivo,Vivo V60E,31999,86,TRUE,TRUE,TRUE,Dimensity 7360 Turbo,Dimensity,Octa Core,2.5,8,256,6500,90,6.77,1080,2392,388,120,2,1,200,50,Android,v15
+Vivo,Vivo Y400 Pro 5G,24998,79,TRUE,TRUE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,128,5500,90,6.77,1080,2392,388,120,2,1,50,32,,
+Samsung,Samsung Galaxy F36 5G,14900,80,TRUE,FALSE,TRUE,Exynos 1380,Exynos,Octa Core,2.4,6,128,5000,25,6.7,1080,2340,385,120,3,1,50,13,Android,v15
+Apple,Apple Iphone 16 Pro,99999,87,TRUE,FALSE,TRUE,Bionic A18 Pro,Bionic,Hexa Core,4.05,8,128,3582,,6.3,1206,2622,458,120,3,1,48,12,iOS,v18
+Vivo,Vivo Y31 5G,14999,61,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,,4,128,6500,44,6.68,720,1620,265,120,2,1,50,8,,
+Samsung,Samsung Galaxy S24 Fe,38605,85,TRUE,FALSE,TRUE,Exynos 2400e,Exynos,Deca Core,3.11,8,256,4700,25,6.7,1080,2340,385,120,3,1,50,10,Android,v14
+Xiaomi,Xiaomi Redmi Note 14 Pro 5G,19999,81,TRUE,TRUE,TRUE,Dimensity 7300 Ultra,Dimensity,Octa Core,2.5,8,128,5500,45,6.67,1220,2712,446,120,3,1,50,20,,
+Iqoo,Iqoo Z10R,19498,80,TRUE,FALSE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.6,8,128,5700,44,6.77,1080,2392,388,120,2,1,50,32,Android,v15
+Poco,Poco F7 5G,30999,83,TRUE,TRUE,TRUE,Snapdragon 8s Gen4,Snapdragon,Octa Core,3.2,12,256,7550,90,6.83,1280,2772,447,120,2,1,50,20,Android,v15
+Oneplus,Oneplus Nord Ce 4 Lite 5G,16999,81,TRUE,FALSE,FALSE,Snapdragon 695,Snapdragon,Octa Core,2.2,8,128,5500,80,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Iqoo,Iqoo 13 5G,58900,89,TRUE,TRUE,TRUE,Snapdragon 8 Elite,Snapdragon,Octa Core,4.32,12,256,6000,120,6.82,1440,3168,510,144,3,1,50,32,,
+Oppo,Oppo K13X 5G,11284,76,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,6000,45,6.67,720,1604,264,120,2,1,50,8,Android,v15
+Realme,Realme Gt 7,36999,88,TRUE,TRUE,TRUE,Dimensity 9400e,Dimensity,Octa Core,3.4,8,256,7000,120,6.78,1264,2780,450,120,3,1,50,32,Android,v15
+Oneplus,Oneplus Nord Ce 5 5G,25999,83,TRUE,TRUE,FALSE,Dimensity 8350 Apex,Dimensity,Octa Core,3.35,8,256,7100,80,6.77,1080,2392,388,120,2,1,50,16,Android,v15
+Motorola,Motorola Moto G35 5G,11999,81,TRUE,FALSE,FALSE,Unisoc T760,Unisoc,Octa Core,2.2,8,128,5000,18,6.72,1080,2400,392,120,2,1,50,16,Android,v14
+Samsung,Samsung Galaxy S24 5G,44999,87,TRUE,FALSE,TRUE,Snapdragon 8 Gen3,Snapdragon,Octa Core,3.3,8,256,4000,25,6.2,1080,2340,416,120,3,1,50,12,,
+Poco,Poco M7 Pro 5G,12499,78,TRUE,TRUE,FALSE,Dimensity 7025 Ultra,Dimensity,Octa Core,2.5,6,128,5110,45,6.67,1080,2400,395,120,2,1,50,20,Android,v14
+Infinix,Infinix Note 50S 5G,15999,79,TRUE,TRUE,FALSE,Dimensity 7300 Ultimate,Dimensity,Octa Core,2.5,8,128,5500,45,6.78,1080,2436,393,144,2,1,64,13,,
+Realme,Realme P3 Pro 5G,18999,81,TRUE,FALSE,FALSE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,12,256,6000,80,6.83,1272,2800,450,120,2,1,50,16,,
+Samsung,Samsung Galaxy S25 5G,74999,87,TRUE,FALSE,TRUE,Snapdragon 8Elite,Snapdragon,Octa Core,4.47,12,256,4000,25,6.2,1080,2340,416,120,3,1,50,12,,
+Tecno,Tecno Pova 7 5G,12499,76,TRUE,TRUE,TRUE,Dimensity 7300 Ultimate,Dimensity,Octa Core,2.5,8,128,6000,45,6.78,1080,2460,396,144,2,1,50,13,Android,v15
+Apple,Apple Iphone 16 Pro Max,119999,89,TRUE,FALSE,TRUE,Bionic A18 Pro,Bionic,Hexa Core,4.05,8,256,4685,,6.9,1320,2868,458,120,3,1,48,12,iOS,v18
+Motorola,Motorola Moto G96 5G,17897,80,TRUE,FALSE,FALSE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,8,256,5500,33,6.67,1080,2400,395,144,2,1,50,32,Android,v15
+Samsung,Samsung Galaxy M06,8999,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,25,6.74,720,1600,260,90,2,1,50,8,Android,v15
+Motorola,Motorola Edge 60 5G,26490,88,TRUE,FALSE,TRUE,Dimensity 7400,Dimensity,Octa Core,2.6,12,256,5500,68,6.7,1220,2712,444,120,3,1,50,50,Android,v15
+Nothing,Nothing Phone 3A Pro,26400,84,TRUE,FALSE,TRUE,Snapdragon 7s Gen 3,Snapdragon,Octa Core,2.5,8,128,5000,50,6.77,1080,2392,388,120,3,1,50,50,Android,v15
+Samsung,Samsung Galaxy A36 5G,28499,81,TRUE,FALSE,TRUE,Snapdragon 6 Gen3,Snapdragon,Octa Core,2.4,8,128,5000,45,6.7,1080,2340,385,120,3,1,50,12,,
+Realme,Realme Narzo 80 Lite 5G,10499,71,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,6000,15,6.67,720,1604,264,120,2,1,32,8,Android,v15
+Xiaomi,Xiaomi 14 Civi,29249,88,TRUE,TRUE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,12,512,4700,67,6.55,1236,2750,460,120,3,2,50,32,,
+Samsung,Samsung Galaxy A35 5G,19999,83,TRUE,FALSE,TRUE,Exynos 1380,Exynos,Octa Core,2.4,8,256,5000,25,6.6,1080,2340,390,120,3,1,50,13,Android,v14
+Nothing,Nothing Phone 3 5G,44298,90,TRUE,FALSE,TRUE,Snapdragon 8s Gen4,Snapdragon,Octa Core,3.2,12,256,5500,65,6.67,1260,2800,460,120,3,1,50,50,,
+Xiaomi,Xiaomi Redmi A4 5G,7499,69,TRUE,FALSE,FALSE,Snapdragon 4s Gen2,Snapdragon,Octa Core,2,4,64,5160,18,6.88,720,1640,260,120,2,1,50,5,Android,v14
+Xiaomi,Xiaomi Redmi Note 14 Pro Plus,25892,83,TRUE,TRUE,TRUE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,8,128,6200,90,6.67,1220,2712,446,120,3,1,50,20,Android,v14
+Realme,Realme 15T 5G,20499,82,TRUE,TRUE,FALSE,Dimensity 6400 Max,Dimensity,Octa Core,2.5,8,128,7000,60,6.57,1080,2372,397,120,2,1,50,50,Android,v15
+Vivo,Vivo Y400 5G,21998,79,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,8,128,6000,90,6.67,1080,2400,395,120,2,1,50,32,,
+Poco,Poco X6 5G,16999,81,TRUE,TRUE,FALSE,Snapdragon 7s Gen 2,Snapdragon,Octa Core,2.4,12,256,5100,67,6.67,1220,2712,446,120,3,1,64,16,,
+Motorola,Motorola Moto G06 Power,7499,68,FALSE,FALSE,FALSE,Helio G81,Helio,Octa Core,2,4,64,7000,,6.88,720,1640,260,120,1,1,50,8,Android,v15
+Samsung,Samsung Galaxy A56 5G,35999,83,TRUE,FALSE,TRUE,Exynos 1580,Exynos,Octa Core,2.9,8,128,5000,45,6.7,1080,2340,385,120,3,1,50,12,,
+Ai+,Ai+ Pulse,5499,68,FALSE,FALSE,FALSE,Unisoc T615,Unisoc,Octa Core,1.8,4,64,5000,10,6.75,720,1600,260,90,1,1,50,5,Android,v15
+Oppo,Oppo Reno 13 5G,28990,85,TRUE,TRUE,TRUE,Dimensity 8350,Dimensity,Octa Core,3.35,8,256,5600,80,6.59,1256,2760,460,120,3,1,50,50,,
+Vivo,Vivo T4 Ultra,37199,85,TRUE,FALSE,TRUE,Dimensity 9300 Plus,Dimensity,Octa Core,3.25,8,256,5500,90,6.67,1260,2800,460,120,3,1,50,32,Android,v15
+Peace,Peace Mini 4,4649,40,FALSE,FALSE,FALSE,Helio,Helio,Single Core,1.3,32,3,2000,,3.75,412,960,279,60,1,,8,,,
+Realme,Realme P3X 5G,12998,79,TRUE,FALSE,FALSE,Dimensity 6400,Dimensity,Octa Core,2.5,8,128,6000,45,6.72,1080,2400,392,120,2,1,50,8,Android,v15
+Vivo,Vivo V60E,33999,87,TRUE,TRUE,TRUE,Dimensity 7360 Turbo,Dimensity,Octa Core,2.5,12,256,6500,90,6.77,1080,2392,388,120,2,1,200,50,Android,v15
+Honor,Honor X9C,21999,82,TRUE,TRUE,TRUE,Snapdragon 6 Gen1,Snapdragon,Octa Core,2.2,8,256,6600,66,6.78,1224,2700,437,60,2,1,108,16,,
+Realme,Realme 15 5G,22999,74,TRUE,FALSE,FALSE,Dimensity 7300 Plus,Dimensity,Octa Core,,8,128,7000,80,6.8,1280,2800,453,144,2,1,50,50,,
+Oneplus,Oneplus 13,61999,91,TRUE,TRUE,TRUE,Snapdragon 8 Elite,Snapdragon,Octa Core,4.32,12,256,6000,100,6.82,1440,3168,510,120,3,1,50,32,Android,v15
+Google,Google Pixel 9,54999,87,TRUE,FALSE,TRUE,Tensor G4,Tensor,Octa Core,3.1,12,256,4700,27,6.3,1080,2424,421,120,2,1,50,10.5,,
+Vivo,Vivo T4X 5G,14499,77,TRUE,TRUE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,128,6500,44,6.72,1080,2408,393,120,2,1,50,8,Android,v15
+Motorola,Motorola Moto G45 5G,12160,79,TRUE,FALSE,FALSE,Snapdragon 6s Gen3,Snapdragon,Octa Core,2.3,8,128,5000,20,6.5,720,1600,270,120,2,1,50,16,Android,v14
+Motorola,Motorola Moto G64 5G,13295,82,TRUE,FALSE,FALSE,Dimensity 7025,Dimensity,Octa Core,2.5,8,128,6000,33,6.5,1080,2400,405,120,2,1,50,16,Android,v14
+Xiaomi,Xiaomi Redmi Note 14,16599,85,TRUE,TRUE,TRUE,Dimensity 7025 Ultra,Dimensity,Octa Core,2.5,8,256,5110,45,6.67,1080,2400,395,120,3,1,50,20,Android,v14
+Vivo,Vivo T3 Ultra,24490,82,TRUE,FALSE,FALSE,Dimensity 9200 Plus,Dimensity,Octa Core,3.35,8,128,5500,80,6.78,1260,2800,453,120,2,1,50,50,,
+Google,Google Pixel 9A,43499,84,TRUE,FALSE,TRUE,Tensor G4,Tensor,Octa Core,3.1,8,256,5100,23,6.3,1080,2424,421,120,2,1,48,13,Android,v15
+Motorola,Motorola Edge 50 Fusion,18696,83,TRUE,FALSE,TRUE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,8,128,5000,68,6.67,1080,2400,395,144,2,1,50,32,Android,v14
+Oppo,Oppo K13,19386,78,TRUE,TRUE,FALSE,Snapdragon 6 Gen4,Snapdragon,Octa Core,2.3,8,256,7000,80,6.67,1080,2400,395,120,2,1,50,16,,
+Xiaomi,Xiaomi Redmi 15 5G,16998,79,TRUE,TRUE,FALSE,Snapdragon 6s Gen3,Snapdragon,Octa Core,2.3,8,256,7000,33,6.9,1080,2340,374,144,2,1,50,8,Android,v15
+Cmf,Cmf Phone 2 Pro 5G,18900,84,TRUE,FALSE,FALSE,Dimensity 7300 Pro,Dimensity,Octa Core,2.5,8,256,5000,33,6.77,1080,2392,388,120,3,1,50,16,Android,v15
+Motorola,Motorola Edge 50 Pro,23500,86,TRUE,FALSE,TRUE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,12,256,4500,125,6.7,1220,2712,444,144,3,1,50,50,,
+Apple,Apple Iphone 17 Pro,134900,82,TRUE,FALSE,TRUE,Apple A19 Pro,Apple,Hexa Core,,12,256,3988,,6.3,1206,2622,458,120,3,1,48,18,iOS,v26
+Realme,Realme P4 5G,20999,80,TRUE,TRUE,FALSE,Dimensity 7400 Ultra,Dimensity,Octa Core,2.6,8,256,7000,80,6.77,1080,2392,388,144,2,1,50,16,,
+Vivo,Vivo V60 5G,38999,87,TRUE,TRUE,TRUE,Snapdragon 7 Gen4,Snapdragon,Octa Core,2.8,8,256,6500,90,6.77,1080,2392,388,120,3,1,50,50,Android,v15
+Iqoo,Iqoo Z10 Lite,9998,71,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,6000,15,6.74,720,1600,260,90,2,1,50,5,,
+Poco,Poco M7 5G,9498,77,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,8,128,5160,18,6.88,720,1640,260,120,1,1,50,8,Android,v14
+Motorola,Motorola Moto G85 5G,16096,80,TRUE,FALSE,FALSE,Snapdragon 6s Gen3,Snapdragon,Octa Core,2.3,8,128,5000,33,6.67,1080,2400,395,120,2,1,50,32,Android,v14
+Vivo,Vivo T4 5G,22999,80,TRUE,TRUE,FALSE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,8,256,7300,90,6.77,1080,2392,388,120,2,1,50,32,Android,v15
+Oppo,Oppo F31 Pro Plus 5G,32999,82,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,256,7000,80,6.8,1280,2800,453,120,2,1,50,32,,
+Oppo,Oppo K13X 5G,13482,78,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,6000,45,6.67,720,1604,264,120,2,1,50,8,Android,v15
+Poco,Poco C75 5G,7299,69,TRUE,FALSE,FALSE,Snapdragon 4s Gen2,Snapdragon,Octa Core,2,4,64,5160,18,6.88,720,1650,262,120,2,1,50,5,Android,v14
+Samsung,Samsung Galaxy F36 5G,17499,83,TRUE,FALSE,TRUE,Exynos 1380,Exynos,Octa Core,2.4,8,256,5000,25,6.7,1080,2340,385,120,3,1,50,13,Android,v15
+Apple,Apple Iphone 13,43900,76,TRUE,FALSE,TRUE,Bionic A15,Bionic,Hexa Core,3.22,4,128,3240,,6.1,1170,2532,457,60,2,1,12,12,iOS,v15
+Oneplus,Oneplus Nord Ce 5 5G,28998,84,TRUE,TRUE,FALSE,Dimensity 8350 Apex,Dimensity,Octa Core,3.35,12,256,7100,80,6.77,1080,2392,388,120,2,1,50,16,Android,v15
+Realme,Realme Narzo 80 Lite,10749,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,6000,15,6.67,720,1604,264,120,2,1,32,8,Android,v15
+Iqoo,Iqoo Z10X 5G,15998,78,TRUE,TRUE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,256,6500,44,6.72,1080,2408,393,120,2,1,50,8,,
+Vivo,Vivo Y31 Pro 5G,20999,68,TRUE,TRUE,FALSE,Dimensity 7300,Dimensity,Octa Core,,8,256,6500,44,6.72,1080,2408,393,120,2,1,50,8,,
+Realme,Realme P3 Ultra,23999,82,TRUE,TRUE,FALSE,Dimensity 8350 Ultra,Dimensity,Octa Core,3.35,12,256,6000,80,6.83,1272,2800,450,120,2,1,50,16,Android,v15
+Poco,Poco M6 Plus 5G,10299,81,TRUE,TRUE,FALSE,Snapdragon 4 Gen2 AE,Snapdragon,Octa Core,2.3,8,128,5030,33,6.79,1080,2460,396,120,2,1,108,13,Android,v14
+Samsung,Samsung Galaxy S24 5G,46300,86,TRUE,FALSE,TRUE,Exynos 2400,Exynos,Deca Core,3.2,8,256,4000,25,6.2,1080,2340,416,120,3,1,50,12,,
+Google,Google Pixel 6 Pro,29899,86,TRUE,FALSE,TRUE,Tensor,Tensor,Octa Core,2.8,12,128,5003,30,6.71,1440,3120,512,120,3,1,50,11.1,,
+Vivo,Vivo T4 Pro 5G,29449,83,TRUE,TRUE,FALSE,Snapdragon 7 Gen4,Snapdragon,Octa Core,2.8,8,256,6500,90,6.77,1080,2392,388,120,3,1,50,32,,
+Motorola,Motorola Edge 60 Pro,30015,81,TRUE,FALSE,TRUE,Dimensity 8350 Extreme,Dimensity,Octa Core,3.35,12,256,6000,90,6.7,1220,2712,444,120,3,1,50,50,,
+Realme,Realme Gt 7 Pro 5G,46398,88,TRUE,TRUE,TRUE,Snapdragon 8 Elite,Snapdragon,Octa Core,4.32,12,256,5800,120,6.78,1264,2780,450,120,3,1,50,16,Android,v15
+Oneplus,Oneplus Nord 5,36999,86,TRUE,TRUE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,12,512,6800,80,6.83,1272,2800,450,144,2,1,50,50,,
+Vivo,Vivo T4 Lite 5G,10999,75,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,6000,15,6.74,720,1600,260,90,2,1,50,5,Android,v15
+Iqoo,Iqoo Neo 10,35998,85,TRUE,TRUE,TRUE,Snapdragon 8s Gen4,Snapdragon,Octa Core,3.2,12,256,7000,120,6.78,1260,2800,453,144,2,1,50,32,,
+Oppo,Oppo A5X 5G,12499,69,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,6000,45,6.67,720,1604,264,120,1,1,32,5,Android,v15
+Iqoo,Iqoo Neo 10R,28998,81,TRUE,TRUE,FALSE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,8,256,6400,80,6.78,1260,2800,453,144,2,1,50,32,,
+Realme,Realme P3 5G,16639,79,TRUE,FALSE,TRUE,Snapdragon 6 Gen4,Snapdragon,Octa Core,2.3,6,128,6000,45,6.67,1080,2400,395,120,2,1,50,16,,
+Infinix,Infinix Gt 30 Pro,24900,86,TRUE,TRUE,TRUE,Dimensity 8350 Ultimate,Dimensity,Octa Core,3.35,8,256,5500,45,6.78,1224,2720,440,144,2,1,108,13,,
+Xiaomi,Xiaomi Redmi Note 14,16498,82,TRUE,TRUE,TRUE,Dimensity 7025 Ultra,Dimensity,Octa Core,2.5,6,128,5110,45,6.67,1080,2400,395,120,3,1,50,20,Android,v14
+Poco,Poco M7 Pro 5G,14499,80,TRUE,TRUE,FALSE,Dimensity 7025 Ultra,Dimensity,Octa Core,2.5,8,256,5110,45,6.67,1080,2400,395,120,2,1,50,20,Android,v14
+Realme,Realme 14 Pro Plus 5G,26990,83,TRUE,FALSE,FALSE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,8,128,6000,80,6.83,1272,2800,450,120,3,1,50,32,Android,v15
+Google,Google Pixel 10 5G,69960,79,TRUE,FALSE,TRUE,Tensor G5,Tensor,Octa Core,,12,256,4970,30,6.3,1080,2424,421,120,3,1,48,10.5,,
+Samsung,Samsung Galaxy M35 5G,17985,79,TRUE,FALSE,TRUE,Exynos 1380,Exynos,Octa Core,2.4,6,128,6000,25,6.6,1080,2340,390,120,3,1,50,13,Android,v14
+Samsung,Samsung Galaxy Z Fold 7,216999,97,TRUE,FALSE,TRUE,Snapdragon 8 Elite for Galaxy,Snapdragon,Octa Core,4.47,16,1,4400,25,8,1968,2184,367,120,2,,,,Android,v16
+Ai+,Ai+ Nova 5G,7999,67,TRUE,FALSE,FALSE,Unisoc T8200,Unisoc,Octa Core,,6,128,5000,18,6.75,720,1600,260,120,2,1,50,5,Android,v15
+Tecno,Tecno Pova Curve 5G,14599,78,TRUE,TRUE,TRUE,Dimensity 7300 Ultimate,Dimensity,Octa Core,2.5,6,128,5500,45,6.78,1080,2436,393,144,2,1,64,13,,
+Poco,Poco X7 5G,16999,82,TRUE,TRUE,TRUE,Dimensity 7300 Ultra,Dimensity,Octa Core,2.5,8,256,5500,45,6.67,1220,2712,446,120,3,1,50,20,,
+Vivo,Vivo V50E 5G,23876,81,TRUE,FALSE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,128,5600,90,6.77,1080,2392,388,120,2,1,50,50,Android,v15
+Vivo,Vivo X200 5G,65999,89,TRUE,TRUE,TRUE,Dimensity 9400,Dimensity,Octa Core,3.63,12,256,5800,90,6.67,1260,2800,460,120,3,1,50,32,Android,v15
+Apple,Apple Iphone 14,46999,79,TRUE,FALSE,TRUE,Bionic A15,Bionic,Hexa Core,3.22,6,128,3279,,6.1,1170,2532,457,60,2,1,12,12,iOS,v16
+Vivo,Vivo V60 5G,40999,87,TRUE,TRUE,TRUE,Snapdragon 7 Gen4,Snapdragon,Octa Core,2.8,12,256,6500,90,6.77,1080,2392,388,120,3,1,50,50,Android,v15
+Oneplus,Oneplus Nord 5,33999,85,TRUE,TRUE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,12,256,6800,80,6.83,1272,2800,450,144,2,1,50,50,,
+Poco,Poco M7 Plus 5G,10990,74,TRUE,TRUE,FALSE,Snapdragon 6s Gen3,Snapdragon,Octa Core,2.3,4,128,7000,33,6.9,1080,2340,374,144,1,1,50,8,Android,v15
+Samsung,Samsung Galaxy F06 5G,8999,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,25,6.7,720,1600,262,60,2,1,50,8,Android,v15
+Apple,Apple Iphone 16,76490,85,TRUE,FALSE,TRUE,Bionic A18,Bionic,Hexa Core,4.04,8,256,3561,,6.1,1179,2556,461,60,2,1,48,12,iOS,v18
+Oppo,Oppo F29 Pro 5G,21399,78,TRUE,FALSE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,128,6000,80,6.7,1080,2412,394,120,2,1,50,16,,
+Realme,Realme Narzo 80X 5G,11488,76,TRUE,FALSE,FALSE,Dimensity 6400,Dimensity,Octa Core,2.5,6,128,6000,45,6.72,1080,2400,392,120,2,1,50,8,Android,v15
+Vivo,Vivo V40 Pro,43999,87,TRUE,FALSE,FALSE,Dimensity 9200 Plus,Dimensity,Octa Core,3.35,8,256,5500,80,6.78,1260,2800,453,120,3,1,50,50,Android,v14
+Xiaomi,Xiaomi Redmi Note 13 Pro 5G,19999,82,TRUE,TRUE,FALSE,Snapdragon 7s Gen 2,Snapdragon,Octa Core,2.4,8,256,5100,67,6.67,1220,2712,446,120,3,1,200,16,,
+Samsung,Samsung Galaxy S22 Ultra 5G,65999,92,TRUE,FALSE,TRUE,Snapdragon 8 Gen1,Snapdragon,Octa Core,3,12,256,5000,45,6.8,1440,3080,500,120,4,1,108,40,,
+Tecno,Tecno Pova Slim 5G,19999,77,TRUE,TRUE,FALSE,Dimensity 6400,Dimensity,Octa Core,2.5,8,128,5160,45,6.78,1224,2720,440,144,2,1,50,13,,
+Samsung,Samsung Galaxy M17 5G,15999,80,TRUE,FALSE,TRUE,Exynos 1330,Exynos,Octa Core,2.4,8,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v15
+Oppo,Oppo K13 Turbo,26940,81,TRUE,TRUE,FALSE,Dimensity 8450,Dimensity,Octa Core,3.25,8,256,7000,80,6.8,1280,2800,453,120,2,1,50,16,Android,v15
+Iqoo,Iqoo Z10R,20731,82,TRUE,FALSE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.6,12,256,5700,44,6.77,1080,2392,388,120,2,1,50,32,Android,v15
+Realme,Realme P3 Lite 5G,11499,75,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,6000,45,6.67,720,1604,264,120,2,1,32,8,Android,v15
+Iqoo,Iqoo 13,59999,90,TRUE,TRUE,TRUE,Snapdragon 8 Elite,Snapdragon,Octa Core,4.32,16,512,6000,120,6.82,1440,3168,510,144,3,1,50,32,,
+Peace,Peace Mini 5,4649,37,FALSE,FALSE,FALSE,Helio,Helio,Single Core,1.3,3,32,2000,,3.75,412,960,279,60,1,,8,,,
+Samsung,Samsung Galaxy S25 Ultra,114700,93,TRUE,FALSE,TRUE,Snapdragon 8 Elite for Galaxy,Snapdragon,Octa Core,4.47,12,512,5000,45,6.9,1440,3120,498,120,4,1,200,12,Android,v15
+Poco,Poco X7 Pro,24499,84,TRUE,TRUE,TRUE,Dimensity 8400 Ultra,Dimensity,Octa Core,3.25,12,256,6550,90,6.67,1220,2712,446,120,2,1,50,20,,
+Samsung,Samsung Galaxy A55 5G,25999,85,TRUE,FALSE,TRUE,Exynos 1480,Exynos,Octa Core,2.7,8,256,5000,25,6.6,1080,2340,390,120,3,1,50,32,Android,v14
+Apple,Apple Iphone 15,62499,82,TRUE,FALSE,TRUE,Bionic A16,Bionic,Hexa Core,3.46,6,256,3349,,6.1,1179,2556,461,60,2,1,48,12,iOS,v17
+Google,Google Pixel 8A,34999,76,TRUE,FALSE,TRUE,Tensor G3,Tensor,Nine Core,3,8,128,4492,,6.1,1080,2400,431,120,2,1,64,13,Android,v14
+Motorola,Motorola Edge 20 Fusion 5G,16499,87,TRUE,FALSE,TRUE,Dimensity 800U,Dimensity,Octa Core,2.4,8,128,5000,30,6.67,1080,2400,395,90,3,1,108,32,Android,v11
+Realme,Realme 15X 5G,18999,81,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,7000,60,6.81,720,1570,254,144,2,1,50,50,Android,v15
+Realme,Realme 15 Pro 5G,30999,85,TRUE,FALSE,FALSE,Snapdragon 7 Gen4,Snapdragon,Octa Core,2.8,8,256,7000,80,6.8,1280,2800,453,144,2,1,50,50,,
+Vivo,Vivo X200 Fe,59998,90,TRUE,TRUE,TRUE,Dimensity 9300 Plus,Dimensity,Octa Core,3.25,16,512,6500,90,6.31,1216,2640,461,120,3,1,50,50,Android,v15
+Vivo,Vivo T4 Lite 5G,12999,78,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,6000,15,6.74,720,1600,260,90,2,1,50,5,Android,v15
+Samsung,Samsung Galaxy M06,7499,70,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,64,5000,25,6.74,720,1600,260,90,2,1,50,8,Android,v15
+Poco,Poco C71,6799,71,FALSE,FALSE,FALSE,Unisoc T7250,Unisoc,Octa Core,1.8,6,128,5200,15,6.88,720,1640,260,120,2,1,32,8,Android,v15
+Samsung,Samsung Galaxy M56 5G,20999,79,TRUE,FALSE,FALSE,Exynos 1480,Exynos,Octa Core,2.7,8,128,5000,45,6.74,1080,2340,382,120,3,1,50,12,,
+Apple,Apple Iphone 16 Plus,76590,82,TRUE,FALSE,TRUE,Bionic A18,Bionic,Hexa Core,4.04,8,128,4674,,6.7,1290,2796,460,60,2,1,48,12,iOS,v18
+Samsung,Samsung Galaxy M17 5G,14499,79,TRUE,FALSE,TRUE,Exynos 1330,Exynos,Octa Core,2.4,6,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v15
+Realme,Realme Narzo 80 Lite 4G,6799,64,FALSE,FALSE,FALSE,Unisoc T7250,Unisoc,Octa Core,1.8,4,128,6300,15,6.74,720,1600,260,90,1,1,13,5,Android,v15
+Infinix,Infinix Note 50S 5G,14999,77,TRUE,TRUE,FALSE,Dimensity 7300 Ultimate,Dimensity,Octa Core,2.5,6,128,5500,45,6.78,1080,2436,393,144,2,1,64,13,,
+Nothing,Nothing Phone 3A,24999,84,TRUE,FALSE,TRUE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,8,256,5000,50,6.77,1080,2392,388,120,3,1,50,32,,
+Oneplus,Oneplus 13R,44999,88,TRUE,TRUE,TRUE,Snapdragon 8 Gen3,Snapdragon,Octa Core,3.3,16,512,6000,80,6.78,1264,2780,450,120,3,1,50,16,Android,v15
+Google,Google Pixel 10 Pro,109999,83,TRUE,FALSE,TRUE,Tensor G5,Tensor,Octa Core,,16,256,4870,30,6.3,1280,2856,497,120,3,1,50,42,,
+Infinix,Infinix Note 50X 5G,11499,74,TRUE,TRUE,FALSE,Dimensity 7300 Ultimate,Dimensity,Octa Core,2.5,6,128,5500,45,6.67,720,1600,263,120,2,1,50,8,Android,v15
+Samsung,Samsung Galaxy F17 5G,13400,76,TRUE,FALSE,TRUE,Exynos 1330,Exynos,Octa Core,2.4,4,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v15
+Oppo,Oppo F31 5G,24999,78,TRUE,TRUE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,7000,80,6.57,1080,2412,402,120,2,1,50,16,,
+Apple,Apple Iphone 15 Plus,66390,82,TRUE,FALSE,TRUE,Bionic A16,Bionic,Hexa Core,3.46,6,128,4383,,6.7,1290,2796,460,60,2,1,48,12,iOS,v17
+Realme,Realme P4 Pro 5G,28499,74,TRUE,TRUE,FALSE,Snapdragon 7 Gen 4,Snapdragon,Octa Core,,8,256,7000,80,6.8,1280,2800,453,144,2,1,50,50,,
+Realme,Realme P4 5G,18499,79,TRUE,TRUE,FALSE,Dimensity 7400 Ultra,Dimensity,Octa Core,2.6,8,128,7000,80,6.77,1080,2392,388,144,2,1,50,16,,
+Poco,Poco M7 Plus 5G,13999,79,TRUE,TRUE,FALSE,Snapdragon 6s Gen3,Snapdragon,Octa Core,2.3,8,128,7000,33,6.9,1080,2340,374,144,1,1,50,8,Android,v15
+Lava,Lava Play Ultra 5G,12999,79,TRUE,FALSE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,6,128,5000,33,6.67,1080,1920,330,120,2,1,64,13,Android,v15
+Poco,Poco F7 5G,33999,84,TRUE,TRUE,TRUE,Snapdragon 8s Gen4,Snapdragon,Octa Core,3.2,12,512,7550,90,6.83,1280,2772,447,120,2,1,50,20,Android,v15
+Oppo,Oppo Reno 14 5G,39998,87,TRUE,TRUE,FALSE,Dimensity 8350,Dimensity,Octa Core,3.35,12,256,6000,80,6.59,1256,2760,460,120,3,1,50,50,,
+Vivo,Vivo T4 5G,24999,81,TRUE,TRUE,FALSE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,12,256,7300,90,6.77,1080,2392,388,120,2,1,50,32,Android,v15
+Iqoo,Iqoo Z10X 5G,14498,77,TRUE,TRUE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,128,6500,44,6.72,1080,2408,393,120,2,1,50,8,,
+Apple,Apple Iphone 16 Pro,109999,88,TRUE,FALSE,TRUE,Bionic A18 Pro,Bionic,Hexa Core,4.05,8,256,3582,,6.3,1206,2622,458,120,3,1,48,12,iOS,v18
+Oneplus,Oneplus Nord Ce 4 5G,21999,81,TRUE,TRUE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,256,5500,100,6.7,1080,2412,394,120,2,1,50,16,Android,v14
+Samsung,Samsung Galaxy S24 Ultra,89999,93,TRUE,FALSE,TRUE,Snapdragon 8 Gen3,Snapdragon,Octa Core,3.3,12,512,5000,45,6.8,1440,3120,505,120,4,1,200,12,Android,v14
+Motorola,Motorola Moto Edge 50 Neo,21988,85,TRUE,FALSE,TRUE,Dimensity 7300,Dimensity,Octa Core,2.5,8,256,4310,68,6.4,1220,2712,465,120,3,1,50,32,,
+Realme,Realme Gt 7,39999,89,TRUE,TRUE,TRUE,Dimensity 9400e,Dimensity,Octa Core,3.4,12,256,7000,120,6.78,1264,2780,450,120,3,1,50,32,Android,v15
+Poco,Poco F6 Deadpool Limited Edition,21999,83,TRUE,TRUE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,12,256,5000,90,6.67,1220,2712,446,120,2,1,50,20,Android,v14
+Xiaomi,Xiaomi Redmi 14C 5G,8998,71,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,4,64,5160,18,6.88,720,1640,260,120,2,1,50,8,Android,v14
+Xiaomi,Xiaomi Redmi Note 13 Pro Plus 5G,27999,84,TRUE,TRUE,TRUE,Dimensity 7200 Ultra,Dimensity,Octa Core,2.8,8,256,5000,120,6.67,1220,2712,446,120,3,1,200,16,Android,v13
+Vivo,Vivo Y31 5G,16499,64,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,,6,128,6500,44,6.68,720,1620,265,120,2,1,50,8,,
+Xiaomi,Xiaomi Redmi A4 5G,8999,72,TRUE,FALSE,FALSE,Snapdragon 4s Gen2,Snapdragon,Octa Core,2,6,128,5160,18,6.88,720,1640,260,120,2,1,50,5,Android,v14
+Oppo,Oppo A5 Pro 5G,17998,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5800,45,6.67,720,1604,264,120,2,1,50,8,,
+Oneplus,Oneplus 13,83999,93,TRUE,TRUE,TRUE,Snapdragon 8 Elite,Snapdragon,Octa Core,4.32,24,1,6000,100,6.82,1440,3168,510,120,3,1,50,32,Android,v15
+Oppo,Oppo F27 Pro Plus 5G,21899,79,TRUE,FALSE,FALSE,Dimensity 7050,Dimensity,Octa Core,2.6,8,256,5000,67,6.7,1080,2412,394,120,2,1,64,8,,
+Tecno,Tecno Pova 7 Pro 5G,18999,79,TRUE,TRUE,TRUE,Dimensity 7300 Ultimate,Dimensity,Octa Core,2.5,8,128,6000,45,6.78,1224,2720,440,144,2,1,64,13,,
+Google,Google Pixel 7 Pro 5G,35990,87,TRUE,FALSE,TRUE,Tensor G2,Tensor,Octa Core,2.85,12,128,5000,30,6.7,1440,3120,513,120,3,1,50,10.8,,
+Vivo,Vivo T4R 5G,23599,81,TRUE,FALSE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.6,8,256,5700,44,6.77,1080,2392,388,120,2,1,50,32,Android,v15
+Oppo,Oppo Reno 14 Pro 5G,54999,91,TRUE,TRUE,TRUE,Dimensity 8450,Dimensity,Octa Core,3.25,12,512,6200,80,6.83,1272,2800,450,120,3,1,50,50,,
+Iqoo,Iqoo Neo 10,33998,84,TRUE,TRUE,TRUE,Snapdragon 8s Gen4,Snapdragon,Octa Core,3.2,8,256,7000,120,6.78,1260,2800,453,144,2,1,50,32,,
+Vivo,Vivo Y19 5G,11499,69,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5500,15,6.74,720,1600,260,90,2,1,13,5,Android,v15
+Apple,Apple Iphone 16E,52990,83,TRUE,FALSE,TRUE,Bionic A18,Bionic,Hexa Core,4.04,8,128,4005,,6.1,1170,2532,457,60,1,1,48,12,iOS,v18
+Motorola,Motorola Moto G45 5G,11395,74,TRUE,FALSE,FALSE,Snapdragon 6s Gen3,Snapdragon,Octa Core,2.3,4,128,5000,20,6.5,720,1600,270,120,2,1,50,16,Android,v14
+Hmd,Hmd Crest,9999,78,TRUE,FALSE,FALSE,Unisoc T760,Unisoc,Octa Core,2.2,6,128,5000,33,6.67,1080,2400,395,90,2,1,50,50,Android,v14
+Realme,Realme C61,6499,67,FALSE,FALSE,FALSE,Unisoc T612,Unisoc,Octa Core,1.8,4,64,5000,18,6.74,720,1600,260,90,1,1,32,5,Android,v14
+Oppo,Oppo Find X8 Pro 5G,99999,93,TRUE,TRUE,TRUE,Dimensity 9400,Dimensity,Octa Core,3.63,16,512,5910,80,6.78,1264,2780,450,120,4,1,50,32,,
+Honor,Honor 200,29999,85,TRUE,FALSE,TRUE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,256,5200,100,6.7,1200,2664,436,120,3,1,50,50,,
+Motorola,Motorola Edge 50 Ultra 5G,44900,90,TRUE,FALSE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,12,512,4500,125,6.7,1220,2712,444,144,3,1,64,50,,
+Lava,Lava Bold N1 5G,7499,67,TRUE,FALSE,FALSE,Unisoc T765,Unisoc,Octa Core,2.3,4,64,5000,10,6.75,720,1600,260,60,1,1,13,5,Android,v15
+Samsung,Samsung Galaxy Z Fold 7,174999,95,TRUE,FALSE,TRUE,Snapdragon 8 Elite for Galaxy,Snapdragon,Octa Core,4.47,12,256,4400,25,8,1968,2184,367,120,2,,,,Android,v16
+Samsung,Samsung Galaxy M05,6499,69,FALSE,FALSE,FALSE,Helio G85,Helio,Octa Core,2,4,64,5000,25,6.7,720,1600,262,60,2,1,50,8,Android,v14
+Samsung,Samsung Galaxy A16 5G,15899,80,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v14
+Vivo,Vivo Y31 Pro 5G,18999,68,TRUE,TRUE,FALSE,Dimensity 7300,Dimensity,Octa Core,,8,128,6500,44,6.72,1080,2408,393,120,2,1,50,8,,
+Apple,Apple Iphone 17 Pro Max,189900,83,TRUE,FALSE,TRUE,Apple A19 Pro,Apple,Hexa Core,,12,1,4832,,6.9,1320,2868,458,120,3,1,48,18,iOS,v26
+Samsung,Samsung Galaxy S25 Fe,65999,87,TRUE,FALSE,TRUE,Exynos 2400,Exynos,Deca Core,3.2,8,512,4900,45,6.7,1080,2340,385,120,3,1,50,12,Android,v16
+Samsung,Samsung Galaxy A17 5G,23499,81,TRUE,FALSE,TRUE,Exynos 1330,Exynos,Octa Core,2.4,8,256,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v15
+Realme,Realme 15 Pro Game Of Thrones Limited Edition,44999,87,TRUE,FALSE,FALSE,Snapdragon 7 Gen4,Snapdragon,Octa Core,2.8,12,512,7000,80,6.8,1280,2800,453,144,2,1,50,50,,
+Realme,Realme C71,6849,64,FALSE,FALSE,FALSE,Unisoc UMS9230E,Unisoc,Octa Core,1.8,4,64,6300,15,6.75,720,1600,260,90,1,1,13,5,Android,v15
+Realme,Realme Narzo 80X 5G,12999,78,TRUE,FALSE,FALSE,Dimensity 6400,Dimensity,Octa Core,2.5,8,128,6000,45,6.72,1080,2400,392,120,2,1,50,8,Android,v15
+Iqoo,Iqoo Neo 10R,30998,82,TRUE,TRUE,FALSE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,12,256,6400,80,6.78,1260,2800,453,144,2,1,50,32,,
+Motorola,Motorola Razr 60 5G,44999,89,TRUE,FALSE,TRUE,Dimensity 7400X,Dimensity,Octa Core,2.6,8,256,4500,30,6.9,1080,2640,413,120,2,,,,,
+Vivo,Vivo V40 5G,34999,83,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,128,5500,80,6.78,1260,2800,453,120,2,1,50,50,Android,v14
+Realme,Realme Gt 6,27999,85,TRUE,TRUE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,8,256,5500,120,6.78,1264,2780,450,120,3,1,50,32,Android,v14
+Samsung,Samsung Galaxy M55,22999,86,TRUE,FALSE,TRUE,Snapdragon 7 Gen1,Snapdragon,Octa Core,2.4,12,256,5000,45,6.67,1080,2400,395,120,3,1,50,50,Android,v14
+Samsung,Samsung Galaxy S23 Ultra 5G,79749,91,TRUE,FALSE,TRUE,Snapdragon 8 Gen 2,Snapdragon,Octa Core,3.36,12,256,5000,45,6.8,1440,3088,501,120,4,1,200,12,Android,v13
+Oppo,Oppo K13 Turbo Pro,35999,82,TRUE,TRUE,FALSE,Snapdragon 8s Gen4,Snapdragon,Octa Core,3.2,8,256,7000,80,6.8,1280,2800,453,120,2,1,50,16,Android,v15
+Samsung,Samsung Galaxy M36 5G,17499,80,TRUE,FALSE,FALSE,Exynos 1380,Exynos,Octa Core,2.4,8,256,5000,25,6.7,1080,2340,385,120,3,1,50,13,Android,v15
+Iqoo,Iqoo Z10 Lite 5G,12998,76,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,6000,15,6.74,720,1600,260,90,2,1,50,5,,
+Xiaomi,Xiaomi Redmi A5 4G,6099,67,FALSE,FALSE,FALSE,Unisoc T7250,Unisoc,Octa Core,1.8,3,64,5200,15,6.88,720,1650,262,120,1,1,32,8,Android,v15
+Nothing,Nothing Phone 3A Pro,28480,85,TRUE,FALSE,TRUE,Snapdragon 7s Gen 3,Snapdragon,Octa Core,2.5,8,256,5000,50,6.77,1080,2392,388,120,3,1,50,50,Android,v15
+Realme,Realme 14 Pro Plus,23990,84,TRUE,FALSE,FALSE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,8,256,6000,80,6.83,1272,2800,450,120,3,1,50,32,Android,v15
+Oppo,Oppo A5,15498,76,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,6000,45,6.67,720,1604,264,120,2,1,50,8,Android,v15
+Oppo,Oppo Reno 13 Pro 5G,36198,89,TRUE,TRUE,TRUE,Dimensity 8350,Dimensity,Octa Core,3.35,12,512,5800,80,6.83,1272,2800,450,120,3,1,50,50,,
+Realme,Realme 14X 5G,13499,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,6000,45,6.67,720,1604,264,120,2,1,50,8,Android,v14
+Oppo,Oppo F29,18999,77,TRUE,FALSE,FALSE,Snapdragon 6 Gen1,Snapdragon,Octa Core,2.2,8,128,6500,45,6.7,1080,2412,394,120,2,1,50,16,,
+Apple,Apple Iphone Air,119900,77,TRUE,FALSE,TRUE,Apple A19 Pro,Apple,Hexa Core,,8,256,3149,,6.5,1260,2736,463,60,1,1,48,18,iOS,v26
+Motorola,Motorola Moto G64 5G,16850,83,TRUE,FALSE,FALSE,Dimensity 7025,Dimensity,Octa Core,2.5,12,256,6000,33,6.5,1080,2400,405,120,2,1,50,16,Android,v14
+Xiaomi,Xiaomi Redmi 13 5G,11110,79,TRUE,TRUE,FALSE,Snapdragon 4 Gen 2 AE,Snapdragon,Octa Core,2.3,6,128,5030,33,6.79,1080,2460,396,120,2,1,108,13,Android,v14
+Xiaomi,Xiaomi 15,70989,90,TRUE,TRUE,TRUE,Snapdragon 8 Elite,Snapdragon,Octa Core,4.32,12,512,5240,90,6.36,1200,2670,460,120,3,1,50,32,,
+Oneplus,Oneplus Nord 4 5G,28499,83,TRUE,TRUE,TRUE,Snapdragon 7+ Gen3,Snapdragon,Octa Core,2.8,8,128,5500,100,6.74,1240,2772,451,120,2,1,50,16,,
+Peace,Peace Mini 3,3999,38,FALSE,FALSE,FALSE,Helio,Helio,Single Core,1.3,3,32,2000,,2.95,360,640,249,60,1,,8,,,
+Peace,Peace Mini 2,3999,36,FALSE,FALSE,FALSE,Helio,Helio,Single Core,1.3,3,32,2000,,2.95,360,640,249,60,1,,8,,,
+Oppo,Oppo F31 Pro 5G,28999,81,TRUE,FALSE,FALSE,Dimensity 7300 Energy,Dimensity,Octa Core,2.5,8,256,7000,80,6.57,1080,2372,397,120,2,1,50,32,,
+Realme,Realme 15 Pro 5G,34199,86,TRUE,FALSE,FALSE,Snapdragon 7 Gen4,Snapdragon,Octa Core,2.8,12,256,7000,80,6.8,1280,2800,453,144,2,1,50,50,,
+Tecno,Tecno Pova 7 Pro 5G,17999,80,TRUE,TRUE,TRUE,Dimensity 7300 Ultimate,Dimensity,Octa Core,2.5,8,256,6000,45,6.78,1224,2720,440,144,2,1,64,13,,
+Oppo,Oppo Reno 14 5G,42999,88,TRUE,TRUE,FALSE,Dimensity 8350,Dimensity,Octa Core,3.35,12,512,6000,80,6.59,1256,2760,460,120,3,1,50,50,,
+Realme,Realme 15X 5G,16999,80,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,7000,60,6.81,720,1570,254,144,2,1,50,50,Android,v15
+Infinix,Infinix Note 50S 5G,17999,79,TRUE,TRUE,FALSE,Dimensity 7300 Ultimate,Dimensity,Octa Core,2.5,8,256,5500,45,6.78,1080,2436,393,144,2,1,64,13,,
+Vivo,Vivo V50 5G,29999,84,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,256,6000,90,6.77,1080,2392,388,120,2,1,50,50,Android,v15
+Tecno,Tecno Pop 9 5G,9099,77,TRUE,TRUE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5000,18,6.67,720,1612,265,120,2,1,48,8,Android,v14
+Xiaomi,Xiaomi Redmi Note 14 Pro Plus,31249,85,TRUE,TRUE,TRUE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,12,512,6200,90,6.67,1220,2712,446,120,3,1,50,20,Android,v14
+Infinix,Infinix Hot 60 5G,10490,74,TRUE,FALSE,FALSE,Dimensity 7020,Dimensity,Octa Core,2.2,6,128,5200,18,6.7,720,1600,262,120,2,1,50,8,Android,v15
+Iqoo,Iqoo Z9S 5G,24998,81,TRUE,FALSE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,128,5500,44,6.77,1080,2392,388,120,2,1,50,16,,
+Motorola,Motorola Edge 50 Fusion,20805,84,TRUE,FALSE,TRUE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,12,256,5000,68,6.67,1080,2400,395,144,2,1,50,32,Android,v14
+Samsung,Samsung Galaxy F16 5G,11550,76,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v15
+Samsung,Samsung Galaxy F55 5G,18999,83,TRUE,FALSE,TRUE,Snapdragon 7 Gen1,Snapdragon,Octa Core,2.4,8,128,5000,45,6.7,1080,2400,393,120,3,1,50,50,Android,v14
+Xiaomi,Xiaomi Redmi Note 13 5G,14499,79,TRUE,TRUE,FALSE,Dimensity 6080,Dimensity,Octa Core,2.4,6,128,5000,33,6.67,1080,2400,395,120,3,1,108,16,Android,v13
+Vivo,Vivo T4 Pro 5G,31999,84,TRUE,TRUE,FALSE,Snapdragon 7 Gen4,Snapdragon,Octa Core,2.8,12,256,6500,90,6.77,1080,2392,388,120,3,1,50,32,,
+Infinix,Infinix Hot 60I 5G,9499,73,TRUE,TRUE,FALSE,Dimensity 6400,Dimensity,Octa Core,2.5,4,128,6000,45,6.75,720,1600,260,120,1,1,50,5,Android,v15
+Samsung,Samsung Galaxy F36 5G,16999,82,TRUE,FALSE,TRUE,Exynos 1380,Exynos,Octa Core,2.4,8,128,5000,25,6.7,1080,2340,385,120,3,1,50,13,Android,v15
+Nothing,Nothing Phone 3,52489,91,TRUE,FALSE,TRUE,Snapdragon 8s Gen4,Snapdragon,Octa Core,3.2,16,512,5500,65,6.67,1260,2800,460,120,3,1,50,50,,
+Vivo,Vivo Y400 Pro 5G,26998,80,TRUE,TRUE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,256,5500,90,6.77,1080,2392,388,120,2,1,50,32,,
+Infinix,Infinix Gt 30 Pro 5G,26490,87,TRUE,TRUE,TRUE,Dimensity 8350 Ultimate,Dimensity,Octa Core,3.35,12,256,5500,45,6.78,1224,2720,440,144,2,1,108,13,,
+Iqoo,Iqoo Neo 10,40998,87,TRUE,TRUE,TRUE,Snapdragon 8s Gen4,Snapdragon,Octa Core,3.2,16,512,7000,120,6.78,1260,2800,453,144,2,1,50,32,,
+Iqoo,Iqoo Z10 5G,22998,80,TRUE,TRUE,FALSE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,8,256,7300,90,6.77,1080,2392,388,120,2,1,50,32,Android,v15
+Realme,Realme Narzo 80 Pro 5G,21499,81,TRUE,FALSE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.6,12,256,6000,80,6.72,1080,2392,391,120,2,1,50,16,,
+Lava,Lava Bold 5G,10999,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,33,6.67,1080,2400,395,120,2,1,64,16,Android,v14
+Vivo,Vivo V50E,25999,82,TRUE,FALSE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,256,5600,90,6.77,1080,2392,388,120,2,1,50,50,Android,v15
+Samsung,Samsung Galaxy S25 Ultra,165999,94,TRUE,FALSE,TRUE,Snapdragon 8 Elite for Galaxy,Snapdragon,Octa Core,4.47,12,1,5000,45,6.9,1440,3120,498,120,4,1,200,12,Android,v15
+Oneplus,Oneplus 13,68999,92,TRUE,TRUE,TRUE,Snapdragon 8 Elite,Snapdragon,Octa Core,4.32,16,512,6000,100,6.82,1440,3168,510,120,3,1,50,32,Android,v15
+Vivo,Vivo Y29 5G,13999,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5500,44,6.68,720,1608,264,120,2,1,50,8,Android,v14
+Samsung,Samsung Galaxy A06 5G,8774,71,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,64,5000,25,6.7,720,1600,262,90,2,1,50,8,Android,v15
+Nothing,Nothing Phone 2A Plus,21439,84,TRUE,FALSE,TRUE,Dimensity 7350 Pro 5G,Dimensity,Octa Core,3,8,256,5000,50,6.7,1084,2412,395,120,2,1,50,50,,
+Realme,Realme P1 5G,13999,78,TRUE,FALSE,FALSE,Dimensity 7050,Dimensity,Octa Core,2.6,6,128,5000,45,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Motorola,Motorola Moto G05,7600,69,FALSE,FALSE,TRUE,Helio G81 Ultra,Helio,Octa Core,2,4,64,5200,18,6.67,720,1604,264,90,1,1,50,8,Android,v15
+Oneplus,Oneplus 12 5G,56440,90,TRUE,TRUE,TRUE,Snapdragon 8 Gen3,Snapdragon,Octa Core,3.3,12,256,5400,100,6.82,1440,3168,510,120,3,1,64,32,Android,v14
+Nothing,Nothing Phone 1,19999,83,TRUE,FALSE,TRUE,Snapdragon 778G Plus,Snapdragon,Octa Core,2.5,8,128,4500,33,6.55,1080,2400,402,120,2,1,50,16,,
+Samsung,Samsung Galaxy M52 5G,25199,81,TRUE,FALSE,TRUE,Snapdragon 778G,Snapdragon,Octa Core,2.4,6,128,5000,25,6.7,1080,2400,393,120,3,1,64,32,Android,v11
+Motorola,Motorola Moto G60,11499,82,FALSE,FALSE,TRUE,Snapdragon  732G,Snapdragon,Octa Core,2.3,6,128,6000,20,6.78,1080,2460,396,120,3,1,108,32,Android,v11
+Samsung,Samsung Galaxy F07,7299,69,FALSE,FALSE,FALSE,Helio G99,Helio,Octa Core,2.2,4,64,5000,25,6.7,720,1600,262,60,2,1,50,8,Android,v15
+Apple,Apple Iphone 17 Pro Max,229900,84,TRUE,FALSE,TRUE,Apple A19 Pro,Apple,Hexa Core,,12,2,4832,,6.9,1320,2868,458,120,3,1,48,18,iOS,v26
+Honor,Honor X7C 5G,13999,79,TRUE,FALSE,TRUE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,8,256,5200,35,6.8,1080,2412,389,90,2,1,50,5,Android,v14
+Tecno,Tecno Spark Go 5G,9999,71,TRUE,TRUE,FALSE,Dimensity 6400,Dimensity,Octa Core,2.5,4,128,6000,18,6.74,720,1600,260,120,1,1,50,5,Android,v15
+Samsung,Samsung Galaxy M36 5G,15499,79,TRUE,FALSE,FALSE,Exynos 1380,Exynos,Octa Core,2.4,8,128,5000,25,6.7,1080,2340,385,120,3,1,50,13,Android,v15
+Lava,Lava Storm Play 5G,10498,74,TRUE,FALSE,FALSE,Dimensity 7060,Dimensity,Octa Core,2.6,6,128,5000,18,6.75,720,1600,260,120,2,1,50,8,Android,v15
+Oneplus,Oneplus 13S,55999,88,TRUE,TRUE,TRUE,Snapdragon 8 Elite,Snapdragon,Octa Core,4.32,12,512,5850,80,6.32,1216,2640,460,120,2,1,50,32,Android,v15
+Realme,Realme C73,9599,70,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,64,6000,15,6.67,720,1604,264,120,2,1,32,8,Android,v15
+Poco,Poco C71,6199,67,FALSE,FALSE,FALSE,Unisoc T7250,Unisoc,Octa Core,1.8,4,64,5200,15,6.88,720,1640,260,120,2,1,32,8,Android,v15
+Realme,Realme Gt 7T,31999,85,TRUE,TRUE,TRUE,Dimensity 8400-MAX,Dimensity,Octa Core,3.25,8,256,7000,120,6.8,1280,2800,453,120,2,1,50,32,Android,v15
+Xiaomi,Xiaomi Redmi 14C 5G,10998,74,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,6,128,5160,18,6.88,720,1640,260,120,2,1,50,8,Android,v14
+Google,Google Pixel 10 Pro Xl,124999,84,TRUE,FALSE,TRUE,Tensor G5,Tensor,Octa Core,,16,256,5200,45,6.8,1344,2992,482,120,3,1,50,42,,
+Motorola,Motorola Moto G85 5G,19599,82,TRUE,FALSE,FALSE,Snapdragon 6s Gen3,Snapdragon,Octa Core,2.3,12,256,5000,33,6.67,1080,2400,395,120,2,1,50,32,Android,v14
+Google,Google Pixel 9 Pro Xl,89999,91,TRUE,FALSE,TRUE,Tensor G4,Tensor,Octa Core,3.1,16,256,5060,37,6.8,1344,2992,482,120,3,1,50,42,,
+Vivo,Vivo V30 Pro,36290,86,TRUE,FALSE,FALSE,Dimensity 8200,Dimensity,Octa Core,3.1,12,512,5000,80,6.78,1260,2800,453,120,3,1,50,50,,
+Samsung,Samsung Galaxy S25 Plus,89999,87,TRUE,FALSE,TRUE,Snapdragon 8Elite,Snapdragon,Octa Core,4.47,12,256,4900,45,6.7,1440,3120,513,120,3,1,50,12,,
+Vivo,Vivo T3 Pro 5G,22999,80,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,128,5500,80,6.77,1080,2392,388,120,2,1,50,16,Android,v14
+Samsung,Samsung Galaxy F17 5G,14900,79,TRUE,FALSE,TRUE,Exynos 1330,Exynos,Octa Core,2.4,6,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v15
+Realme,Realme 15T,22499,82,TRUE,TRUE,FALSE,Dimensity 6400 Max,Dimensity,Octa Core,2.5,8,256,7000,60,6.57,1080,2372,397,120,2,1,50,50,Android,v15
+Samsung,Samsung Galaxy M07 4G,6799,68,FALSE,FALSE,FALSE,Helio G99,Helio,Octa Core,2.2,4,64,5000,25,6.7,720,1600,262,60,2,1,50,8,Android,v15
+Samsung,Samsung Galaxy A17 5G,20499,81,TRUE,FALSE,TRUE,Exynos 1330,Exynos,Octa Core,2.4,8,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v15
+Vivo,Vivo X100 Pro,59999,91,TRUE,TRUE,TRUE,Dimensity 9300,Dimensity,Octa Core,3.25,16,512,5400,100,6.78,1260,2800,453,120,3,1,50,32,Android,v14
+Infinix,Infinix Gt 30 5G,18980,79,TRUE,TRUE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.6,8,128,5500,45,6.78,1224,2720,440,144,2,1,64,13,,
+Acer,Acer Super Zx 5G,9799,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,33,6.8,1080,2400,387,120,3,1,64,13,,
+Vivo,Vivo Y19 5G,12999,72,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5500,15,6.74,720,1600,260,90,2,1,13,5,Android,v15
+Iqoo,Iqoo Z10 5G,24998,81,TRUE,TRUE,FALSE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,12,256,7300,90,6.77,1080,2392,388,120,2,1,50,32,Android,v15
+Samsung,Samsung Galaxy A56 5G,40999,84,TRUE,FALSE,TRUE,Exynos 1580,Exynos,Octa Core,2.9,12,256,5000,45,6.7,1080,2340,385,120,3,1,50,12,,
+Samsung,Samsung Galaxy A36 5G,30999,82,TRUE,FALSE,TRUE,Snapdragon 6 Gen3,Snapdragon,Octa Core,2.4,8,256,5000,45,6.7,1080,2340,385,120,3,1,50,12,,
+Realme,Realme 14 Pro Plus,26999,85,TRUE,FALSE,FALSE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,12,256,6000,80,6.83,1272,2800,450,120,3,1,50,32,Android,v15
+Xiaomi,Xiaomi Redmi Note 14 Pro,23990,82,TRUE,TRUE,TRUE,Dimensity 7300 Ultra,Dimensity,Octa Core,2.5,8,256,5500,45,6.67,1220,2712,446,120,3,1,50,20,,
+Xiaomi,Xiaomi Redmi Note 14 Pro Plus,25980,84,TRUE,TRUE,TRUE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,8,256,6200,90,6.67,1220,2712,446,120,3,1,50,20,Android,v14
+Vivo,Vivo Y39 5G,16899,74,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,8,128,6500,44,6.68,720,1608,264,120,2,1,50,8,Android,v15
+Cmf,Cmf Phone,15401,78,TRUE,FALSE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,6,128,5000,33,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Nothing,Nothing Phone 2A,23998,83,TRUE,FALSE,TRUE,Dimensity 7200 Pro,Dimensity,Octa Core,2.8,8,128,5000,45,6.7,1084,2412,395,120,2,1,50,32,,
+Vivo,Vivo V30 Pro 5G,28494,85,TRUE,FALSE,FALSE,Dimensity 8200,Dimensity,Octa Core,3.1,8,256,5000,80,6.78,1260,2800,453,120,3,1,50,50,Android,v14
+Poco,Poco F6 5G,21890,82,TRUE,TRUE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,8,256,5000,90,6.67,1220,2712,446,120,2,1,50,20,Android,v14
+Samsung,Samsung Galaxy M55,19994,84,TRUE,FALSE,TRUE,Snapdragon 7 Gen1,Snapdragon,Octa Core,2.4,8,128,5000,45,6.67,1080,2400,395,120,3,1,50,50,Android,v14
+Oneplus,Oneplus 12R,39994,83,TRUE,TRUE,TRUE,Snapdragon 8 Gen2,Snapdragon,Octa Core,3.2,8,128,5500,100,6.78,1264,2780,450,120,3,1,50,16,,
+Poco,Poco X5 5G,14499,82,TRUE,TRUE,FALSE,Snapdragon 695,Snapdragon,Octa Core,2.2,8,256,5000,33,6.67,1080,2400,395,120,3,1,48,13,Android,v12
+Samsung,Samsung Galaxy S23 5G,44999,85,TRUE,FALSE,TRUE,Snapdragon 8 Gen 2,Snapdragon,Octa Core,3.36,8,128,3900,25,6.1,1080,2340,422,120,3,1,50,12,,
+Google,Google Pixel 7A,26970,84,TRUE,FALSE,TRUE,Tensor G2,Tensor,Octa Core,2.85,8,128,4385,18,6.1,1080,2400,431,90,2,1,64,13,Android,v13
+Tecno,Tecno Pova Curve 5G,18999,80,TRUE,TRUE,TRUE,Dimensity 7300 Ultimate,Dimensity,Octa Core,2.5,8,256,5500,45,6.78,1080,2436,393,144,2,1,64,13,,
+Realme,Realme P3 Lite 5G,10499,72,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,6000,45,6.67,720,1604,264,120,2,1,32,8,Android,v15
+Xiaomi,Xiaomi Redmi 15 5G,15998,79,TRUE,TRUE,FALSE,Snapdragon 6s Gen3,Snapdragon,Octa Core,2.3,8,128,7000,33,6.9,1080,2340,374,144,2,1,50,8,Android,v15
+Realme,Realme Gt 7,43999,89,TRUE,TRUE,TRUE,Dimensity 9400e,Dimensity,Octa Core,3.4,12,512,7000,120,6.78,1264,2780,450,120,3,1,50,32,Android,v15
+Nothing,Nothing Phone 3A Pro,31579,86,TRUE,FALSE,TRUE,Snapdragon 7s Gen 3,Snapdragon,Octa Core,2.5,12,256,5000,50,6.77,1080,2392,388,120,3,1,50,50,Android,v15
+Xiaomi,Xiaomi 14 Civi Limited Edition,36999,88,TRUE,TRUE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,12,512,4700,67,6.55,1236,2750,460,120,3,2,50,32,,
+Infinix,Infinix Zero 40 5G,25999,88,TRUE,TRUE,TRUE,Dimensity 8200 Ultimate,Dimensity,Octa Core,3.1,12,256,5000,45,6.78,1080,2400,388,144,3,1,108,50,,
+Hmd,Hmd Crest Max,11999,80,TRUE,FALSE,FALSE,Unisoc T760,Unisoc,Octa Core,2.2,8,256,5000,33,6.67,1080,2400,395,120,3,1,64,50,Android,v14
+Samsung,Samsung Galaxy F06 5G,8599,72,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,25,6.7,720,1600,262,60,2,1,50,8,Android,v15
+Oppo,Oppo Reno 12 Pro 5G,31500,87,TRUE,TRUE,TRUE,Dimensity 7300 Energy,Dimensity,Octa Core,2.5,12,256,5000,80,6.7,1080,2412,394,120,3,1,50,50,Android,v14
+Motorola,Motorola Edge 50 5G,21990,85,TRUE,FALSE,TRUE,Snapdragon 7 Gen1 AE,Snapdragon,Octa Core,2.5,8,256,5000,68,6.67,1220,2712,446,120,3,1,50,32,,
+Motorola,Motorola Edge 50 Pro 5G,25449,85,TRUE,FALSE,TRUE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,256,4500,68,6.7,1220,2712,444,144,3,1,50,50,,
+Lava,Lava Agni 3 5G,16999,81,TRUE,FALSE,FALSE,Dimensity 7300X,Dimensity,Octa Core,2.5,8,128,5000,66,6.78,1200,2652,429,120,2,,,,,
+Vivo,Vivo T3 5G,18499,80,TRUE,FALSE,FALSE,Dimensity 7200,Dimensity,Octa Core,2.8,8,128,5000,44,6.67,1080,2400,395,120,3,1,50,16,Android,v14
+Google,Google Pixel 8 5G,38999,75,TRUE,FALSE,TRUE,Tensor G3,Tensor,Nine Core,3,8,128,4575,30,6.2,1080,2400,424,120,2,1,50,10.5,,
+Google,Google Pixel 8 Pro,52999,79,TRUE,FALSE,TRUE,Tensor G3,Tensor,Nine Core,3,12,128,5050,30,6.7,1344,2992,490,120,3,1,50,10.5,,
+Samsung,Samsung Galaxy Z Flip 4,41370,86,TRUE,FALSE,TRUE,Snapdragon  8+ Gen1,Snapdragon,Octa Core,3.2,8,256,3700,25,6.7,1080,2640,426,120,2,,,,,
+Oneplus,Oneplus Nord Ce 3 5G,22999,81,TRUE,TRUE,TRUE,Snapdragon 782G,Snapdragon,Octa Core,2.7,8,128,5000,80,6.7,1080,2412,394,120,3,1,50,16,Android,v13
+Oneplus,Oneplus 9R 5G,22999,84,TRUE,FALSE,TRUE,Snapdragon 870,Snapdragon,Octa Core,3.2,8,128,4500,65,6.55,1080,2400,402,120,4,1,48,16,Android,v11
+Apple,Apple Iphone 17,102900,79,TRUE,FALSE,TRUE,Apple A19,Apple,Hexa Core,,8,512,3269,40,6.3,1206,2622,458,120,2,,48,,,
+Oppo,Oppo F31 Pro 5G,30999,82,TRUE,FALSE,FALSE,Dimensity 7300 Energy,Dimensity,Octa Core,2.5,12,256,7000,80,6.57,1080,2372,397,120,2,1,50,32,,
+Lava,Lava Play Ultra 5G,14499,80,TRUE,FALSE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,128,5000,33,6.67,1080,1920,330,120,2,1,64,13,Android,v15
+Vivo,Vivo V60 5G,45999,89,TRUE,TRUE,TRUE,Snapdragon 7 Gen4,Snapdragon,Octa Core,2.8,16,512,6500,90,6.77,1080,2392,388,120,3,1,50,50,Android,v15
+Vivo,Vivo Y400 5G,23998,79,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,8,256,6000,90,6.67,1080,2400,395,120,2,1,50,32,,
+Realme,Realme C71,7999,68,FALSE,FALSE,FALSE,Unisoc UMS9230E,Unisoc,Octa Core,1.8,6,128,6300,15,6.75,720,1600,260,90,1,1,13,5,Android,v15
+Samsung,Samsung Galaxy S25 Edge,89999,89,TRUE,FALSE,TRUE,Snapdragon 8Elite,Snapdragon,Octa Core,4.47,12,256,3900,25,6.7,1440,3120,513,120,2,1,200,12,,
+Samsung,Samsung Galaxy A26 5G,23999,82,TRUE,FALSE,TRUE,Exynos 1380,Exynos,Octa Core,2.4,8,128,5000,25,6.7,1080,2340,385,120,3,1,50,13,Android,v15
+Vivo,Vivo Y19E,7999,63,FALSE,FALSE,FALSE,Unisoc T7225,Unisoc,Octa Core,1.8,4,64,5500,15,6.74,720,1600,260,60,2,1,13,5,Android,v14
+Realme,Realme Narzo 70 Turbo 5G,14590,79,TRUE,FALSE,FALSE,Dimensity 7300 Energy,Dimensity,Octa Core,2.5,6,128,5000,45,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Infinix,Infinix Note 40X 5G,15999,84,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,12,256,5000,18,6.78,1080,2406,389,120,3,1,108,8,Android,v14
+Honor,Honor 200,29999,87,TRUE,FALSE,TRUE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,12,512,5200,100,6.7,1200,2664,436,120,3,1,50,50,,
+Vivo,Vivo V40E 5G,28999,81,TRUE,FALSE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,128,5500,80,6.77,1080,2392,388,120,2,1,50,50,,
+Oppo,Oppo F27 Pro Plus 5G,19599,78,TRUE,FALSE,FALSE,Dimensity 7050,Dimensity,Octa Core,2.6,8,128,5000,67,6.7,1080,2412,394,120,2,1,64,8,,
+Oppo,Oppo Find X8 5G,72590,90,TRUE,TRUE,TRUE,Dimensity 9400,Dimensity,Octa Core,3.63,12,256,5630,80,6.59,1256,2760,460,120,3,1,50,32,,
+Oppo,Oppo Reno 13 Pro 5G,49999,89,TRUE,TRUE,TRUE,Dimensity 8350,Dimensity,Octa Core,3.35,12,256,5800,80,6.83,1272,2800,450,120,3,1,50,50,,
+Samsung,Samsung Galaxy S24 Ultra,159999,94,TRUE,FALSE,TRUE,Snapdragon 8 Gen3,Snapdragon,Octa Core,3.3,12,1,5000,45,6.8,1440,3120,505,120,4,1,200,12,Android,v14
+Vivo,Vivo X Fold 3 Pro,159999,96,TRUE,TRUE,TRUE,Snapdragon 8 Gen3,Snapdragon,Octa Core,3.3,16,512,5700,100,8.03,2200,2480,413,120,2,,,,,
+Samsung,Samsung Galaxy Z Fold 6,109999,90,TRUE,FALSE,TRUE,Snapdragon 8 Gen 3,Snapdragon,Octa Core,3.39,12,256,4400,25,7.6,1856,2160,375,120,2,,,,Android,v14
+Vivo,Vivo T3X 5G,12499,74,TRUE,FALSE,FALSE,Snapdragon 6 Gen1,Snapdragon,Octa Core,2.2,4,128,6000,44,6.72,1080,2408,393,120,2,1,50,8,Android,v14
+Oneplus,Oneplus 11,44999,88,TRUE,FALSE,TRUE,Snapdragon 8 Gen2,Snapdragon,Octa Core,3.2,16,256,5000,100,6.7,1440,3216,526,120,3,1,50,16,Android,v13
+Vivo,Vivo V29 Pro,28990,82,TRUE,FALSE,FALSE,Dimensity 8200,Dimensity,Octa Core,3.1,8,256,4600,80,6.78,1260,2800,453,120,3,1,50,50,,
+Samsung,Samsung Galaxy S23 Fe 5G,34999,81,TRUE,FALSE,TRUE,Exynos 2200,Exynos,Octa Core,2.8,8,128,4500,25,6.4,1080,2340,403,120,3,1,50,10,Android,v13
+Poco,Poco X6 Pro 5G,21990,82,TRUE,TRUE,TRUE,Dimensity 8300 Ultra,Dimensity,Octa Core,3.35,8,256,5000,67,6.67,1220,2712,446,120,3,1,64,16,,
+Oneplus,Oneplus 8 Pro,33502,87,TRUE,FALSE,TRUE,Snapdragon 865,Snapdragon,Octa Core,2.84,12,256,4510,,6.78,1440,3168,513,120,4,1,48,16,Android,v10.0
+Samsung,Samsung Galaxy S25 Fe,65999,86,TRUE,FALSE,TRUE,Exynos 2400,Exynos,Deca Core,3.2,8,256,4900,45,6.7,1080,2340,385,120,3,1,50,12,Android,v16
+Realme,Realme 15T,24499,83,TRUE,TRUE,FALSE,Dimensity 6400 Max,Dimensity,Octa Core,2.5,12,256,7000,60,6.57,1080,2372,397,120,2,1,50,50,Android,v15
+Realme,Realme P4 Pro 5G,29999,75,TRUE,TRUE,FALSE,Snapdragon 7 Gen 4,Snapdragon,Octa Core,,12,256,7000,80,6.8,1280,2800,453,144,2,1,50,50,,
+Oppo,Oppo A5X 5G,13999,72,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,6000,45,6.67,720,1604,264,120,1,1,32,5,Android,v15
+Realme,Realme 15 5G,25599,75,TRUE,FALSE,FALSE,Dimensity 7300 Plus,Dimensity,Octa Core,,8,256,7000,80,6.8,1280,2800,453,144,2,1,50,50,,
+Realme,Realme Narzo 80 Lite 4G,7199,67,FALSE,FALSE,FALSE,Unisoc T7250,Unisoc,Octa Core,1.8,6,128,6300,15,6.74,720,1600,260,90,1,1,13,5,Android,v15
+Lava,Lava Blaze Amoled 2,12879,75,TRUE,FALSE,FALSE,Dimensity 7060,Dimensity,Octa Core,2.6,6,128,5000,,6.67,1080,2400,395,120,2,1,50,8,Android,v15
+Tecno,Tecno Pova 7 5G,15999,77,TRUE,TRUE,TRUE,Dimensity 7300 Ultimate,Dimensity,Octa Core,2.5,8,256,6000,45,6.78,1080,2460,396,144,2,1,50,13,Android,v15
+Vivo,Vivo T4 Ultra,39999,86,TRUE,FALSE,TRUE,Dimensity 9300 Plus,Dimensity,Octa Core,3.25,12,512,5500,90,6.67,1260,2800,460,120,3,1,50,32,Android,v15
+Poco,Poco C75 5G,7999,71,TRUE,FALSE,FALSE,Snapdragon 4s Gen2,Snapdragon,Octa Core,2,4,128,5160,18,6.88,720,1650,262,120,2,1,50,5,Android,v14
+Oppo,Oppo F29 Pro,21240,79,TRUE,FALSE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,256,6000,80,6.7,1080,2412,394,120,2,1,50,16,,
+Realme,Realme P3 5G,16999,80,TRUE,FALSE,TRUE,Snapdragon 6 Gen4,Snapdragon,Octa Core,2.3,8,128,6000,45,6.67,1080,2400,395,120,2,1,50,16,,
+Motorola,Motorola Razr 60 Ultra,79999,93,TRUE,FALSE,TRUE,Snapdragon 8 Elite,Snapdragon,Octa Core,4.32,16,512,4700,68,6.96,1224,2992,464,165,2,,,,,
+Realme,Realme Gt 7 Pro,50798,89,TRUE,TRUE,TRUE,Snapdragon 8 Elite,Snapdragon,Octa Core,4.32,16,512,5800,120,6.78,1264,2780,450,120,3,1,50,16,Android,v15
+Realme,Realme P2 Pro,23999,82,TRUE,FALSE,FALSE,Snapdragon 7s Gen 2,Snapdragon,Octa Core,2.4,12,512,5200,80,6.7,1080,2412,394,120,2,1,50,32,,
+Apple,Apple Iphone 16 Pro Max,139999,89,TRUE,FALSE,TRUE,Bionic A18 Pro,Bionic,Hexa Core,4.05,8,512,4685,,6.9,1320,2868,458,120,3,1,48,12,iOS,v18
+Poco,Poco M6 5G,7999,74,TRUE,TRUE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,4,64,5000,18,6.74,720,1650,267,90,2,1,50,5,Android,v13
+Samsung,Samsung Galaxy M35 5G,18990,82,TRUE,FALSE,TRUE,Exynos 1380,Exynos,Octa Core,2.4,8,256,6000,25,6.6,1080,2340,390,120,3,1,50,13,Android,v14
+Google,Google Pixel 9 Pro Fold,119999,91,TRUE,FALSE,TRUE,Tensor G4,Tensor,Octa Core,3.1,16,256,4650,,8.03,2152,2076,372,120,2,,,,Android,v14
+Infinix,Infinix Note 40X 5G,14999,83,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,5000,18,6.78,1080,2406,389,120,3,1,108,8,Android,v14
+Realme,Realme Gt 6 5G,32999,88,TRUE,TRUE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,16,512,5500,120,6.78,1264,2780,450,120,3,1,50,32,Android,v14
+Realme,Realme Gt 6 5G,28999,87,TRUE,TRUE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,12,256,5500,120,6.78,1264,2780,450,120,3,1,50,32,Android,v14
+Realme,Realme P1 5G,14999,80,TRUE,FALSE,FALSE,Dimensity 7050,Dimensity,Octa Core,2.6,8,128,5000,45,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Infinix,Infinix Note 40 Pro 5G,21999,84,TRUE,TRUE,TRUE,Dimensity 7020,Dimensity,Octa Core,2.2,8,256,5000,45,6.78,1080,2436,393,120,3,1,108,32,,
+Realme,Realme 13 Pro Plus 5G,25499,84,TRUE,FALSE,FALSE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,8,256,5200,80,6.7,1080,2412,394,120,3,1,50,32,Android,v14
+Tecno,Tecno Camon 30 Premier 5G,29999,87,TRUE,TRUE,TRUE,Dimensity 8200,Dimensity,Octa Core,3.1,12,512,5000,70,6.77,1264,2780,451,120,3,1,50,50,Android,v14
+Vivo,Vivo V29 Pro,24994,83,TRUE,FALSE,FALSE,Dimensity 8200,Dimensity,Octa Core,3.1,12,256,4600,80,6.78,1260,2800,453,120,3,1,50,50,,
+Motorola,Motorola Razr 50,37399,88,TRUE,FALSE,TRUE,Dimensity 7300X,Dimensity,Octa Core,2.5,8,256,4200,33,6.9,1080,2640,413,120,2,,,,,
+Samsung,Samsung Galaxy F15 5G,12990,74,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,4,128,6000,25,6.45,1080,2340,400,90,3,1,50,13,Android,v14
+Google,Google Pixel 9 Pro,89990,90,TRUE,FALSE,TRUE,Tensor G4,Tensor,Octa Core,3.1,16,256,4700,27,6.3,1280,2856,497,120,3,1,50,42,,
+Realme,Realme 11 Pro Plus,27390,86,TRUE,FALSE,FALSE,Dimensity 7050,Dimensity,Octa Core,2.6,8,256,5000,100,6.7,1080,2412,394,120,3,1,200,32,Android,v13
+Apple,Apple Iphone 15 Pro,134900,86,TRUE,FALSE,TRUE,Bionic A17 Pro,Bionic,Hexa Core,3.78,8,128,3274,,6.1,1179,2556,461,120,3,1,48,12,iOS,v17
+Google,Google Pixel 6A,22999,70,TRUE,FALSE,TRUE,Tensor,Tensor,Octa Core,,6,128,4410,,6.14,1080,2400,429,60,2,1,12.2,8,Android,v12
+Oneplus,Oneplus 10 Pro 5G,34990,86,TRUE,FALSE,TRUE,Snapdragon 8 Gen1,Snapdragon,Octa Core,3,8,128,5000,80,6.7,1440,3216,526,120,3,1,50,32,,
+Samsung,Samsung Galaxy S20 Fe 5G,47999,86,TRUE,FALSE,TRUE,Snapdragon 865,Snapdragon,Octa Core,2.84,8,128,4500,,6.5,1080,2400,405,120,3,1,12,32,Android,v10
+Oppo,Oppo Reno 14 5G Diwali Edition,39999,87,TRUE,TRUE,FALSE,Dimensity 8350,Dimensity,Octa Core,3.35,8,256,6000,80,6.59,1256,2760,460,120,3,1,50,50,,
+Apple,Apple Iphone 17 Pro Max,169900,83,TRUE,FALSE,TRUE,Apple A19 Pro,Apple,Hexa Core,,12,512,4832,,6.9,1320,2868,458,120,3,1,48,18,iOS,v26
+Oppo,Oppo F31 Pro Plus 5G,34999,83,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,12,256,7000,80,6.8,1280,2800,453,120,2,1,50,32,,
+Vivo,Vivo T4R 5G,24998,82,TRUE,FALSE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.6,12,256,5700,44,6.77,1080,2392,388,120,2,1,50,32,Android,v15
+Ai+,Ai+ Pulse,6999,71,FALSE,FALSE,FALSE,Unisoc T615,Unisoc,Octa Core,1.8,6,128,5000,10,6.75,720,1600,260,90,1,1,50,5,Android,v15
+Ai+,Ai+ Nova 5G,9499,68,TRUE,FALSE,FALSE,Unisoc T8200,Unisoc,Octa Core,,8,128,5000,18,6.75,720,1600,260,120,2,1,50,5,Android,v15
+Iqoo,Iqoo Z10 Lite 5G,10998,73,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,6000,15,6.74,720,1600,260,90,2,1,50,5,,
+Infinix,Infinix Smart 10,6565,64,FALSE,FALSE,FALSE,Unisoc T7250,Unisoc,Octa Core,1.8,4,64,5000,15,6.67,720,1600,263,120,1,1,8,8,Android,v15
+Vivo,Vivo Y19 5G,10399,68,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,64,5500,15,6.74,720,1600,260,90,2,1,13,5,Android,v15
+Infinix,Infinix Note 50X 5G,12999,76,TRUE,TRUE,FALSE,Dimensity 7300 Ultimate,Dimensity,Octa Core,2.5,8,128,5500,45,6.67,720,1600,263,120,2,1,50,8,Android,v15
+Oppo,Oppo Reno 13 5G,35999,87,TRUE,TRUE,TRUE,Dimensity 8350,Dimensity,Octa Core,3.35,12,512,5600,80,6.59,1256,2760,460,120,3,1,50,50,,
+Samsung,Samsung Galaxy S25,68999,87,TRUE,FALSE,TRUE,Snapdragon 8Elite,Snapdragon,Octa Core,4.47,12,128,4000,25,6.2,1080,2340,416,120,3,1,50,12,,
+Vivo,Vivo V50 5G,37999,86,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,12,512,6000,90,6.77,1080,2392,388,120,2,1,50,50,Android,v15
+Realme,Realme 14X,14398,76,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,6000,45,6.67,720,1604,264,120,2,1,50,8,Android,v14
+Apple,Apple Iphone 16 Plus,89900,83,TRUE,FALSE,TRUE,Bionic A18,Bionic,Hexa Core,4.04,8,256,4674,,6.7,1290,2796,460,60,2,1,48,12,iOS,v18
+Vivo,Vivo T3 Ultra,29999,83,TRUE,FALSE,FALSE,Dimensity 9200 Plus,Dimensity,Octa Core,3.35,8,256,5500,80,6.78,1260,2800,453,120,2,1,50,50,,
+Oppo,Oppo A3X 5G,9740,66,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,64,5100,45,6.67,720,1604,264,120,1,1,8,5,Android,v14
+Realme,Realme 14 Pro 5G,23599,79,TRUE,FALSE,FALSE,Dimensity 7300 Energy,Dimensity,Octa Core,2.5,8,128,6000,45,6.77,1080,2392,388,120,2,1,50,16,,
+Hmd,Hmd Fusion,10999,80,TRUE,FALSE,TRUE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,6,128,5000,33,6.56,720,1612,269,90,2,1,108,50,Android,v14
+Oneplus,Oneplus Nord Ce 4 Lite 5G,22999,82,TRUE,FALSE,FALSE,Snapdragon 695,Snapdragon,Octa Core,2.2,8,256,5500,80,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Poco,Poco M6 Plus 5G,10999,78,TRUE,TRUE,FALSE,Snapdragon 4 Gen2 AE,Snapdragon,Octa Core,2.3,6,128,5030,33,6.79,1080,2460,396,120,2,1,108,13,Android,v14
+Oppo,Oppo K12X,12739,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5100,45,6.67,720,1604,264,120,2,1,32,8,Android,v14
+Realme,Realme 13 Plus 5G,16955,83,TRUE,FALSE,TRUE,Dimensity 7300 E,Dimensity,Octa Core,2.5,8,128,5000,80,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Samsung,Samsung Galaxy M55,21589,85,TRUE,FALSE,TRUE,Snapdragon 7 Gen1,Snapdragon,Octa Core,2.4,8,256,5000,45,6.67,1080,2400,395,120,3,1,50,50,Android,v14
+Realme,Realme Narzo 80 Pro 5G,17999,80,TRUE,FALSE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.6,8,128,6000,80,6.72,1080,2392,391,120,2,1,50,16,,
+Realme,Realme 12 Pro Plus 5G,22999,83,TRUE,FALSE,FALSE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,8,256,5000,67,6.7,1080,2412,394,120,3,1,64,32,Android,v14
+Tecno,Tecno Phantom V Fold 2,89999,95,TRUE,FALSE,TRUE,Dimensity 9000 Plus,Dimensity,Octa Core,3.2,12,512,5750,70,7.85,2000,2296,388,120,2,,,,Android,v14
+Lava,Lava Blaze 2 5G,8799,74,TRUE,FALSE,FALSE,Dimensity 6020,Dimensity,Octa Core,2.2,6,128,5000,18,6.5,720,1600,270,90,2,1,50,8,Android,v13
+Motorola,Motorola Moto G54 5G,16999,83,TRUE,FALSE,FALSE,Dimensity 7020,Dimensity,Octa Core,2.2,12,256,6000,33,6.5,1080,2400,405,120,2,1,50,16,Android,v13
+Motorola,Motorola Moto G54 5G,14999,82,TRUE,FALSE,FALSE,Dimensity 7020,Dimensity,Octa Core,2.2,8,128,6000,33,6.5,1080,2400,405,120,2,1,50,16,Android,v13
+Infinix,Infinix Note 30 5G,15999,85,TRUE,FALSE,TRUE,Dimensity 6080,Dimensity,Octa Core,2.4,8,256,5000,45,6.78,1080,2460,396,120,3,1,108,16,Android,v13
+Motorola,Motorola Razr 50 Ultra,56600,91,TRUE,FALSE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,12,512,4000,45,6.9,1080,2640,413,165,2,,,,,
+Tecno,Tecno Camon 20 Pro 5G,14899,82,TRUE,FALSE,FALSE,Dimensity 8050,Dimensity,Octa Core,3,8,128,5000,33,6.67,1080,2400,395,120,3,1,64,32,,
+Xiaomi,Xiaomi Redmi Note 12 4G,9998,77,FALSE,TRUE,FALSE,Snapdragon 685,Snapdragon,Octa Core,2.8,6,64,5000,33,6.67,1080,2400,395,120,3,1,50,13,Android,v13
+Motorola,Motorola Moto G62,11999,81,TRUE,FALSE,FALSE,Snapdragon  695,Snapdragon,Octa Core,2.2,8,128,5000,,6.55,1080,2400,402,120,3,1,50,16,Android,v12
+Oneplus,Oneplus Nord 2T 5G,23999,82,TRUE,FALSE,TRUE,Dimensity 1300,Dimensity,Octa Core,3,8,128,4500,80,6.43,1080,2400,409,90,3,1,50,32,,
+Oneplus,Oneplus Nord 3 5G,26999,82,TRUE,TRUE,TRUE,Dimensity 9000,Dimensity,Octa Core,3.05,8,128,5000,80,6.74,1240,2772,451,120,3,1,50,16,,
+Google,Google Pixel 6,23499,82,TRUE,FALSE,TRUE,Tensor,Tensor,Octa Core,2.8,8,128,4614,30,6.4,1080,2400,411,90,2,1,50,8,,
+Samsung,Samsung Galaxy S21 Fe 5G,30990,84,TRUE,FALSE,TRUE,Exynos 2100,Exynos,Octa Core,2.9,8,128,4500,25,6.4,1080,2340,403,120,3,1,12,32,Android,v12
+Oppo,Oppo K13 Turbo Pro,37999,83,TRUE,TRUE,FALSE,Snapdragon 8s Gen4,Snapdragon,Octa Core,3.2,12,256,7000,80,6.8,1280,2800,453,120,2,1,50,16,Android,v15
+Realme,Realme 15 Pro 5G,38999,87,TRUE,FALSE,FALSE,Snapdragon 7 Gen4,Snapdragon,Octa Core,2.8,12,512,7000,80,6.8,1280,2800,453,144,2,1,50,50,,
+Iqoo,Iqoo Z10R,21498,81,TRUE,FALSE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.6,8,256,5700,44,6.77,1080,2392,388,120,2,1,50,32,Android,v15
+Lava,Lava Storm Play 5G,13049,77,TRUE,FALSE,FALSE,Dimensity 7060,Dimensity,Octa Core,2.6,8,256,5000,18,6.75,720,1600,260,120,2,1,50,8,Android,v15
+Tecno,Tecno Spark Go 2,6999,64,FALSE,TRUE,FALSE,Unisoc T7250,Unisoc,Octa Core,1.8,4,64,5000,15,6.67,720,1600,263,120,1,1,13,8,Android,v15
+Oppo,Oppo A5 5G,16998,78,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,6000,45,6.67,720,1604,264,120,2,1,50,8,Android,v15
+Samsung,Samsung Galaxy F06 5G,8099,70,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,64,5000,25,6.7,720,1600,262,60,2,1,50,8,Android,v15
+Samsung,Samsung Galaxy M56,26999,80,TRUE,FALSE,FALSE,Exynos 1480,Exynos,Octa Core,2.7,8,256,5000,45,6.74,1080,2340,382,120,3,1,50,12,,
+Xiaomi,Xiaomi Redmi A5 4G,7099,70,FALSE,FALSE,FALSE,Unisoc T7250,Unisoc,Octa Core,1.8,4,128,5200,15,6.88,720,1650,262,120,1,1,32,8,Android,v15
+Realme,Realme P3 5G,18999,81,TRUE,FALSE,TRUE,Snapdragon 6 Gen4,Snapdragon,Octa Core,2.3,8,256,6000,45,6.67,1080,2400,395,120,2,1,50,16,,
+Samsung,Samsung Galaxy A56 5G,38499,83,TRUE,FALSE,TRUE,Exynos 1580,Exynos,Octa Core,2.9,8,256,5000,45,6.7,1080,2340,385,120,3,1,50,12,,
+Samsung,Samsung Galaxy A36 5G,33499,83,TRUE,FALSE,TRUE,Snapdragon 6 Gen3,Snapdragon,Octa Core,2.4,12,256,5000,45,6.7,1080,2340,385,120,3,1,50,12,,
+Realme,Realme 14T 5G,15999,80,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,6000,45,6.67,1080,2400,395,120,2,1,50,16,Android,v15
+Samsung,Samsung Galaxy A16 5G,14078,78,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v14
+Realme,Realme 14T 5G,15999,80,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,6000,45,6.67,1080,2400,395,120,2,1,50,16,Android,v15
+Samsung,Samsung Galaxy A16 5G,14078,78,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v14
+Xiaomi,Xiaomi Redmi A4 5G,8349,71,TRUE,FALSE,FALSE,Snapdragon 4s Gen2,Snapdragon,Octa Core,2,4,128,5160,18,6.88,720,1640,260,120,2,1,50,5,Android,v14
+Realme,Realme P2 Pro,19999,82,TRUE,FALSE,FALSE,Snapdragon 7s Gen 2,Snapdragon,Octa Core,2.4,12,256,5200,80,6.7,1080,2412,394,120,2,1,50,32,,
+Vivo,Vivo V40 Pro 5G,47999,88,TRUE,FALSE,FALSE,Dimensity 9200 Plus,Dimensity,Octa Core,3.35,12,512,5500,80,6.78,1260,2800,453,120,3,1,50,50,Android,v14
+Oneplus,Oneplus Nord 4 5G,29965,84,TRUE,TRUE,TRUE,Snapdragon 7+ Gen3,Snapdragon,Octa Core,2.8,12,256,5500,100,6.74,1240,2772,451,120,2,1,50,16,,
+Infinix,Infinix Note 40 5G,15999,84,TRUE,TRUE,TRUE,Dimensity 7020,Dimensity,Octa Core,2.2,8,256,5000,33,6.78,1080,2436,393,120,3,1,108,32,,
+Vivo,Vivo V30E 5G,24939,84,TRUE,FALSE,TRUE,Snapdragon 6 Gen1,Snapdragon,Octa Core,2.2,8,128,5500,44,6.78,1080,2400,388,120,2,1,50,50,Android,v14
+Oppo,Oppo F27 5G,19490,81,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5000,45,6.67,1080,2412,396,120,2,1,50,32,Android,v14
+Oppo,Oppo F25 Pro 5G,23999,83,TRUE,FALSE,FALSE,Dimensity 7050,Dimensity,Octa Core,2.6,8,128,5000,67,6.7,1080,2412,394,120,3,1,64,32,Android,v14
+Oppo,Oppo Reno 12 5G,25990,82,TRUE,TRUE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,256,5000,80,6.7,1080,2412,394,120,3,1,50,32,Android,v14
+Apple,Apple Iphone 15 Pro Max,179900,87,TRUE,FALSE,TRUE,Bionic A17 Pro,Bionic,Hexa Core,3.78,8,512,4441,,6.7,1290,2796,460,120,3,1,48,12,iOS,v17
+Motorola,Motorola Edge 40 Neo,19500,82,TRUE,FALSE,TRUE,Dimensity 7030,Dimensity,Octa Core,2.5,8,128,5000,68,6.55,1080,2400,402,144,2,1,50,32,Android,v13
+Xiaomi,Xiaomi Redmi 12 5G,14499,78,TRUE,TRUE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,8,256,5000,18,6.79,1080,2460,396,90,2,1,50,8,Android,v13
+Samsung,Samsung Galaxy A14 5G,11999,77,TRUE,FALSE,FALSE,Exynos 1330,Exynos,Octa Core,2.4,6,128,5000,15,6.6,1080,2408,400,90,3,1,50,13,Android,v13
+Oppo,Oppo Reno 10,29299,85,TRUE,TRUE,TRUE,Dimensity 7050,Dimensity,Octa Core,2.6,8,256,5000,67,6.7,1080,2412,394,120,3,1,64,32,Android,v13
+Vivo,Vivo V30 5G,29999,82,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,128,5000,80,6.78,1260,2800,453,120,2,1,50,50,,
+Iqoo,Iqoo Z9 5G,18499,81,TRUE,FALSE,FALSE,Dimensity 7200,Dimensity,Octa Core,2.8,8,128,5000,44,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Poco,Poco F4 5G,16999,83,TRUE,FALSE,TRUE,Snapdragon  870,Snapdragon,Octa Core,3.2,8,128,4500,67,6.67,1080,2400,395,120,3,1,64,20,,
+Xiaomi,Xiaomi Redmi Note 12 Pro 5G,15490,77,TRUE,TRUE,FALSE,Dimensity 1080,Dimensity,Octa Core,2.6,6,128,5000,67,6.67,1080,2400,395,120,3,1,50,16,,
+Samsung,Samsung Galaxy S22 Plus 5G,101999,85,TRUE,FALSE,TRUE,Snapdragon  8 Gen1,Snapdragon,Octa Core,3,8,128,4500,45,6.6,1080,2340,390,120,3,1,50,10,,
+Tecno,Tecno Pova Curve 5G,16999,79,TRUE,TRUE,TRUE,Dimensity 7300 Ultimate,Dimensity,Octa Core,2.5,8,128,5500,45,6.78,1080,2436,393,144,2,1,64,13,,
+Realme,Realme Gt 7T,33999,86,TRUE,TRUE,TRUE,Dimensity 8400-MAX,Dimensity,Octa Core,3.25,12,256,7000,120,6.8,1280,2800,453,120,2,1,50,32,Android,v15
+Acer,Acer Super Zx 5G,11890,77,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5000,33,6.8,1080,2400,387,120,3,1,64,13,,
+Lava,Lava Bold N1 Pro,6798,68,FALSE,FALSE,FALSE,Unisoc T606,Unisoc,Octa Core,1.6,4,128,5000,18,6.67,1600,720,263,120,3,1,50,5,Android,v14
+Realme,Realme C75 5G,12899,72,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,6000,45,6.67,720,1604,264,120,1,1,32,8,Android,v15
+Oppo,Oppo A5 Pro 5G,19998,75,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,5800,45,6.67,720,1604,264,120,2,1,50,8,,
+Acer,Acer Super Zx,9290,72,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,33,6.8,1080,2400,387,120,3,1,64,13,,
+Oppo,Oppo F29 Pro,24979,80,TRUE,FALSE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,12,256,6000,80,6.7,1080,2412,394,120,2,1,50,16,,
+Samsung,Samsung Galaxy F16 5G,13990,78,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v15
+Samsung,Samsung Galaxy M16 5G,13435,78,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v14
+Samsung,Samsung Galaxy A06 5G,9488,73,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,25,6.7,720,1600,262,90,2,1,50,8,Android,v15
+Xiaomi,Xiaomi Redmi 14C 5G,9998,72,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,4,128,5160,18,6.88,720,1640,260,120,2,1,50,8,Android,v14
+Vivo,Vivo X Fold 5 5G,149998,94,TRUE,TRUE,TRUE,Snapdragon 8 Gen3,Snapdragon,Octa Core,3.3,16,512,6000,80,8.03,2200,2480,413,120,2,,,,Android,v15
+Apple,Apple Iphone 16 Pro,129999,89,TRUE,FALSE,TRUE,Bionic A18 Pro,Bionic,Hexa Core,4.05,8,512,3582,,6.3,1206,2622,458,120,3,1,48,12,iOS,v18
+Nothing,Nothing Phone 2A Plus,23999,85,TRUE,FALSE,TRUE,Dimensity 7350 Pro 5G,Dimensity,Octa Core,3,12,256,5000,50,6.7,1084,2412,395,120,2,1,50,50,,
+Nothing,Nothing Phone 2A Plus,23999,85,TRUE,FALSE,TRUE,Dimensity 7350 Pro 5G,Dimensity,Octa Core,3,12,256,5000,50,6.7,1084,2412,395,120,2,1,50,50,,
+Samsung,Samsung Galaxy M55S,18635,83,TRUE,FALSE,TRUE,Snapdragon 7 Gen1,Snapdragon,Octa Core,2.4,8,128,5000,45,6.7,1080,2400,393,120,3,1,50,50,Android,v14
+Samsung,Samsung Galaxy F56 5G,24999,79,TRUE,FALSE,FALSE,Exynos 1480,Exynos,Octa Core,2.7,8,128,5000,45,6.74,1080,2340,382,120,3,1,50,12,Android,v15
+Hmd,Hmd Skyline 5G,35999,87,TRUE,FALSE,TRUE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,12,256,4600,33,6.55,1080,2400,402,144,3,1,108,50,Android,v14
+Honor,Honor 200 Lite,20599,81,TRUE,FALSE,FALSE,Dimensity 6080,Dimensity,Octa Core,2.4,8,256,4500,35,6.7,1080,2412,394,60,3,1,108,50,,
+Oppo,Oppo A3 Pro 5G,15999,75,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5100,45,6.67,720,1604,264,120,2,1,50,8,Android,v14
+Samsung,Samsung Galaxy S24,41800,86,TRUE,FALSE,TRUE,Exynos 2400,Exynos,Deca Core,3.2,8,128,4000,25,6.2,1080,2340,416,120,3,1,50,12,,
+Poco,Poco X6 5G,24999,82,TRUE,TRUE,FALSE,Snapdragon 7s Gen 2,Snapdragon,Octa Core,2.4,12,512,5100,67,6.67,1220,2712,446,120,3,1,64,16,,
+Nothing,Nothing Phone 2A,22888,85,TRUE,FALSE,TRUE,Dimensity 7200 Pro,Dimensity,Octa Core,2.8,12,256,5000,45,6.7,1084,2412,395,120,2,1,50,32,,
+Xiaomi,Xiaomi Redmi 13C 5G,9897,73,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,4,128,5000,18,6.74,720,1600,260,90,2,1,50,5,Android,v13
+Vivo,Vivo T2 Pro 5G,23999,79,TRUE,FALSE,FALSE,Dimensity 7200,Dimensity,Octa Core,2.8,8,256,4600,66,6.78,1080,2400,388,120,2,1,64,16,,
+Apple,Apple Iphone 15 Plus,79900,83,TRUE,FALSE,TRUE,Bionic A16,Bionic,Hexa Core,3.46,6,256,4383,,6.7,1290,2796,460,60,2,1,48,12,iOS,v17
+Nothing,Nothing Phone 2,37989,87,TRUE,FALSE,TRUE,Snapdragon 8+ Gen1,Snapdragon,Octa Core,3.2,12,256,4700,45,6.7,1080,2412,394,120,2,1,50,32,,
+Vivo,Vivo V29E,26999,83,TRUE,FALSE,TRUE,Snapdragon 695,Snapdragon,Octa Core,2.2,8,128,5000,44,6.78,1080,2400,388,120,2,1,64,50,Android,v13
+Iqoo,Iqoo Neo 9 Pro 5G,34990,81,TRUE,TRUE,FALSE,Snapdragon 8 Gen2,Snapdragon,Octa Core,3.2,8,256,5160,120,6.78,1260,2800,453,144,2,1,50,16,,
+Oppo,Oppo Reno 11,30490,86,TRUE,TRUE,TRUE,Dimensity 7050,Dimensity,Octa Core,2.6,8,128,5000,67,6.7,1080,2412,394,120,3,1,50,32,Android,v14
+Samsung,Samsung Galaxy S23 Ultra,161999,92,TRUE,FALSE,TRUE,Snapdragon 8 Gen 2,Snapdragon,Octa Core,3.36,12,512,5000,45,6.8,1440,3088,501,120,4,1,200,12,Android,v13
+Poco,Poco X6 5G,17999,79,TRUE,TRUE,FALSE,Snapdragon 7s Gen 2,Snapdragon,Octa Core,2.4,8,256,5100,67,6.67,1220,2712,446,120,3,1,64,16,,
+Motorola,Motorola Edge 40 5G,29999,85,TRUE,FALSE,TRUE,Dimensity 8020,Dimensity,Octa Core,2.6,8,256,4400,68,6.55,1080,2400,402,144,2,1,50,32,,
+Motorola,Motorola Moto G62 5G,10999,79,TRUE,FALSE,FALSE,Snapdragon  695,Snapdragon,Octa Core,2.2,6,128,5000,,6.55,1080,2400,402,120,3,1,50,16,Android,v12
+Oneplus,Oneplus Nord Ce 2 5G,18990,83,TRUE,FALSE,TRUE,Dimensity 900,Dimensity,Octa Core,2.4,8,128,4500,65,6.43,1080,2400,409,90,3,1,64,16,Android,v11
+Google,Google Pixel 7 5G,27999,83,TRUE,FALSE,TRUE,Tensor G2,Tensor,Octa Core,2.85,8,128,4355,30,6.3,1080,2400,418,90,2,1,50,10.8,,
+Xiaomi,Xiaomi Redmi Note 12 5G,12499,75,TRUE,TRUE,FALSE,Snapdragon 4 Gen 1,Snapdragon,Octa Core,2,4,128,5000,33,6.67,1080,2400,395,120,3,1,48,13,Android,v12
+Oneplus,Oneplus Nord Ce 2 5G,17990,80,TRUE,FALSE,TRUE,Dimensity 900,Dimensity,Octa Core,2.4,6,128,4500,65,6.43,1080,2400,409,90,3,1,64,16,Android,v11
+Samsung,Samsung Galaxy A33 5G,17990,80,TRUE,FALSE,TRUE,Exynos  1280,Exynos,Octa Core,2.4,6,128,5000,25,6.4,1080,2400,411,90,4,1,48,13,Android,v12
+Samsung,Samsung Galaxy S22 5G,72999,84,TRUE,FALSE,TRUE,Snapdragon  8 Gen1,Snapdragon,Octa Core,3,8,128,3700,25,6.1,1080,2340,422,120,3,1,50,10,,
+Xiaomi,Xiaomi Redmi Note 8,8699,76,FALSE,TRUE,FALSE,Snapdragon 665,Snapdragon,Octa Core,2,6,128,4000,18,6.3,1080,2280,400,60,4,1,48,13,Android,v9.0
+Apple,Apple Iphone 11,43900,72,FALSE,FALSE,TRUE,Bionic A13,Bionic,Hexa Core,2.65,4,64,3110,,6.1,828,1792,324,60,2,1,12,12,iOS,v13
+Lava,Lava Bold N1 5G,7999,68,TRUE,FALSE,FALSE,Unisoc T765,Unisoc,Octa Core,2.3,4,128,5000,10,6.75,720,1600,260,60,1,1,13,5,Android,v15
+Hmd,Hmd Vibe 5G,8999,61,TRUE,FALSE,FALSE,Unisoc T760,Unisoc,Octa Core,,4,128,5000,18,6.67,720,1604,264,90,2,1,50,8,,
+Apple,Apple Iphone 17 Pro,154900,83,TRUE,FALSE,TRUE,Apple A19 Pro,Apple,Hexa Core,,12,512,3988,,6.3,1206,2622,458,120,3,1,48,18,iOS,v26
+Samsung,Samsung Galaxy A07 4G,9749,69,FALSE,FALSE,FALSE,Helio G99,Helio,Octa Core,2.2,4,64,5000,25,6.7,720,1600,262,90,2,1,50,8,Android,v15
+Lava,Lava Blaze Dragon 5G,9493,74,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,6,128,5000,18,6.74,720,1612,262,120,1,1,50,8,Android,v15
+Infinix,Infinix Gt 30 5G,19999,80,TRUE,TRUE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.6,8,256,5500,45,6.78,1224,2720,440,144,2,1,64,13,,
+Realme,Realme 15 5G,27999,76,TRUE,FALSE,FALSE,Dimensity 7300 Plus,Dimensity,Octa Core,,12,256,7000,80,6.8,1280,2800,453,144,2,1,50,50,,
+Blackzone,Blackzone Miniature Phone,4499,47,FALSE,FALSE,FALSE,Helio MT6737,Helio,Octa Core,1.25,3,16,2000,,3,480,854,327,60,1,1,8,5,Android,v10.1
+Lava,Lava Storm Lite 5G,8499,70,TRUE,FALSE,FALSE,Dimensity 6400,Dimensity,Octa Core,2.5,4,64,5000,,6.75,720,1600,260,120,2,1,50,5,Android,v15
+Alcatel,Alcatel V3 Classic,9999,73,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5200,18,6.67,720,1600,263,120,2,1,50,8,Android,v15
+Lava,Lava Bold 5G,13999,79,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5000,33,6.67,1080,2400,395,120,2,1,64,16,Android,v14
+Realme,Realme 14 Pro Plus,29999,86,TRUE,FALSE,FALSE,Snapdragon 7s Gen3,Snapdragon,Octa Core,2.5,12,512,6000,80,6.83,1272,2800,450,120,3,1,50,32,Android,v15
+Vivo,Vivo Y29 5G,15499,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5500,44,6.68,720,1608,264,120,2,1,50,8,Android,v14
+Realme,Realme 14 Pro Lite 5G,17999,80,TRUE,FALSE,FALSE,Snapdragon 7s Gen 2,Snapdragon,Octa Core,2.4,8,128,5200,45,6.7,1080,2412,394,120,3,1,50,32,,
+Realme,Realme P1 Speed 5G,18688,82,TRUE,FALSE,FALSE,Dimensity 7300 E,Dimensity,Octa Core,2.5,12,256,5000,45,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Lava,Lava Agni 3 5G,20999,82,TRUE,FALSE,FALSE,Dimensity 7300X,Dimensity,Octa Core,2.5,8,256,5000,66,6.78,1200,2652,429,120,2,,,,,
+Google,Google Pixel 10 Pro Fold,172999,83,TRUE,FALSE,TRUE,Tensor G5,Tensor,Octa Core,,16,256,5015,30,8,2076,2152,374,120,2,,,,Android,v16
+Tecno,Tecno Pop 9 5G,8199,74,TRUE,TRUE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,18,6.67,720,1612,265,120,2,1,48,8,Android,v14
+Apple,Apple Iphone 16 Pro Max,167900,89,TRUE,FALSE,TRUE,Bionic A18 Pro,Bionic,Hexa Core,4.05,8,1,4685,,6.9,1320,2868,458,120,3,1,48,12,iOS,v18
+Infinix,Infinix Hot 50 5G,10499,77,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5000,18,6.7,720,1600,262,120,2,1,48,8,Android,v14
+Vivo,Vivo Y300 Plus,20699,80,TRUE,FALSE,FALSE,Snapdragon 695,Snapdragon,Octa Core,2.2,8,128,5000,44,6.78,2400,1080,388,120,2,1,50,32,Android,v14
+Realme,Realme C63 5G,9999,73,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,10,6.67,720,1604,264,120,2,1,32,8,Android,v14
+Iqoo,Iqoo Z9S Pro 5G,24999,82,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,128,5500,80,6.77,1080,2392,388,120,2,1,50,16,Android,v14
+Oneplus,Oneplus Open 5G Apex Edition,149998,94,TRUE,TRUE,TRUE,Snapdragon 8 Gen2,Snapdragon,Octa Core,3.2,16,1,4805,67,7.82,2268,2440,426,120,2,,,,,
+Oneplus,Oneplus Nord 4 5G,29999,83,TRUE,TRUE,TRUE,Snapdragon 7+ Gen3,Snapdragon,Octa Core,2.8,8,256,5500,100,6.74,1240,2772,451,120,2,1,50,16,,
+Samsung,Samsung Galaxy M35 5G,18499,81,TRUE,FALSE,TRUE,Exynos 1380,Exynos,Octa Core,2.4,8,128,6000,25,6.6,1080,2340,390,120,3,1,50,13,Android,v14
+Samsung,Samsung Galaxy Z Flip 7 5G,109999,91,TRUE,FALSE,TRUE,Exynos 2500,Exynos,Deca Core,3.3,12,256,4300,25,6.9,1080,2520,397,120,2,,,,,
+Poco,Poco F6 5G,21890,83,TRUE,TRUE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,12,256,5000,90,6.67,1220,2712,446,120,2,1,50,20,Android,v14
+Realme,Realme 12X 5G,12999,78,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,8,128,5000,45,6.72,1080,2400,392,120,2,1,50,8,Android,v14
+Realme,Realme 13 5G,14490,79,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5000,45,6.72,1080,2400,392,120,2,1,50,16,Android,v14
+Poco,Poco X6 Pro 5G,27999,84,TRUE,TRUE,TRUE,Dimensity 8300 Ultra,Dimensity,Octa Core,3.35,12,512,5000,67,6.67,1220,2712,446,120,3,1,64,16,,
+Motorola,Motorola Moto G34 5G,12999,75,TRUE,FALSE,FALSE,Snapdragon 695,Snapdragon,Octa Core,2.2,8,128,5000,18,6.5,720,1600,270,120,2,1,50,16,Android,v14
+Xiaomi,Xiaomi Redmi Note 13 5G,19949,83,TRUE,TRUE,FALSE,Dimensity 6080,Dimensity,Octa Core,2.4,12,256,5000,33,6.67,1080,2400,395,120,3,1,108,16,Android,v13
+Apple,Apple Iphone 15,72999,82,TRUE,FALSE,TRUE,Bionic A16,Bionic,Hexa Core,3.46,6,512,3349,,6.1,1179,2556,461,60,2,1,48,12,iOS,v17
+Realme,Realme 12 Pro 5G,19999,79,TRUE,FALSE,FALSE,Snapdragon 6 Gen1,Snapdragon,Octa Core,2.2,8,128,5000,67,6.7,1080,2412,394,120,3,1,50,16,,
+Vivo,Vivo T2X 5G,12999,76,TRUE,FALSE,FALSE,Dimensity 6020,Dimensity,Octa Core,2.2,6,128,5000,18,6.58,1080,2408,401,60,2,1,50,8,Android,v13
+Vivo,Vivo X100 5G,63899,89,TRUE,TRUE,TRUE,Dimensity 9300,Dimensity,Octa Core,3.25,12,256,5000,120,6.78,1260,2800,453,120,3,1,64,32,Android,v14
+Vivo,Vivo X100 Pro 5G,89899,91,TRUE,TRUE,TRUE,Dimensity 9300,Dimensity,Octa Core,3.25,16,256,5400,100,6.78,1260,2800,453,120,3,1,50,32,Android,v14
+Samsung,Samsung Galaxy F54,35999,87,TRUE,FALSE,TRUE,Exynos 1380,Exynos,Octa Core,2.4,8,256,6000,25,6.7,1080,2408,394,120,3,1,108,32,Android,v13
+Oneplus,Oneplus 11R,34999,85,TRUE,TRUE,TRUE,Snapdragon 8+ Gen1,Snapdragon,Octa Core,3.2,16,256,5000,100,6.74,1240,2772,451,120,3,1,50,16,,
+Motorola,Motorola Moto G73,13999,82,TRUE,FALSE,TRUE,Dimensity 930,Dimensity,Octa Core,2.2,8,128,5000,30,6.5,1080,2400,405,120,2,1,50,16,Android,v13
+Oppo,Oppo Reno 10 Pro Plus,37999,86,TRUE,TRUE,TRUE,Snapdragon 8+ Gen1,Snapdragon,Octa Core,3.2,12,256,4700,100,6.74,1240,2772,451,120,3,1,64,32,,
+Nothing,Nothing Phone 1,21999,84,TRUE,FALSE,TRUE,Snapdragon 778G Plus,Snapdragon,Octa Core,2.5,8,256,4500,33,6.55,1080,2400,402,120,2,1,50,16,,
+Motorola,Motorola Moto G42,8999,76,FALSE,FALSE,TRUE,Snapdragon 680,Snapdragon,Octa Core,2.4,4,64,5000,20,6.47,1080,2400,407,60,3,1,50,16,Android,v12
+Iqoo,Iqoo Z7 Pro 5G,26999,77,TRUE,FALSE,FALSE,Dimensity 7200,Dimensity,Octa Core,2.8,8,128,4600,66,6.78,1080,2400,388,120,2,1,64,16,,
+Samsung,Samsung Galaxy Z Flip 4 5G,39999,86,TRUE,FALSE,TRUE,Snapdragon  8+ Gen1,Snapdragon,Octa Core,3.2,8,128,3700,25,6.7,1080,2640,426,120,2,,,,,
+Samsung,Samsung Galaxy Z Fold 4,78999,89,TRUE,FALSE,TRUE,Snapdragon  8+ Gen1,Snapdragon,Octa Core,3.2,12,256,4400,25,7.6,1812,2176,373,120,2,,,,Android,v12
+Samsung,Samsung Galaxy A73 5G,41999,88,TRUE,FALSE,TRUE,Snapdragon 778G,Snapdragon,Octa Core,2.4,8,128,5000,25,6.7,1080,2400,393,120,4,1,108,32,Android,v12
+Motorola,Motorola Edge 20 Fusion 5G,17947,85,TRUE,FALSE,TRUE,Dimensity 800U,Dimensity,Octa Core,2.4,6,128,5000,30,6.67,1080,2400,395,90,3,1,108,32,Android,v11
+Xiaomi,Xiaomi 12 Pro 5G,33980,86,TRUE,TRUE,TRUE,Snapdragon 8 Gen1,Snapdragon,Octa Core,3,8,256,4600,120,6.73,1440,3200,521,120,3,1,50,32,,
+Realme,Realme C20,5999,58,FALSE,FALSE,FALSE,Helio G35,Helio,Octa Core,2.3,2,32,5000,,6.5,1600,720,270,60,1,1,8,5,Android,v10
+Oppo,Oppo F21 Pro 5G,19990,80,TRUE,FALSE,FALSE,Snapdragon 695,Snapdragon,Octa Core,2.2,8,128,4500,33,6.43,1080,2400,409,60,3,1,64,16,Android,v12
+Blackzone,Blackzone F29 Pro,7599,62,FALSE,FALSE,FALSE,Helio,Helio,Octa Core,1,8,128,5000,,6.74,1600,720,260,60,1,1,40,20,,
+Samsung,Samsung Galaxy Z Fold 7,186999,95,TRUE,FALSE,TRUE,Snapdragon 8 Elite for Galaxy,Snapdragon,Octa Core,4.47,12,512,4400,25,8,1968,2184,367,120,2,,,,Android,v16
+Vivo,Vivo T4 Ultra,37999,86,TRUE,FALSE,TRUE,Dimensity 9300 Plus,Dimensity,Octa Core,3.25,12,256,5500,90,6.67,1260,2800,460,120,3,1,50,32,Android,v15
+Realme,Realme C73,10499,71,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,6000,15,6.67,720,1604,264,120,2,1,32,8,Android,v15
+Realme,Realme Gt 7T,38299,87,TRUE,TRUE,TRUE,Dimensity 8400-MAX,Dimensity,Octa Core,3.25,12,512,7000,120,6.8,1280,2800,453,120,2,1,50,32,Android,v15
+Alcatel,Alcatel V3 Ultra,14999,83,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5010,33,6.78,1080,2460,396,120,3,1,108,32,Android,v14
+Realme,Realme Narzo 80 Pro 5G,19499,80,TRUE,FALSE,FALSE,Dimensity 7400,Dimensity,Octa Core,2.6,8,256,6000,80,6.72,1080,2392,391,120,2,1,50,16,,
+Vivo,Vivo Y39 5G,18999,74,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,8,256,6500,44,6.68,720,1608,264,120,2,1,50,8,Android,v15
+Samsung,Samsung Galaxy A26,26999,83,TRUE,FALSE,TRUE,Exynos 1380,Exynos,Octa Core,2.4,8,256,5000,25,6.7,1080,2340,385,120,3,1,50,13,Android,v15
+Oppo,Oppo F29,20576,77,TRUE,FALSE,FALSE,Snapdragon 6 Gen1,Snapdragon,Octa Core,2.2,8,256,6500,45,6.7,1080,2412,394,120,2,1,50,16,,
+Apple,Apple Iphone 16E,62490,84,TRUE,FALSE,TRUE,Bionic A18,Bionic,Hexa Core,4.04,8,256,4005,,6.1,1170,2532,457,60,1,1,48,12,iOS,v18
+Samsung,Samsung Galaxy S25,86999,87,TRUE,FALSE,TRUE,Snapdragon 8Elite,Snapdragon,Octa Core,4.47,12,512,4000,25,6.2,1080,2340,416,120,3,1,50,12,,
+Vivo,Vivo Y29 5G,16999,77,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5500,44,6.68,720,1608,264,120,2,1,50,8,Android,v14
+Vivo,Vivo X200,71999,91,TRUE,TRUE,TRUE,Dimensity 9400,Dimensity,Octa Core,3.63,16,512,5800,90,6.67,1260,2800,460,120,3,1,50,32,Android,v15
+Realme,Realme C75 5G,11699,70,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,6000,45,6.67,720,1604,264,120,1,1,32,8,Android,v15
+Tecno,Tecno Spark 30C 5G,9999,71,TRUE,TRUE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,4,64,5000,18,6.67,720,1600,263,120,2,1,48,8,Android,v14
+Vivo,Vivo V40E 5G,26999,82,TRUE,FALSE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,256,5500,80,6.77,1080,2392,388,120,2,1,50,50,,
+Tecno,Tecno Pop 9 5G,7999,73,TRUE,TRUE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,4,64,5000,18,6.67,720,1612,265,120,2,1,48,8,Android,v14
+Tecno,Tecno Pova 6 Neo 5G,11999,74,TRUE,TRUE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,18,6.67,720,1600,263,120,2,1,108,8,Android,v14
+Vivo,Vivo T3 Ultra,31999,84,TRUE,FALSE,FALSE,Dimensity 9200 Plus,Dimensity,Octa Core,3.35,12,256,5500,80,6.78,1260,2800,453,120,2,1,50,50,,
+Vivo,Vivo T3 Pro,24999,81,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,256,5500,80,6.77,1080,2392,388,120,2,1,50,16,Android,v14
+Oppo,Oppo A3 5G 2024,13999,75,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5100,45,6.67,720,1604,264,120,2,1,50,5,Android,v14
+Vivo,Vivo V40 5G,36999,84,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,256,5500,80,6.78,1260,2800,453,120,2,1,50,50,Android,v14
+Oppo,Oppo Reno 12 Pro 5G,34999,87,TRUE,TRUE,TRUE,Dimensity 7300 Energy,Dimensity,Octa Core,2.5,12,512,5000,80,6.7,1080,2412,394,120,3,1,50,50,Android,v14
+Lava,Lava Blaze X 5G,14299,76,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,33,6.67,1080,2400,395,120,2,1,64,16,Android,v14
+Samsung,Samsung Galaxy F05,6799,69,FALSE,FALSE,FALSE,Helio G85,Helio,Octa Core,2,4,64,5000,25,6.74,720,1600,260,60,2,1,50,8,Android,v14
+Samsung,Samsung Galaxy A06,8790,70,FALSE,FALSE,FALSE,Helio G85,Helio,Octa Core,2,4,64,5000,25,6.74,720,1600,260,60,2,1,50,8,Android,v14
+Samsung,Samsung Galaxy F55 5G,25998,84,TRUE,FALSE,TRUE,Snapdragon 7 Gen1,Snapdragon,Octa Core,2.4,8,256,5000,45,6.7,1080,2400,393,120,3,1,50,50,Android,v14
+Poco,Poco F6 5G,27999,83,TRUE,TRUE,TRUE,Snapdragon 8s Gen3,Snapdragon,Octa Core,3,12,512,5000,90,6.67,1220,2712,446,120,2,1,50,20,Android,v14
+Vivo,Vivo Y58 5G,17499,80,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,8,128,6000,44,6.72,1080,2408,393,120,2,1,50,8,Android,v14
+Realme,Realme Gt 6T,27999,83,TRUE,TRUE,TRUE,Snapdragon 7+ Gen3,Snapdragon,Octa Core,2.8,8,128,5500,120,6.78,1264,2780,450,120,2,1,50,32,Android,v14
+Realme,Realme P2 Pro 5G,17999,80,TRUE,FALSE,FALSE,Snapdragon 7s Gen 2,Snapdragon,Octa Core,2.4,8,128,5200,80,6.7,1080,2412,394,120,2,1,50,32,,
+Realme,Realme P1 Pro 5G,15999,78,TRUE,FALSE,FALSE,Snapdragon 6 Gen1,Snapdragon,Octa Core,2.2,8,128,5000,45,6.7,1080,2400,393,120,2,1,50,16,,
+Oneplus,Oneplus 12R,39500,84,TRUE,TRUE,TRUE,Snapdragon 8 Gen2,Snapdragon,Octa Core,3.2,8,256,5500,100,6.78,1264,2780,450,120,3,1,50,16,,
+Nothing,Nothing Phone 2A,21999,84,TRUE,FALSE,TRUE,Dimensity 7200 Pro,Dimensity,Octa Core,2.8,8,256,5000,45,6.7,1084,2412,395,120,2,1,50,32,,
+Oppo,Oppo F25 Pro 5G,24990,84,TRUE,FALSE,FALSE,Dimensity 7050,Dimensity,Octa Core,2.6,8,256,5000,67,6.7,1080,2412,394,120,3,1,64,32,Android,v14
+Motorola,Motorola Moto G04,7999,70,FALSE,FALSE,FALSE,Unisoc T606,Unisoc,Octa Core,1.6,8,128,5000,15,6.56,720,1600,267,90,1,1,16,5,Android,v14
+Realme,Realme 13 Pro 5G,19498,80,TRUE,FALSE,FALSE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,8,128,5200,45,6.7,1080,2412,394,120,3,1,50,32,,
+Oneplus,Oneplus 12R,45999,85,TRUE,TRUE,TRUE,Snapdragon 8 Gen2,Snapdragon,Octa Core,3.2,16,256,5500,100,6.78,1264,2780,450,120,3,1,50,16,,
+Oneplus,Oneplus 12,69999,92,TRUE,TRUE,TRUE,Snapdragon 8 Gen3,Snapdragon,Octa Core,3.3,16,512,5400,100,6.82,1440,3168,510,120,3,1,64,32,Android,v14
+Xiaomi,Xiaomi Redmi Note 13 5G,16999,82,TRUE,TRUE,FALSE,Dimensity 6080,Dimensity,Octa Core,2.4,8,256,5000,33,6.67,1080,2400,395,120,3,1,108,16,Android,v13
+Vivo,Vivo Y28 5G,12999,74,TRUE,FALSE,FALSE,Dimensity 6020,Dimensity,Octa Core,2.2,4,128,5000,15,6.56,720,1612,269,90,2,1,50,8,Android,v13
+Xiaomi,Xiaomi Redmi 13C 5G,13999,77,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,8,256,5000,18,6.74,720,1600,260,90,2,1,50,5,Android,v13
+Poco,Poco X6 Neo,15999,81,TRUE,TRUE,FALSE,Dimensity 6080,Dimensity,Octa Core,2.4,8,128,5000,33,6.67,1080,2400,395,120,2,1,108,16,Android,v13
+Samsung,Samsung Galaxy S21 Fe,34999,84,TRUE,FALSE,TRUE,Snapdragon 888,Snapdragon,Octa Core,2.84,8,128,4500,25,6.4,1080,2340,403,120,3,1,12,32,Android,v13
+Honor,Honor X9B,21999,82,TRUE,TRUE,TRUE,Snapdragon 6 Gen1,Snapdragon,Octa Core,2.2,8,256,5800,35,6.78,1220,2652,431,120,3,1,108,16,,
+Apple,Apple Iphone 15 Pro,164900,87,TRUE,FALSE,TRUE,Bionic A17 Pro,Bionic,Hexa Core,3.78,8,512,3274,,6.1,1179,2556,461,120,3,1,48,12,iOS,v17
+Samsung,Samsung Galaxy A25 5G,18490,82,TRUE,FALSE,TRUE,Exynos 1280,Exynos,Octa Core,2.4,8,128,5000,25,6.5,1080,2340,396,120,3,1,50,13,Android,v14
+Motorola,Motorola Moto G84 5G,18999,83,TRUE,FALSE,TRUE,Snapdragon 695,Snapdragon,Octa Core,2.2,12,256,5000,30,6.55,1080,2400,402,120,2,1,50,16,Android,v13
+Motorola,Motorola Moto G84 5G,18999,83,TRUE,FALSE,TRUE,Snapdragon 695,Snapdragon,Octa Core,2.2,12,256,5000,30,6.55,1080,2400,402,120,2,1,50,16,Android,v13
+Xiaomi,Xiaomi Redmi 12 5G,11999,74,TRUE,TRUE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,4,128,5000,18,6.79,1080,2460,396,90,2,1,50,8,Android,v13
+Poco,Poco F5,23790,82,TRUE,TRUE,FALSE,Snapdragon 7+ Gen2,Snapdragon,Octa Core,2.91,12,256,5000,67,6.67,1080,2400,395,120,3,1,64,16,,
+Realme,Realme Narzo 70 Pro 5G,18999,81,TRUE,FALSE,FALSE,Dimensity 7050,Dimensity,Octa Core,2.6,8,128,5000,67,6.67,1080,2400,395,120,3,1,50,16,Android,v14
+Samsung,Samsung Galaxy M15 5G,14388,74,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,4,128,6000,25,6.45,1080,2340,400,90,3,1,50,13,Android,v14
+Realme,Realme 12 Pro Plus,25999,82,TRUE,FALSE,FALSE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,8,128,5000,67,6.7,1080,2412,394,120,3,1,64,32,Android,v14
+Vivo,Vivo T2 5G,14990,80,TRUE,FALSE,FALSE,Snapdragon 695,Snapdragon,Octa Core,2.2,8,128,4500,44,6.38,1080,2400,413,90,2,1,64,16,Android,v13
+Samsung,Samsung Galaxy A34 5G,29499,84,TRUE,FALSE,TRUE,Dimensity 1080,Dimensity,Octa Core,2.6,8,256,5000,25,6.6,1080,2340,390,120,3,1,48,13,Android,v13
+Samsung,Samsung Galaxy A34 5G,27499,84,TRUE,FALSE,TRUE,Dimensity 1080,Dimensity,Octa Core,2.6,8,128,5000,25,6.6,1080,2340,390,120,3,1,48,13,Android,v13
+Vivo,Vivo T2 5G,15999,77,TRUE,FALSE,FALSE,Snapdragon 695,Snapdragon,Octa Core,2.2,6,128,4500,44,6.38,1080,2400,413,90,2,1,64,16,Android,v13
+Poco,Poco X5 Pro,19349,82,TRUE,TRUE,FALSE,Snapdragon 778G,Snapdragon,Octa Core,2.4,8,256,5000,67,6.67,1080,2400,395,120,3,1,108,16,Android,v12
+Samsung,Samsung Galaxy Z Fold 5,89809,90,TRUE,FALSE,TRUE,Snapdragon 8 Gen 2,Snapdragon,Octa Core,3.36,12,256,4400,25,7.6,1812,2176,373,120,2,,,,Android,v13
+Vivo,Vivo Y100 5G,17499,80,TRUE,FALSE,FALSE,Dimensity  900,Dimensity,Octa Core,2.4,8,128,4500,44,6.38,1080,2400,413,90,3,1,64,16,Android,v13
+Xiaomi,Xiaomi Redmi 12C,9590,69,FALSE,FALSE,FALSE,Helio  G85,Helio,Octa Core,2,4,64,5000,,6.71,720,1650,268,60,2,1,50,5,Android,v12
+Oppo,Oppo Reno 8T,38999,85,TRUE,FALSE,TRUE,Snapdragon 695,Snapdragon,Octa Core,2.2,8,128,4800,67,6.7,1080,2412,394,120,3,1,108,32,Android,v13
+Apple,Apple Iphone 14,61900,80,TRUE,FALSE,TRUE,Bionic A15,Bionic,Hexa Core,3.22,6,256,3279,,6.1,1170,2532,457,60,2,1,12,12,iOS,v16
+Oppo,Oppo A78,17290,76,TRUE,FALSE,FALSE,Dimensity 700 5G,Dimensity,Octa Core,2.2,8,128,5000,33,6.56,720,1612,269,90,2,1,50,8,Android,v12
+Vivo,Vivo Y22,8999,71,FALSE,FALSE,FALSE,Helio G70,Helio,Octa Core,2,4,64,5000,18,6.55,720,1612,270,60,2,1,50,8,Android,v12
+Apple,Apple Iphone 14 Plus,69900,80,TRUE,FALSE,TRUE,Bionic A15,Bionic,Hexa Core,3.22,6,128,4325,,6.7,1284,2778,457,60,2,1,12,12,iOS,v16
+Vivo,Vivo X90 5G,47142,86,TRUE,TRUE,TRUE,Dimensity 9200,Dimensity,Octa Core,3.05,8,256,4810,120,6.78,1260,2800,453,120,3,1,50,32,Android,v13
+Oneplus,Oneplus 11 5G,38999,85,TRUE,FALSE,TRUE,Snapdragon 8 Gen2,Snapdragon,Octa Core,3.2,8,128,5000,100,6.7,1440,3216,526,120,3,1,50,16,Android,v13
+Realme,Realme 11 Pro,21999,81,TRUE,FALSE,FALSE,Dimensity 7050,Dimensity,Octa Core,2.6,8,128,5000,67,6.7,1080,2412,394,120,2,1,100,16,,
+Vivo,Vivo V25 Pro 5G,25999,81,TRUE,FALSE,FALSE,Dimensity 1300,Dimensity,Octa Core,3,8,128,4830,66,6.56,1080,2376,398,120,3,1,64,32,,
+Oneplus,Oneplus 10R 5G,29499,82,TRUE,FALSE,TRUE,Dimensity 8100 Max,Dimensity,Octa Core,2.85,8,128,5000,80,6.7,1080,2412,394,120,3,1,50,16,,
+Xiaomi,Xiaomi Redmi Note 10S,12899,80,FALSE,TRUE,FALSE,Helio G95,Helio,Octa Core,2.05,8,128,5000,33,6.43,1080,2400,409,60,4,1,64,13,Android,v11
+Motorola,Motorola Edge 20 Pro 5G,23460,85,TRUE,FALSE,TRUE,Snapdragon  870,Snapdragon,Octa Core,3.2,8,128,4500,30,6.7,1080,2400,393,144,3,1,108,32,,
+Xiaomi,Xiaomi Mi 11X,29990,78,TRUE,TRUE,FALSE,Snapdragon 870,Snapdragon,Octa Core,3.2,6,128,4520,33,6.67,1080,2400,395,120,3,1,48,20,,
+Xiaomi,Xiaomi Redmi Note 10 Pro Max,16490,80,FALSE,TRUE,FALSE,Snapdragon  732G,Snapdragon,Octa Core,2.3,6,128,5020,33,6.67,1080,2400,395,120,4,1,108,16,Android,v11
+Oppo,Oppo F19 Pro Plus 5G,19999,80,TRUE,FALSE,FALSE,Dimensity 800U,Dimensity,Octa Core,2.4,8,128,4310,50,6.43,1080,2400,409,60,4,1,48,16,Android,v11
+Apple,Apple Iphone 12,54900,74,TRUE,FALSE,TRUE,Bionic A14,Bionic,Hexa Core,3.1,4,128,2815,20,6.1,1179,2532,458,60,2,,12,,,
+Oneplus,Oneplus 9,25900,84,TRUE,FALSE,TRUE,Snapdragon 888,Snapdragon,Octa Core,2.84,8,128,4500,,6.55,1080,2400,402,120,3,1,50,16,Android,v11
+Apple,Apple Iphone 17 Pro,174900,83,TRUE,FALSE,TRUE,Apple A19 Pro,Apple,Hexa Core,,12,1,3988,,6.3,1206,2622,458,120,3,1,48,18,iOS,v26
+Oppo,Oppo A5X 5G,11499,68,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,64,6000,45,6.67,720,1604,264,120,1,1,32,5,Android,v15
+Motorola,Motorola Razr 60,54999,89,TRUE,FALSE,TRUE,Dimensity 7400X,Dimensity,Octa Core,2.6,8,256,4500,30,6.9,1080,2640,413,120,2,,,,,
+Oppo,Oppo A5X 4G,9998,69,FALSE,TRUE,FALSE,Snapdragon 6s 4G Gen1,Snapdragon,Octa Core,2.1,4,128,6000,45,6.67,720,1604,264,90,1,1,32,5,Android,v15
+Lava,Lava Storm Lite 5G,8999,72,TRUE,FALSE,FALSE,Dimensity 6400,Dimensity,Octa Core,2.5,4,128,5000,,6.75,720,1600,260,120,2,1,50,5,Android,v15
+Alcatel,Alcatel V3 Ultra,16999,85,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5010,33,6.78,1080,2460,396,120,3,1,108,32,Android,v14
+Alcatel,Alcatel V3 Pro,13999,80,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,5200,18,6.67,720,1600,263,120,2,1,50,8,Android,v15
+Alcatel,Alcatel V3 Ultra,16999,85,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5010,33,6.78,1080,2460,396,120,3,1,108,32,Android,v14
+Alcatel,Alcatel V3 Pro,13999,80,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,5200,18,6.67,720,1600,263,120,2,1,50,8,Android,v15
+Lava,Lava Shark 5G,7999,58,TRUE,FALSE,FALSE,Unisoc T765,Unisoc,Octa Core,,4,64,5000,,6.75,720,1600,260,90,1,1,13,5,Android,v15
+Vivo,Vivo V50 Elite Edition,43998,85,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,12,512,6000,90,6.77,1080,2392,388,120,2,1,50,50,,
+Samsung,Samsung Galaxy F56 5G,27999,80,TRUE,FALSE,FALSE,Exynos 1480,Exynos,Octa Core,2.7,8,256,5000,45,6.74,1080,2340,382,120,3,1,50,12,Android,v15
+Realme,Realme 14T 5G,18867,81,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,6000,45,6.67,1080,2400,395,120,2,1,50,16,Android,v15
+Samsung,Samsung Galaxy F16 5G,15499,80,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v15
+Samsung,Samsung Galaxy S25 Plus,111999,88,TRUE,FALSE,TRUE,Snapdragon 8Elite,Snapdragon,Octa Core,4.47,12,512,4900,45,6.7,1440,3120,513,120,3,1,50,12,,
+Itel,Itel A90,6274,61,FALSE,FALSE,FALSE,Unisoc T7100,Unisoc,Octa Core,1.8,4,64,5000,15,6.6,720,1612,267,90,1,1,13,5,Android,v14
+Vivo,Vivo Y29 5G,18999,78,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,5500,44,6.68,720,1608,264,120,2,1,50,8,Android,v14
+Lava,Lava O3 Pro,6349,69,FALSE,FALSE,FALSE,Unisoc T606,Unisoc,Octa Core,1.6,4,128,5000,10,6.56,1600,720,267,60,3,1,50,8,Android,v14
+Lava,Lava Blaze Duo,16999,77,TRUE,FALSE,FALSE,Dimensity 7025,Dimensity,Octa Core,2.5,6,128,5000,33,6.67,1080,2400,395,120,2,,,,,
+Vivo,Vivo Y300 5G,22999,82,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,8,256,5000,80,6.67,1080,2400,395,120,2,1,50,32,Android,v14
+Realme,Realme P1 Speed 5G,16990,81,TRUE,FALSE,FALSE,Dimensity 7300 E,Dimensity,Octa Core,2.5,8,128,5000,45,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Samsung,Samsung Galaxy M15 5G Prime Edition,12999,76,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,6,128,6000,25,6.5,1080,2340,396,90,3,1,50,13,Android,v14
+Tecno,Tecno Pova 6 Neo 5G,13999,76,TRUE,TRUE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,5000,18,6.67,720,1600,263,120,2,1,108,8,Android,v14
+Apple,Apple Iphone 16,97999,86,TRUE,FALSE,TRUE,Bionic A18,Bionic,Hexa Core,4.04,8,512,3561,,6.1,1179,2556,461,60,2,1,48,12,iOS,v18
+Realme,Realme 13 Plus 5G,21998,84,TRUE,FALSE,TRUE,Dimensity 7300 E,Dimensity,Octa Core,2.5,12,256,5000,80,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Realme,Realme 13 Plus 5G,17999,83,TRUE,FALSE,TRUE,Dimensity 7300 E,Dimensity,Octa Core,2.5,8,256,5000,80,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Infinix,Infinix Note 40 Pro Plus Racing Edition,24999,86,TRUE,TRUE,TRUE,Dimensity 7020,Dimensity,Octa Core,2.2,12,256,4600,100,6.78,1080,2436,393,120,3,1,108,32,Android,v14
+Google,Google Pixel 9 Pro Xl,139999,91,TRUE,FALSE,TRUE,Tensor G4,Tensor,Octa Core,3.1,16,512,5060,37,6.8,1344,2992,482,120,3,1,50,42,,
+Oppo,Oppo A3X 4G,8299,56,FALSE,FALSE,FALSE,Snapdragon 6s Gen1 4G,Snapdragon,Octa Core,,4,64,5100,45,6.67,720,1604,264,90,2,1,8,5,Android,v14
+Realme,Realme 13 Pro Plus 5G,33999,85,TRUE,FALSE,FALSE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,12,512,5200,80,6.7,1080,2412,394,120,3,1,50,32,Android,v14
+Oppo,Oppo K12X 5G,16999,76,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,5100,45,6.67,720,1604,264,120,2,1,32,8,Android,v14
+Cmf,Cmf Phone 1,18999,80,TRUE,FALSE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,128,5000,33,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Lava,Lava Blaze X 5G,11844,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,33,6.67,1080,2400,395,120,2,1,64,16,Android,v14
+Realme,Realme C61,8199,71,FALSE,FALSE,FALSE,Unisoc T612,Unisoc,Octa Core,1.8,6,128,5000,18,6.74,720,1600,260,90,1,1,32,5,Android,v14
+Vivo,Vivo T3 Lite 5G,11499,75,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,15,6.56,720,1612,269,90,2,1,50,8,Android,v14
+Oppo,Oppo A3 Pro 5G,18999,76,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,5100,45,6.67,720,1604,264,120,2,1,50,8,Android,v14
+Samsung,Samsung Galaxy Z Fold 6,139999,91,TRUE,FALSE,TRUE,Snapdragon 8 Gen 3,Snapdragon,Octa Core,3.39,12,1,4400,25,7.6,1856,2160,375,120,2,,,,,
+Samsung,Samsung Galaxy Z Fold 6,176999,91,TRUE,FALSE,TRUE,Snapdragon 8 Gen 3,Snapdragon,Octa Core,3.39,12,512,4400,25,7.6,1856,2160,375,120,2,,,,Android,v14
+Vivo,Vivo T3 Lite 5G,10499,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,15,6.56,720,1612,269,90,2,1,50,8,Android,v14
+Iqoo,Iqoo Z9 Lite 5G,12999,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,15,6.56,720,1600,267,90,2,1,50,8,Android,v14
+Samsung,Samsung Galaxy F55 5G,34999,85,TRUE,FALSE,TRUE,Snapdragon 7 Gen1,Snapdragon,Octa Core,2.4,12,256,5000,45,6.7,1080,2400,393,120,3,1,50,50,Android,v14
+Vivo,Vivo Y28S 5G,12999,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,15,6.56,720,1612,269,90,2,1,50,8,Android,v14
+Tecno,Tecno Spark 20 Pro 5G,13999,79,TRUE,FALSE,FALSE,Dimensity 6080,Dimensity,Octa Core,2.4,8,256,5000,33,6.78,1080,2460,396,120,3,1,108,8,Android,v14
+Realme,Realme Gt 6T,28780,84,TRUE,TRUE,TRUE,Snapdragon 7+ Gen3,Snapdragon,Octa Core,2.8,8,256,5500,120,6.78,1264,2780,450,120,2,1,50,32,Android,v14
+Google,Google Pixel 8A,44999,77,TRUE,FALSE,TRUE,Tensor G3,Tensor,Nine Core,3,8,256,4492,,6.1,1080,2400,431,120,2,1,64,13,Android,v14
+Vivo,Vivo T3X 5G,17999,78,TRUE,FALSE,FALSE,Snapdragon 6 Gen1,Snapdragon,Octa Core,2.2,8,128,6000,44,6.72,1080,2408,393,120,2,1,50,8,Android,v14
+Infinix,Infinix Zero Flip 5G,39999,87,TRUE,FALSE,TRUE,Dimensity 8020,Dimensity,Octa Core,2.6,8,512,4720,70,6.9,1080,2640,413,120,2,,,,,
+Vivo,Vivo Y200 Pro 5G,24999,77,TRUE,FALSE,FALSE,Snapdragon 695,Snapdragon,Octa Core,2.2,8,128,5000,44,6.78,2400,1080,388,120,2,1,64,16,,
+Vivo,Vivo T3 5G,20499,81,TRUE,FALSE,FALSE,Dimensity 7200,Dimensity,Octa Core,2.8,8,256,5000,44,6.67,1080,2400,395,120,3,1,50,16,Android,v14
+Vivo,Vivo V30 5G,28999,84,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,12,256,5000,80,6.78,1260,2800,453,120,2,1,50,50,,
+Samsung,Samsung Galaxy F15 5G,16999,75,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,6,128,6000,25,6.45,1080,2340,400,90,3,1,50,13,Android,v14
+Vivo,Vivo Y200E 5G,19999,79,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,8,128,5000,44,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Samsung,Samsung Galaxy M14 4G,8790,73,FALSE,FALSE,FALSE,Snapdragon 680,Snapdragon,Octa Core,2.4,4,64,5000,25,6.72,1080,2400,392,90,3,1,50,13,Android,v13
+Realme,Realme 12 Pro Plus 5G,32690,84,TRUE,FALSE,FALSE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,12,256,5000,67,6.7,1080,2412,394,120,3,1,64,32,Android,v14
+Samsung,Samsung Galaxy S24 Plus,68999,88,TRUE,FALSE,TRUE,Exynos 2400,Exynos,Deca Core,3.2,12,512,4900,45,6.7,1440,3120,513,120,3,1,50,12,,
+Samsung,Samsung Galaxy A15 5G,19999,80,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,8,256,5000,25,6.5,1080,2340,396,90,3,1,50,13,Android,v14
+Poco,Poco M6 Pro 5G,14999,78,TRUE,TRUE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,8,256,5000,18,6.79,1080,2460,396,90,2,1,50,8,Android,v13
+Lava,Lava Blaze 3 5G,9999,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,18,6.56,720,1600,267,90,2,1,50,8,Android,v14
+Google,Google Pixel 8 Pro,79999,79,TRUE,FALSE,TRUE,Tensor G3,Tensor,Nine Core,3,12,256,5050,30,6.7,1344,2992,490,120,3,1,50,10.5,,
+Oppo,Oppo A79 5G,17399,78,TRUE,FALSE,FALSE,Dimensity 6020,Dimensity,Octa Core,2.2,8,128,5000,33,6.72,1080,2400,392,90,2,1,50,8,Android,v13
+Motorola,Motorola Edge 40 Neo,24999,83,TRUE,FALSE,TRUE,Dimensity 7030,Dimensity,Octa Core,2.5,12,256,5000,68,6.55,1080,2400,402,144,2,1,50,32,,
+Apple,Apple Iphone 15 Pro Max,174900,89,TRUE,FALSE,TRUE,Bionic A17 Pro,Bionic,Hexa Core,3.78,8,1,4441,,6.7,1290,2796,460,120,3,1,48,12,iOS,v17
+Realme,Realme 11X 5G,14999,75,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,6,128,5000,33,6.72,1080,2400,392,120,2,1,64,8,Android,v13
+Poco,Poco M6 Pro 5G,12800,75,TRUE,TRUE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,6,128,5000,18,6.79,1080,2460,396,90,2,1,50,8,Android,v13
+Xiaomi,Xiaomi Redmi 12 5G,12494,75,TRUE,TRUE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,6,128,5000,18,6.79,1080,2460,396,90,2,1,50,8,Android,v13
+Samsung,Samsung Galaxy M34 5G,22499,82,TRUE,FALSE,TRUE,Exynos 1280,Exynos,Octa Core,2.4,8,128,6000,25,6.5,1080,2340,396,120,3,1,50,13,Android,v13
+Samsung,Samsung Galaxy Z Flip 6 5G,68900,90,TRUE,FALSE,TRUE,Snapdragon 8 Gen3,Snapdragon,Octa Core,3.3,12,256,4000,25,6.7,1080,2640,426,120,2,,,,,
+Iqoo,Iqoo Neo 7 Pro,35074,81,TRUE,TRUE,FALSE,Snapdragon 8+ Gen1,Snapdragon,Octa Core,3.2,8,128,5000,120,6.78,1080,2400,388,120,3,1,50,16,,
+Samsung,Samsung Galaxy F34 5G,19999,81,TRUE,FALSE,TRUE,Exynos 1280,Exynos,Octa Core,2.4,6,128,6000,25,6.5,1080,2340,396,120,3,1,50,13,Android,v13
+Oppo,Oppo Reno 11 Pro 5G,35000,86,TRUE,TRUE,TRUE,Dimensity 8200,Dimensity,Octa Core,3.1,12,256,4600,80,6.7,1080,2412,394,120,3,1,50,32,,
+Samsung,Samsung Galaxy M16 5G,12490,75,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v14
+Motorola,Motorola Razr 40 Ultra,48999,87,TRUE,FALSE,TRUE,Snapdragon  8+ Gen1,Snapdragon,Octa Core,3.2,8,256,3800,30,6.9,1080,2640,413,165,2,,,,,
+Realme,Realme 12 5G,16999,76,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,6,128,5000,45,6.72,1080,2400,392,120,2,1,108,8,Android,v14
+Vivo,Vivo T2X 5G,11999,74,TRUE,FALSE,FALSE,Dimensity 6020,Dimensity,Octa Core,2.2,4,128,5000,18,6.58,1080,2408,401,60,2,1,50,8,Android,v13
+Samsung,Samsung Galaxy F14 5G,13490,70,TRUE,FALSE,FALSE,Exynos 1330,Exynos,Octa Core,,6,128,6000,25,6.6,2408,1080,400,60,2,1,50,13,Android,v13
+Realme,Realme C55,12999,77,FALSE,FALSE,FALSE,Helio G88,Helio,Octa Core,2,8,128,5000,33,6.72,1080,2400,392,90,2,1,64,8,Android,v13
+Samsung,Samsung Galaxy S23 Plus,64999,87,TRUE,FALSE,TRUE,Snapdragon 8 Gen 2,Snapdragon,Octa Core,3.36,8,512,4700,45,6.6,1080,2340,390,120,3,1,50,12,,
+Samsung,Samsung Galaxy S23,49999,86,TRUE,FALSE,TRUE,Snapdragon 8 Gen 2,Snapdragon,Octa Core,3.36,8,256,3900,25,6.1,1080,2340,422,120,3,1,50,12,,
+Oppo,Oppo Reno 10 Pro,34499,84,TRUE,TRUE,TRUE,Snapdragon 778G,Snapdragon,Octa Core,2.4,12,256,4600,80,6.7,1080,2412,394,120,3,1,50,32,,
+Samsung,Samsung Galaxy F14 4G,8849,74,FALSE,FALSE,FALSE,Snapdragon 680,Snapdragon,Octa Core,2.4,4,64,5000,25,6.7,1080,2400,393,90,3,1,50,13,Android,v14
+Realme,Realme 10 Pro Plus,18999,82,TRUE,FALSE,FALSE,Dimensity 1080,Dimensity,Octa Core,2.6,8,128,5000,67,6.7,1080,2412,394,120,3,1,108,16,Android,v13
+Motorola,Motorola Moto E13,5999,61,FALSE,FALSE,FALSE,Tiger T606,Tiger,Octa Core,1.6,2,64,5000,10,6.5,720,1600,270,60,1,1,13,5,Android,v13
+Samsung,Samsung Galaxy Z Flip 5,56809,85,TRUE,FALSE,TRUE,Snapdragon 8 Gen 2,Snapdragon,Octa Core,3.2,8,256,3700,25,6.7,1080,2640,426,120,2,,,,,
+Oppo,Oppo F21S Pro 4G,17999,80,FALSE,FALSE,FALSE,Snapdragon  680,Snapdragon,Octa Core,2.4,8,128,4500,33,6.43,1080,2400,409,90,3,1,64,32,Android,v12
+Vivo,Vivo Y16,10999,64,FALSE,FALSE,FALSE,Helio P35,Helio,Octa Core,2.3,3,32,5000,10,6.51,720,1600,270,60,2,1,13,5,Android,v12
+Samsung,Samsung Galaxy A23 5G,21700,77,TRUE,FALSE,FALSE,Snapdragon 695,Snapdragon,Octa Core,2.2,6,128,5000,25,6.6,1080,2408,400,120,4,1,50,8,Android,v12
+Oneplus,Oneplus 10T,33899,82,TRUE,FALSE,TRUE,Snapdragon 8+ Gen1,Snapdragon,Octa Core,3.2,8,128,4800,150,6.7,1080,2412,394,120,3,1,50,16,,
+Oneplus,Oneplus Nord 2T,26999,83,TRUE,FALSE,TRUE,Dimensity 1300,Dimensity,Octa Core,3,12,256,4500,80,6.43,1080,2400,409,90,3,1,50,32,,
+Samsung,Samsung Galaxy A14 5G,13999,74,TRUE,FALSE,FALSE,Exynos 1330,Exynos,Octa Core,2.4,4,64,5000,15,6.6,1080,2408,400,90,3,1,50,13,Android,v13
+Oppo,Oppo F23,21490,82,TRUE,FALSE,FALSE,Snapdragon  695,Snapdragon,Octa Core,2.2,8,256,5000,67,6.72,1080,2400,392,120,3,1,64,32,Android,v13
+Vivo,Vivo T1 44W,13490,75,FALSE,FALSE,FALSE,Snapdragon 680,Snapdragon,Octa Core,2.4,4,128,5000,44,6.44,1080,2408,410,60,3,1,50,16,Android,v12
+Samsung,Samsung Galaxy A54 5G,28990,86,TRUE,FALSE,TRUE,Exynos 1380,Exynos,Octa Core,2.4,8,128,5000,25,6.4,1080,2340,403,120,3,1,50,32,Android,v13
+Samsung,Samsung Galaxy A23,20999,80,FALSE,FALSE,FALSE,Snapdragon  680,Snapdragon,Octa Core,2.4,8,128,5000,25,6.6,1080,2408,400,60,4,1,50,8,Android,v12
+Motorola,Motorola Edge 30 Fusion 5G,26990,86,TRUE,FALSE,TRUE,Snapdragon 888+,Snapdragon,Octa Core,2.9,8,128,4400,68,6.55,1080,2400,402,144,3,1,50,32,Android,v12
+Infinix,Infinix Note 11,14499,75,FALSE,FALSE,FALSE,Helio G88,Helio,Octa Core,2,6,128,5000,33,6.7,1080,2400,393,60,3,1,50,16,Android,v11
+Poco,Poco M4 Pro 4G,9590,75,FALSE,TRUE,FALSE,Helio G96,Helio,Octa Core,2.05,6,64,5000,33,6.43,1080,2400,409,90,3,1,64,16,Android,v11
+Oppo,Oppo Reno8 5G,24999,81,TRUE,FALSE,TRUE,Dimensity 1300,Dimensity,Octa Core,3,8,128,4500,80,6.43,1080,2400,409,90,3,1,50,32,,
+Vivo,Vivo X80 Pro 5G,49999,88,TRUE,TRUE,TRUE,Snapdragon 8 Gen1,Snapdragon,Octa Core,3,12,256,4700,80,6.78,1440,3200,518,120,4,1,50,32,Android,v12
+Oppo,Oppo Reno7 Pro 5G,24999,85,TRUE,FALSE,TRUE,Dimensity  1200 Max,Dimensity,Octa Core,3,12,256,4500,65,6.55,1080,2400,402,90,3,1,50,32,Android,v11
+Motorola,Motorola Moto E40,6980,70,FALSE,FALSE,FALSE,Tiger T700,Tiger,Octa Core,1.8,4,64,5000,,6.5,720,1600,270,90,3,1,48,8,Android,v11
+Xiaomi,Xiaomi Mi 11T Pro 5G,20999,84,TRUE,TRUE,TRUE,Snapdragon  888,Snapdragon,Octa Core,2.84,8,128,5000,120,6.67,1080,2400,395,120,3,1,108,16,,
+Xiaomi,Xiaomi Redmi Note 10T 5G,11790,74,TRUE,TRUE,FALSE,Dimensity 700,Dimensity,Octa Core,2.2,4,64,5000,18,6.5,1080,2400,405,90,3,1,48,8,Android,v11
+Poco,Poco X4 Pro 5G,12180,78,TRUE,TRUE,FALSE,Snapdragon 695,Snapdragon,Octa Core,2.2,6,64,5000,67,6.67,1080,2400,395,120,3,1,64,16,Android,v11
+Oppo,Oppo Reno 6 Pro 5G,29999,85,TRUE,FALSE,TRUE,Dimensity 1200,Dimensity,Octa Core,3,12,256,4500,65,6.55,1080,2400,402,90,4,1,64,32,Android,v11
+Xiaomi,Xiaomi Redmi Note 10S,10999,76,FALSE,TRUE,FALSE,Helio G95,Helio,Octa Core,2.05,6,64,5000,33,6.43,1080,2400,409,60,4,1,64,13,Android,v11
+Xiaomi,Xiaomi Redmi 9 Power,8290,73,FALSE,TRUE,FALSE,Snapdragon  662,Snapdragon,Octa Core,2,4,64,6000,18,6.53,1080,2340,395,60,4,1,48,8,Android,v10
+Xiaomi,Xiaomi Redmi Note 9 Pro,15999,75,FALSE,TRUE,FALSE,Snapdragon 720G,Snapdragon,Octa Core,2.3,4,128,5020,18,6.67,1080,2400,395,60,4,1,48,16,Android,v10.0
+Samsung,Samsung Galaxy S21,69999,86,TRUE,FALSE,TRUE,Exynos  2100,Exynos,Octa Core,2.9,8,128,4000,25,6.2,1080,2400,424,120,3,1,64,10,,
+Oneplus,Oneplus 8T,23999,82,TRUE,FALSE,TRUE,Snapdragon 865,Snapdragon,Octa Core,2.84,8,128,4500,65,6.55,1080,2400,402,120,4,1,48,16,Android,v11
+Xiaomi,Xiaomi Redmi 8,8399,65,FALSE,TRUE,FALSE,Snapdragon 439,Snapdragon,Octa Core,2,4,64,5000,18,6.22,720,1520,270,60,2,1,12,8,Android,v9.0
+Apple,Apple Iphone 12 Pro,109900,77,TRUE,FALSE,TRUE,Bionic A14,Bionic,Hexa Core,3.1,6,128,2815,20,6.1,1179,2532,458,60,3,,12,,,
+Xiaomi,Xiaomi Redmi Note 8 Pro,9499,76,FALSE,TRUE,FALSE,Helio  G90T,Helio,Octa Core,2.05,6,64,4500,18,6.53,1080,2340,395,60,4,1,64,20,Android,v9.0
+Xiaomi,Xiaomi Redmi Note 8,7450,73,FALSE,TRUE,FALSE,Snapdragon 665,Snapdragon,Octa Core,2,4,64,4000,18,6.3,1080,2280,400,60,4,1,48,13,Android,v9.0
+Xiaomi,Xiaomi Mi A3,8999,73,FALSE,TRUE,FALSE,Snapdragon  665,Snapdragon,Octa Core,2,4,64,4030,18,6.08,720,1560,283,60,3,1,48,32,Android,v9.0
+Xiaomi,Xiaomi Redmi Go,5299,45,FALSE,FALSE,FALSE,Snapdragon MSM8917,Snapdragon,Quad Core,1.4,1,8,3000,,5,720,1280,294,60,1,1,8,5,Android,v8.1
+Peace,Peace Mini 6,4499,37,FALSE,FALSE,FALSE,Helio,Helio,Single Core,1.3,3,32,2000,,3.75,412,960,279,60,1,,8,,,
+Apple,Apple Iphone Air,159900,78,TRUE,FALSE,TRUE,Apple A19 Pro,Apple,Hexa Core,,8,1,3149,,6.5,1260,2736,463,60,1,1,48,18,iOS,v26
+Apple,Apple Iphone Air,139900,78,TRUE,FALSE,TRUE,Apple A19 Pro,Apple,Hexa Core,,8,512,3149,,6.5,1260,2736,463,60,1,1,48,18,iOS,v26
+Lava,Lava Blaze Dragon 5G,9998,71,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,4,128,5000,18,6.74,720,1612,262,120,1,1,50,8,Android,v15
+Samsung,Samsung Galaxy Z Flip 7 Fe,89999,90,TRUE,FALSE,TRUE,Exynos 2400,Exynos,Octa Core,3.2,8,256,4000,25,6.7,1080,2640,426,120,2,,,,,
+Samsung,Samsung Galaxy Z Flip 7 5G,121999,91,TRUE,FALSE,TRUE,Exynos 2500,Exynos,Deca Core,3.3,12,512,4300,25,6.9,1080,2520,397,120,2,,,,,
+Alcatel,Alcatel V3 Classic,11999,76,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5200,18,6.67,720,1600,263,120,2,1,50,8,Android,v15
+Lava,Lava Bold N1,5999,57,FALSE,FALSE,FALSE,Unisoc 9863A,Unisoc,Octa Core,,4,64,5000,10,6.75,1600,720,260,60,2,1,13,5,Android,v14
+Oppo,Oppo A5X 4G,8998,68,FALSE,TRUE,FALSE,Snapdragon 6s 4G Gen1,Snapdragon,Octa Core,2.1,4,64,6000,45,6.67,720,1604,264,90,1,1,32,5,Android,v15
+Samsung,Samsung Galaxy S25 Edge,101999,89,TRUE,FALSE,TRUE,Snapdragon 8Elite,Snapdragon,Octa Core,4.47,12,512,3900,25,6.7,1440,3120,513,120,2,1,200,12,,
+Realme,Realme P1 Speed 5G,17999,81,TRUE,FALSE,FALSE,Dimensity 7300 E,Dimensity,Octa Core,2.5,8,256,5000,45,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Itel,Itel Zeno 5G,10299,70,TRUE,TRUE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,18,6.67,720,1612,265,120,2,1,50,8,Android,v14
+Apple,Apple Iphone 16E,81490,85,TRUE,FALSE,TRUE,Bionic A18,Bionic,Hexa Core,4.04,8,512,4005,,6.1,1170,2532,457,60,1,1,48,12,iOS,v18
+Samsung,Samsung Galaxy A14 4G,9699,74,FALSE,FALSE,FALSE,Exynos 850,Exynos,Octa Core,2,6,128,5000,15,6.6,1080,2408,400,60,3,1,50,13,Android,v13
+Tecno,Tecno Spark 30C 5G,12999,75,TRUE,TRUE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5000,18,6.67,720,1600,263,120,2,1,48,8,Android,v14
+Realme,Realme 14 Pro 5G,27890,80,TRUE,FALSE,FALSE,Dimensity 7300 Energy,Dimensity,Octa Core,2.5,8,256,6000,45,6.77,1080,2392,388,120,2,1,50,16,,
+Infinix,Infinix Smart 9 Hd,6699,65,FALSE,TRUE,FALSE,Helio G50,Helio,Octa Core,2.2,3,64,5000,10,6.7,720,1600,262,90,1,1,13,8,Android,v14
+Lava,Lava Blaze Duo,17999,79,TRUE,FALSE,FALSE,Dimensity 7025,Dimensity,Octa Core,2.5,8,128,5000,33,6.67,1080,2400,395,120,2,,,,,
+Oppo,Oppo Find X8 5G,79999,91,TRUE,TRUE,TRUE,Dimensity 9400,Dimensity,Octa Core,3.63,16,512,5630,80,6.59,1256,2760,460,120,3,1,50,32,,
+Samsung,Samsung Galaxy A16 5G,20499,81,TRUE,FALSE,TRUE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,5000,25,6.7,1080,2340,385,90,3,1,50,13,Android,v14
+Samsung,Samsung Galaxy M55S 5G,27950,84,TRUE,FALSE,TRUE,Snapdragon 7 Gen1,Snapdragon,Octa Core,2.4,8,256,5000,45,6.7,1080,2400,393,120,3,1,50,50,Android,v14
+Realme,Realme Narzo 70 Turbo 5G,22499,82,TRUE,FALSE,FALSE,Dimensity 7300 Energy,Dimensity,Octa Core,2.5,12,256,5000,45,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Realme,Realme Narzo 70 Turbo 5G,18891,80,TRUE,FALSE,FALSE,Dimensity 7300 Energy,Dimensity,Octa Core,2.5,8,128,5000,45,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Apple,Apple Iphone 16 Plus,109900,84,TRUE,FALSE,TRUE,Bionic A18,Bionic,Hexa Core,4.04,8,512,4674,,6.7,1290,2796,460,60,2,1,48,12,iOS,v18
+Apple,Apple Iphone 16 Pro,159900,89,TRUE,FALSE,TRUE,Bionic A18 Pro,Bionic,Hexa Core,4.05,8,1,3582,,6.3,1206,2622,458,120,3,1,48,12,iOS,v18
+Infinix,Infinix Hot 50 5G,9999,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,18,6.7,720,1600,262,120,2,1,48,8,Android,v14
+Iqoo,Iqoo Z9S,24999,81,TRUE,FALSE,FALSE,Dimensity 7300,Dimensity,Octa Core,2.5,8,256,5500,44,6.77,1080,2392,388,120,2,1,50,16,,
+Tecno,Tecno Spark Go 1,7299,62,FALSE,TRUE,FALSE,Unisoc T615,Unisoc,Octa Core,1.8,4,64,5000,15,6.67,720,1600,263,120,1,1,13,8,Android,v14
+Xiaomi,Xiaomi Redmi A3X,6787,64,FALSE,FALSE,FALSE,Unisoc T603,Unisoc,Octa Core,1.8,4,128,5000,10,6.71,720,1650,268,90,2,1,8,5,Android,v14
+Oppo,Oppo F27,22999,82,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,256,5000,45,6.67,1080,2412,396,120,2,1,50,32,Android,v14
+Tecno,Tecno Pop 9 4G,6499,55,FALSE,TRUE,FALSE,Helio G50,Helio,Octa Core,,3,64,5000,,6.67,720,1600,263,90,1,1,13,8,Android,v14
+Vivo,Vivo V40 5G,42947,86,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,12,512,5500,80,6.78,1260,2800,453,120,2,1,50,50,Android,v14
+Realme,Realme 13 Pro 5G,21478,81,TRUE,FALSE,FALSE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,8,256,5200,45,6.7,1080,2412,394,120,3,1,50,32,,
+Realme,Realme 13 Pro 5G,26899,83,TRUE,FALSE,FALSE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,12,512,5200,45,6.7,1080,2412,394,120,3,1,50,32,,
+Realme,Realme 13 Pro Plus 5G,28970,84,TRUE,FALSE,FALSE,Snapdragon 7s Gen2,Snapdragon,Octa Core,2.4,12,256,5200,80,6.7,1080,2412,394,120,3,1,50,32,Android,v14
+Iqoo,Iqoo Z9 Lite 5G,14499,75,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,15,6.56,720,1612,269,90,2,1,50,8,Android,v14
+Vivo,Vivo Y28E 5G,10499,68,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,64,5000,15,6.56,720,1612,269,90,2,1,13,5,Android,v14
+Vivo,Vivo Y18I,8499,58,FALSE,FALSE,FALSE,Unisoc T612,Unisoc,Octa Core,,4,64,5000,15,6.56,720,1612,269,90,2,1,13,5,Android,v14
+Lava,Lava Blaze X 5G,16999,78,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,8,128,5000,33,6.67,1080,2400,395,120,2,1,64,16,Android,v14
+Vivo,Vivo Y28S 5G,14499,75,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,15,6.56,720,1612,269,90,2,1,50,8,Android,v14
+Tecno,Tecno Phantom V Flip 2,54999,87,TRUE,FALSE,TRUE,Dimensity 8020,Dimensity,Octa Core,2.6,8,256,4720,70,6.9,1080,2640,413,120,2,,,,,
+Vivo,Vivo Y28E 5G,10999,69,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,128,5000,15,6.56,720,1612,269,90,2,1,13,5,Android,v14
+Realme,Realme Gt 6T,39999,86,TRUE,TRUE,TRUE,Snapdragon 7+ Gen3,Snapdragon,Octa Core,2.8,12,512,5500,120,6.78,1264,2780,450,120,2,1,50,32,Android,v14
+Vivo,Vivo Y18,11999,71,FALSE,FALSE,FALSE,Helio G85,Helio,Octa Core,2,4,128,5000,15,6.56,720,1612,269,90,2,1,50,8,Android,v14
+Vivo,Vivo V30E,28996,84,TRUE,FALSE,TRUE,Snapdragon 6 Gen1,Snapdragon,Octa Core,2.2,8,256,5500,44,6.78,1080,2400,388,120,2,1,50,50,Android,v14
+Realme,Realme C65 5G,13990,74,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,6,128,5000,15,6.67,720,1604,264,120,1,1,50,8,Android,v14
+Samsung,Samsung Galaxy F15 5G,16499,78,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,8,128,6000,25,6.45,1080,2340,400,90,3,1,50,13,Android,v14
+Realme,Realme P1 Pro 5G,16999,79,TRUE,FALSE,FALSE,Snapdragon 6 Gen1,Snapdragon,Octa Core,2.2,8,256,5000,45,6.7,1080,2400,393,120,2,1,50,16,,
+Itel,Itel S24,8499,74,FALSE,FALSE,FALSE,Helio G91,Helio,Octa Core,2,8,128,5000,18,6.6,720,1612,267,90,2,1,108,8,Android,v13
+Xiaomi,Xiaomi Redmi A3X,6485,61,FALSE,FALSE,FALSE,Unisoc T603,Unisoc,Octa Core,1.8,3,64,5000,10,6.71,720,1650,268,90,2,1,8,5,Android,v14
+Realme,Realme Narzo 70 Pro 5G,20999,82,TRUE,FALSE,FALSE,Dimensity 7050,Dimensity,Octa Core,2.6,8,256,5000,67,6.67,1080,2400,395,120,3,1,50,16,Android,v14
+Iqoo,Iqoo Z9 5G,20499,82,TRUE,FALSE,FALSE,Dimensity 7200,Dimensity,Octa Core,2.8,8,256,5000,44,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Poco,Poco X6 Neo,18990,82,TRUE,TRUE,FALSE,Dimensity 6080,Dimensity,Octa Core,2.4,12,256,5000,33,6.67,1080,2400,395,120,2,1,108,16,Android,v13
+Vivo,Vivo V30 5G,29990,83,TRUE,FALSE,FALSE,Snapdragon 7 Gen3,Snapdragon,Octa Core,2.63,8,256,5000,80,6.78,1260,2800,453,120,2,1,50,50,,
+Realme,Realme 12 5G,15989,78,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,8,128,5000,45,6.72,1080,2400,392,120,2,1,108,8,Android,v14
+Tecno,Tecno Camon 30 5G,24990,81,TRUE,TRUE,FALSE,Dimensity 7020,Dimensity,Octa Core,2.2,8,256,5000,70,6.78,1080,2436,393,120,3,1,50,50,Android,v14
+Iqoo,Iqoo Neo 9 Pro 5G,35999,82,TRUE,TRUE,FALSE,Snapdragon 8 Gen2,Snapdragon,Octa Core,3.2,12,256,5160,120,6.78,1260,2800,453,144,2,1,50,16,,
+Vivo,Vivo Y200E 5G,18999,77,TRUE,FALSE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,6,128,5000,44,6.67,1080,2400,395,120,2,1,50,16,Android,v14
+Realme,Realme 12 Plus 5G,19499,81,TRUE,FALSE,FALSE,Dimensity 7050,Dimensity,Octa Core,2.6,8,128,5000,67,6.67,1080,2400,395,120,3,1,50,16,Android,v14
+Oppo,Oppo Reno 11,29999,87,TRUE,TRUE,TRUE,Dimensity 7050,Dimensity,Octa Core,2.6,8,256,5000,67,6.7,1080,2412,394,120,3,1,50,32,Android,v14
+Samsung,Samsung Galaxy A25 5G,20998,83,TRUE,FALSE,TRUE,Exynos 1280,Exynos,Octa Core,2.4,8,256,5000,25,6.5,1080,2340,396,120,3,1,50,13,Android,v14
+Oppo,Oppo A59 5G,15494,73,TRUE,FALSE,FALSE,Dimensity 6020,Dimensity,Octa Core,2.2,6,128,5000,33,6.56,720,1612,269,90,2,1,13,8,Android,v13
+Poco,Poco M6 5G,10999,73,TRUE,TRUE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,6,128,5000,18,6.74,720,1650,267,90,2,1,50,5,Android,v13
+Samsung,Samsung Galaxy S23 Fe 5G,43850,84,TRUE,FALSE,TRUE,Snapdragon 8 Gen1,Snapdragon,Octa Core,3,8,128,4500,25,6.4,1080,2340,403,120,3,1,50,10,Android,v13
+Xiaomi,Xiaomi Redmi 13C 5G,10988,74,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,6,128,5000,18,6.74,720,1600,260,90,2,1,50,5,Android,v13
+Xiaomi,Xiaomi Redmi 13C,13990,76,FALSE,FALSE,FALSE,Helio G85,Helio,Octa Core,2,8,256,5000,18,6.74,720,1600,260,90,3,1,50,8,Android,v13
+Realme,Realme C67 5G,11868,74,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,4,128,5000,33,6.72,1080,2400,392,120,2,1,50,8,Android,v13
+Xiaomi,Xiaomi Redmi A3,6599,63,FALSE,FALSE,FALSE,Helio G36,Helio,Octa Core,2.2,3,64,5000,10,6.71,720,1650,268,90,2,1,8,5,Android,v13
+Realme,Realme C65 5G,11499,71,TRUE,FALSE,FALSE,Dimensity 6300,Dimensity,Octa Core,2.4,4,64,5000,15,6.67,720,1604,264,120,1,1,50,8,Android,v14
+Oppo,Oppo A59 5G,13499,70,TRUE,FALSE,FALSE,Dimensity 6020,Dimensity,Octa Core,2.2,4,128,5000,33,6.56,720,1612,269,90,2,1,13,8,Android,v13
+Samsung,Samsung Galaxy S23 Fe 5G,42490,82,TRUE,FALSE,TRUE,Exynos 2200,Exynos,Octa Core,2.8,8,256,4500,25,6.4,1080,2340,403,120,3,1,50,10,Android,v13
+Xiaomi,Xiaomi Redmi 13C 4G,9294,72,FALSE,FALSE,FALSE,Helio G85,Helio,Octa Core,2,4,128,5000,18,6.74,720,1600,260,90,3,1,50,8,Android,v13
+Itel,Itel P55 5G,9095,74,TRUE,FALSE,FALSE,Dimensity 6080,Dimensity,Octa Core,2.4,6,128,5000,18,6.6,1600,720,266,90,2,1,50,8,Android,v13
+Poco,Poco M6 Pro 5G,10999,74,TRUE,TRUE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,4,128,5000,18,6.79,1080,2460,396,90,2,1,50,8,Android,v13
+Realme,Realme 12X,11999,74,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,4,128,5000,45,6.72,1080,2400,392,120,2,1,50,8,Android,v14
+Realme,Realme Narzo 60X,11999,74,TRUE,FALSE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,4,128,5000,33,6.72,1080,2400,392,120,2,1,50,8,Android,v13
+Vivo,Vivo Y17S,10999,69,FALSE,FALSE,FALSE,Helio G85,Helio,Octa Core,2,4,64,5000,15,6.56,720,1612,269,60,2,1,50,8,Android,v13
+Samsung,Samsung Galaxy F34 5G,21999,83,TRUE,FALSE,TRUE,Exynos 1280,Exynos,Octa Core,2.4,8,128,6000,25,6.5,1080,2340,396,120,3,1,50,13,Android,v13
+Poco,Poco C65,9290,72,FALSE,FALSE,FALSE,Helio G85,Helio,Octa Core,2,4,128,5000,18,6.74,720,1600,260,90,3,1,50,8,Android,v13
+Samsung,Samsung Galaxy Z Fold 5,96689,91,TRUE,FALSE,TRUE,Snapdragon 8 Gen 2,Snapdragon,Octa Core,3.36,12,512,4400,25,7.6,1812,2176,373,120,2,,,,Android,v13
+Samsung,Samsung Galaxy Z Fold 5,96689,91,TRUE,FALSE,TRUE,Snapdragon 8 Gen 2,Snapdragon,Octa Core,3.36,12,512,4400,25,7.6,1812,2176,373,120,2,,,,Android,v13
+Poco,Poco C61,6819,65,FALSE,FALSE,FALSE,Helio G36,Helio,Octa Core,2.2,4,64,5000,18,6.71,720,1650,268,90,2,1,8,5,Android,v14
+Poco,Poco M6 Pro 5G,10499,73,TRUE,TRUE,FALSE,Snapdragon 4 Gen2,Snapdragon,Octa Core,2.2,4,64,5000,18,6.79,1080,2460,396,90,2,1,50,8,Android,v13
+Vivo,Vivo Y27 4G,11994,74,FALSE,FALSE,FALSE,Helio G85,Helio,Octa Core,2,6,128,5000,44,6.64,1080,2388,395,60,2,1,50,8,Android,v13
+Tecno,Tecno Spark 10 5G,12990,77,TRUE,FALSE,FALSE,Dimensity 6020,Dimensity,Octa Core,2.2,8,256,5000,18,6.56,720,1612,269,90,2,1,50,8,Android,v13
+Realme,Realme C53,8994,74,FALSE,FALSE,FALSE,Tiger T612,Tiger,Octa Core,1.82,4,128,5000,18,6.74,1080,2400,390,90,2,1,108,8,Android,v13
+Xiaomi,Xiaomi Redmi Note 12,15699,81,TRUE,TRUE,FALSE,Snapdragon 4 Gen 1,Snapdragon,Octa Core,2,8,256,5000,33,6.67,1080,2400,395,120,3,1,48,13,Android,v12
+Vivo,Vivo Y100A,15999,80,TRUE,FALSE,FALSE,Snapdragon 695,Snapdragon,Octa Core,2.2,8,128,4500,44,6.38,1080,2400,413,90,3,1,64,16,Android,v13
+Vivo,Vivo T2X 5G,14999,78,TRUE,FALSE,FALSE,Dimensity 6020,Dimensity,Octa Core,2.2,8,128,5000,18,6.58,1080,2408,401,60,2,1,50,8,Android,v13
+Poco,Poco C51,7069,65,FALSE,FALSE,FALSE,Helio G36,Helio,Octa Core,2.2,4,64,5000,10,6.52,720,1600,269,60,2,1,8,5,Android,v13
+Infinix,Infinix Hot 30I,9499,74,FALSE,FALSE,FALSE,Helio G37,Helio,Octa Core,2.3,8,128,5000,10,6.6,720,1612,267,90,2,1,50,8,Android,v12
+Poco,Poco C55,9999,74,FALSE,FALSE,FALSE,Helio  G85,Helio,Octa Core,2,6,128,5000,10,6.71,720,1650,268,60,2,1,50,5,Android,v12
+Vivo,Vivo Y56,16990,81,TRUE,FALSE,FALSE,Dimensity 700 5G,Dimensity,Octa Core,2.2,8,128,5000,18,6.58,1080,2408,401,60,2,1,50,16,Android,v13
+Lava,Lava Agni 2 5G,15999,80,TRUE,FALSE,FALSE,Dimensity 7050,Dimensity,Octa Core,2.6,8,256,4700,66,6.78,1080,2460,396,120,4,1,50,16,,
+Samsung,Samsung Galaxy A14 5G,16499,80,TRUE,FALSE,FALSE,Exynos 1330,Exynos,Octa Core,2.4,8,128,5000,15,6.6,1080,2408,400,90,3,1,50,13,Android,v13
+Xiaomi,Xiaomi Redmi Note 12,12239,78,TRUE,TRUE,FALSE,Snapdragon 4 Gen 1,Snapdragon,Octa Core,2,6,128,5000,33,6.67,1080,2400,395,120,3,1,48,13,Android,v12
+Infinix,Infinix Zero 5G 2023,16990,82,TRUE,FALSE,FALSE,Dimensity 920 5G,Dimensity,Octa Core,2.5,8,128,5000,33,6.78,1080,2460,396,120,3,1,50,16,Android,v12
+Realme,Realme 10,9999,73,FALSE,FALSE,FALSE,Helio G99,Helio,Octa Core,2.2,4,64,5000,33,6.4,1080,2400,411,90,2,1,50,16,Android,v12
+Realme,Realme Gt Neo 3T,19538,79,TRUE,FALSE,FALSE,Snapdragon 870,Snapdragon,Octa Core,3.2,8,128,5000,80,6.62,1080,2400,398,120,3,1,64,16,,
+Iqoo,Iqoo Z6 Lite,14999,77,TRUE,FALSE,FALSE,Snapdragon  4 Gen 1,Snapdragon,Octa Core,2,6,128,5000,18,6.58,1080,2408,401,120,2,1,50,8,Android,v12
+Oppo,Oppo A17K,7999,61,FALSE,FALSE,FALSE,Helio G35,Helio,Octa Core,2.3,3,64,5000,,6.56,720,1612,269,60,1,1,8,5,Android,v12
+Motorola,Motorola Moto G72 4G,13990,80,FALSE,FALSE,FALSE,Helio  G99,Helio,Octa Core,2.2,6,128,5000,33,6.55,1080,2400,402,120,3,1,108,16,Android,v12
+Poco,Poco M6 5G,9190,72,TRUE,TRUE,FALSE,Dimensity 6100 Plus,Dimensity,Octa Core,2.2,4,128,5000,18,6.74,720,1650,267,90,2,1,50,5,Android,v13
+Iqoo,Iqoo Z6 Lite 5G,12999,74,TRUE,FALSE,FALSE,Snapdragon  4 Gen 1,Snapdragon,Octa Core,2,4,64,5000,18,6.58,1080,2408,401,120,2,1,50,8,Android,v12
+Xiaomi,Xiaomi Redmi A1 Plus,5899,59,FALSE,FALSE,FALSE,Helio A22,Helio,Quad Core,2,2,32,5000,10,6.52,720,1600,269,60,2,1,8,5,Android,v12
+Oppo,Oppo A17,8999,71,FALSE,FALSE,FALSE,Helio G35,Helio,Octa Core,2.3,4,64,5000,,6.56,720,1612,269,60,2,1,50,5,Android,v12
+Vivo,Vivo V25 Pro,39999,83,TRUE,FALSE,FALSE,Dimensity 1300,Dimensity,Octa Core,3,12,256,4830,66,6.56,1080,2376,398,120,3,1,64,32,,
+Vivo,Vivo Y35,22999,77,FALSE,FALSE,FALSE,Snapdragon 680,Snapdragon,Octa Core,2.4,8,128,5000,44,6.58,1080,2408,401,90,3,1,50,16,Android,v12
+Nothing,Nothing Phone 1,22999,84,TRUE,FALSE,TRUE,Snapdragon 778G Plus,Snapdragon,Octa Core,2.5,12,256,4500,33,6.55,1080,2400,402,120,2,1,50,16,,
+Oppo,Oppo A57 4G,16990,68,FALSE,FALSE,FALSE,Helio G35,Helio,Octa Core,2.3,4,64,5000,33,6.56,720,1612,269,60,2,1,13,8,Android,v12
+Xiaomi,Xiaomi Redmi K50I 5G,24999,80,TRUE,TRUE,FALSE,Dimensity  8100,Dimensity,Octa Core,2.85,6,128,5080,67,6.6,1080,2460,407,144,3,1,64,16,,
+Vivo,Vivo Y75 4G,16990,80,FALSE,FALSE,FALSE,Helio G96,Helio,Octa Core,2.05,8,128,4050,44,6.44,1080,2400,409,60,3,1,50,44,Android,v12
+Samsung,Samsung Galaxy M14,14341,75,TRUE,FALSE,FALSE,Exynos 1330,Exynos,Octa Core,2.4,4,128,6000,25,6.6,1080,2408,400,90,3,1,50,13,Android,v13
+Realme,Realme Gt Neo 3 5G,23490,82,TRUE,FALSE,TRUE,Dimensity  8100,Dimensity,Octa Core,2.85,12,256,4500,150,6.7,1080,2412,394,120,3,1,50,16,,
+Motorola,Motorola Edge 30 5G,26999,83,TRUE,FALSE,TRUE,Snapdragon 778G+,Snapdragon,Octa Core,2.5,8,128,4020,33,6.5,1080,2400,405,144,3,1,50,32,,
+Oneplus,Oneplus 10R 5G,38999,83,TRUE,FALSE,TRUE,Dimensity 8100 Max,Dimensity,Octa Core,2.85,12,256,5000,80,6.7,1080,2412,394,120,3,1,50,16,,
+Motorola,Motorola Moto G82 5G,15999,81,TRUE,FALSE,TRUE,Snapdragon 695,Snapdragon,Octa Core,2.2,6,128,5000,30,6.6,1080,2400,399,120,3,1,50,16,Android,v12
+Poco,Poco X4 Pro 5G,15980,82,TRUE,TRUE,FALSE,Snapdragon 695,Snapdragon,Octa Core,2.2,8,128,5000,67,6.67,1080,2400,395,120,3,1,64,16,Android,v11
+Samsung,Samsung Galaxy M33 5G,19999,82,TRUE,FALSE,TRUE,Exynos  1280,Exynos,Octa Core,2.4,8,128,6000,25,6.6,1080,2400,399,120,4,1,50,8,Android,v12
+Realme,Realme 9 5G,14999,77,TRUE,FALSE,FALSE,Dimensity  810 5G,Dimensity,Octa Core,2.4,6,128,5000,18,6.5,1080,2400,405,90,3,1,48,16,Android,v11
+Poco,Poco M4 Pro 4G,10290,77,FALSE,TRUE,FALSE,Helio G96,Helio,Octa Core,2.05,6,128,5000,33,6.43,1080,2400,409,90,3,1,64,16,Android,v11
+Poco,Poco M4 Pro 4G,10490,79,FALSE,TRUE,FALSE,Helio G96,Helio,Octa Core,2.05,8,128,5000,33,6.43,1080,2400,409,90,3,1,64,16,Android,v11
+Xiaomi,Xiaomi Redmi Note 11,12490,78,FALSE,TRUE,FALSE,Snapdragon  680,Snapdragon,Octa Core,2.4,6,128,5000,33,6.43,1080,2400,409,90,4,1,50,13,Android,v11
+Xiaomi,Xiaomi Redmi Note 11S,13990,82,FALSE,TRUE,FALSE,Helio  G96,Helio,Octa Core,2.05,8,128,5000,33,6.43,1080,2400,409,90,4,1,108,16,Android,v11
+Oppo,Oppo Reno 8 Pro 5G,29484,83,TRUE,FALSE,TRUE,Dimensity 8100-Max,Dimensity,Octa Core,2.85,12,256,4500,80,6.7,1080,2412,394,120,3,1,50,32,,
+Vivo,Vivo V23 Pro 5G,39499,85,TRUE,FALSE,FALSE,Dimensity 1200,Dimensity,Octa Core,3,12,256,4300,44,6.56,1080,2376,398,90,3,2,108,50,Android,v12
+Infinix,Infinix Note 12,8299,73,FALSE,FALSE,FALSE,Helio G88,Helio,Octa Core,2,4,64,5000,33,6.7,2400,1080,393,60,3,1,50,16,Android,v11
+Motorola,Motorola Moto G31,9899,76,FALSE,FALSE,FALSE,Helio  G85,Helio,Octa Core,2,6,128,5000,20,6.47,1080,2400,407,60,3,1,50,13,Android,v11
+Xiaomi,Xiaomi Redmi Note 11,10790,74,FALSE,TRUE,FALSE,Snapdragon  680,Snapdragon,Octa Core,2.4,4,64,5000,33,6.43,1080,2400,409,90,4,1,50,13,Android,v11
+Motorola,Motorola Moto G71 5G,13999,78,TRUE,FALSE,TRUE,Snapdragon 695,Snapdragon,Octa Core,2.2,6,128,5000,33,6.4,1080,2400,411,60,3,1,50,16,Android,v11
+Samsung,Samsung Galaxy A53 5G,27500,85,TRUE,FALSE,TRUE,Exynos 1280,Exynos,Octa Core,2.4,6,128,5000,25,6.5,1080,2400,405,120,4,1,64,32,Android,v12
+Realme,Realme 9 Pro Plus 5G,24990,76,TRUE,FALSE,FALSE,Dimensity  920 5G,Dimensity,Octa Core,2.5,6,128,4500,60,6.4,1080,2400,411,90,3,1,50,16,Android,v12
+Vivo,Vivo X80 5G,42990,84,TRUE,FALSE,FALSE,Dimensity  9000,Dimensity,Octa Core,3.05,8,128,4500,80,6.78,1080,2400,388,120,3,1,50,32,Android,v12
+Poco,Poco M4 Pro 5G,10999,74,TRUE,TRUE,FALSE,Dimensity 810 5G,Dimensity,Octa Core,2.4,4,64,5000,33,6.6,1080,2400,399,90,2,1,50,16,Android,v11
+Apple,Apple Iphone 13,79900,78,TRUE,FALSE,TRUE,Bionic A15,Bionic,Hexa Core,3.22,4,512,3240,,6.1,1170,2532,457,60,2,1,12,12,iOS,v15
+Oppo,Oppo F19S,16999,77,FALSE,FALSE,FALSE,Snapdragon 662,Snapdragon,Octa Core,2,6,128,5000,33,6.43,1080,2400,409,60,3,1,48,16,Android,v11
+Oppo,Oppo F19S,16999,77,FALSE,FALSE,FALSE,Snapdragon 662,Snapdragon,Octa Core,2,6,128,5000,33,6.43,1080,2400,409,60,3,1,48,16,Android,v11
+Asus,Asus Rog Phone 5S Pro 5G,79999,87,TRUE,FALSE,TRUE,Snapdragon  888+,Snapdragon,Octa Core,2.9,18,512,6000,65,6.78,1080,2448,395,144,3,1,64,24,,
+Realme,Realme C11 2021,8999,60,FALSE,FALSE,FALSE,Unisoc,Unisoc,Octa Core,1.6,4,64,5000,,6.52,720,1600,269,60,1,1,8,5,Android,v11
+Xiaomi,Xiaomi Redmi 10 Prime,9749,73,FALSE,TRUE,FALSE,Helio G88,Helio,Octa Core,2,4,64,6000,18,6.5,1080,2400,405,90,4,1,50,8,Android,v11
+Motorola,Motorola Edge 20 5G,15990,85,TRUE,FALSE,TRUE,Snapdragon  778G,Snapdragon,Octa Core,2.4,8,128,4000,30,6.7,1080,2460,401,144,3,1,108,32,,
+Xiaomi,Xiaomi Redmi 10,8499,70,FALSE,FALSE,FALSE,Snapdragon 680,Snapdragon,Octa Core,2.4,4,64,6000,18,6.7,720,1600,262,60,2,1,50,5,Android,v11
+Realme,Realme Gt 2 5G,24999,82,TRUE,FALSE,TRUE,Snapdragon  888,Snapdragon,Octa Core,2.84,8,128,5000,65,6.62,1080,2400,398,120,3,1,50,16,,
+Oppo,Oppo A53S 5G,14999,74,TRUE,FALSE,FALSE,Dimensity 700,Dimensity,Octa Core,2.2,8,128,5000,,6.52,720,1600,269,60,3,1,13,8,Android,v11
+Motorola,Motorola Moto G40 Fusion,11830,79,FALSE,FALSE,FALSE,Snapdragon  732G,Snapdragon,Octa Core,2.3,6,128,6000,20,6.78,1080,2460,396,120,3,1,64,16,Android,v11
+Xiaomi,Xiaomi Mi 11X 5G,18999,81,TRUE,TRUE,FALSE,Snapdragon 870,Snapdragon,Octa Core,3.2,8,128,4520,33,6.67,1080,2400,395,120,3,1,48,20,,
+Realme,Realme 8 5G,14810,74,TRUE,FALSE,FALSE,Dimensity 700 5G,Dimensity,Octa Core,2.2,4,128,5000,18,6.5,1080,2400,405,90,3,1,48,16,Android,v11
+Microsoft,Microsoft Surface Duo 2,79990,85,TRUE,FALSE,TRUE,Snapdragon  888,Snapdragon,Octa Core,2.84,8,128,4449,23,8.3,1892,2688,396,90,2,,,,Android,v11
+Samsung,Samsung Galaxy A52,27999,84,FALSE,FALSE,FALSE,Snapdragon  720G,Snapdragon,Octa Core,2.3,8,128,4500,25,6.5,1080,2400,405,90,4,1,64,32,Android,v11
+Iqoo,Iqoo 9 5G,42990,82,TRUE,FALSE,FALSE,Snapdragon  888+,Snapdragon,Octa Core,2.9,8,128,4350,120,6.56,1080,2376,398,120,3,1,48,16,,
+Oppo,Oppo Reno 5 Pro 5G,24999,82,TRUE,FALSE,FALSE,Dimensity 1000+,Dimensity,Octa Core,2.6,8,128,4350,65,6.53,1080,2400,403,90,4,1,64,32,,
+Samsung,Samsung Galaxy M12,10999,71,FALSE,FALSE,FALSE,Exynos 850,Exynos,Octa Core,2,4,64,6000,15,6.5,720,1600,270,90,4,1,48,8,Android,v11
+Oneplus,Oneplus 8T,24999,84,TRUE,FALSE,TRUE,Snapdragon 865,Snapdragon,Octa Core,2.84,12,256,4500,65,6.55,1080,2400,402,120,4,1,48,16,Android,v11
+Vivo,Vivo V20 Pro,29990,82,TRUE,FALSE,FALSE,Snapdragon 765G,Snapdragon,Octa Core,2.4,8,128,4000,33,6.44,1080,2400,409,60,3,2,64,44,,
+Realme,Realme Narzo 20,10490,71,FALSE,FALSE,FALSE,Helio G85,Helio,Octa Core,2,4,64,6000,18,6.5,720,1600,270,60,3,1,48,8,Android,v10
+Vivo,Vivo Y20,12839,67,FALSE,FALSE,FALSE,Snapdragon 460,Snapdragon,Octa Core,1.8,4,64,5000,18,6.51,720,1600,270,60,3,1,13,8,Android,v10
