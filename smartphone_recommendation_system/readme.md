@@ -8,8 +8,8 @@ This project combines an offline Python ETL & Data Engineering Pipeline with a z
 
 ## 🔗 Quick Links
 
-*   **🦅 Kaggle Notebook & Analysis** — Explore the full data engineering & MCDA pipeline on Kaggle.
-*   **🌐 Live Web Application SPA** — Interactive browser-based TOPSIS decision solver.
+*   🦅 [Kaggle Notebook & Analysis](https://www.kaggle.com/code/computux/smartphone-recommendation-system) — Explore the full data engineering & MCDA pipeline on Kaggle.
+*   🌐 [Live Web Application SPA](https://cbohnert67.github.io/kaggle_work/smartphone_recommendation_system/) — Interactive browser-based TOPSIS decision solver.
 
 ---
 
