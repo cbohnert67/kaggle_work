@@ -33,14 +33,16 @@ An interactive decision science engine designed to solve the smartphone selectio
 ## 📂 Repository Structure
 
 ```text
+
+
 kaggle_work/
 ├── README.md                            # Main portfolio documentation
 └── smartphone_recommendation_system/    # Smartphone MCDA Decision Project
     ├── README.md                        # Detailed project documentation
     ├── index.html                       # Client-Side Web SPA Decision Engine
     ├── smartphones_mcda.json            # Processed dataset artifact for web SPA
-    ├── cleaned_smartphone_specs.csv     # Raw Kaggle smartphone specifications dataset
-    └── smartphone_recommendation.ipynb  # Full Kaggle ETL & TOPSIS Notebook
+    ├── cleaned_3.csv                    # Raw Kaggle smartphone specifications dataset
+    └── smartphone-recommendation-system.ipynb # Kaggle ETL & TOPSIS Notebook
 ```
 
 ---
